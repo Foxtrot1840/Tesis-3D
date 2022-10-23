@@ -135,7 +135,7 @@ Material:
     - _Steps: 10
     - _UVSec: 0
     - _ZWrite: 1
-    - __dirty: 0
+    - __dirty: 1
     m_Colors:
     - Color_d149292f3a7d4b33890aa4469a0c0268: {r: 0, g: 0, b: 0, a: 0}
     - Color_fa295c28b8734a3795f6d48207cbe68a: {r: 1, g: 1, b: 1, a: 0}
