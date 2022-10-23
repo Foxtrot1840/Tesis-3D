@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 2560
     height: 1357.3334
   m_ShowMode: 4
-  m_Title: Hierarchy
+  m_Title: Project
   m_RootView: {fileID: 3}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -149,7 +149,7 @@ MonoBehaviour:
   m_MinSize: {x: 881, y: 492}
   m_MaxSize: {x: 16006, y: 14042}
   vertical: 0
-  controlID: 51
+  controlID: 18
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -174,7 +174,7 @@ MonoBehaviour:
   m_MinSize: {x: 605, y: 492}
   m_MaxSize: {x: 12005, y: 14042}
   vertical: 1
-  controlID: 52
+  controlID: 19
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -200,7 +200,7 @@ MonoBehaviour:
   m_MinSize: {x: 605, y: 221}
   m_MaxSize: {x: 12005, y: 4021}
   vertical: 0
-  controlID: 53
+  controlID: 20
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -646,9 +646,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
+      m_SelectedIDs: 96620000
       m_LastClickedID: 0
-      m_ExpandedIDs: 2efbffff624e0000644e00006e4e0000704e0000744e0000
+      m_ExpandedIDs: 2efbffffd04a0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -708,9 +708,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -79.240364, y: 106.837494, z: 544.29047}
+    m_Target: {x: -105.10655, y: -548.945, z: 569.69434}
     speed: 2
-    m_Value: {x: -79.240326, y: 106.83748, z: 544.29034}
+    m_Value: {x: -105.10655, y: -548.945, z: 569.69434}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -757,13 +757,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.05708688, y: -0.1610227, z: -0.008294874, w: 0.9856822}
+    m_Target: {x: 0.36335024, y: -0.17180426, z: 0.069700524, w: 0.91347504}
     speed: 2
-    m_Value: {x: -0.058541123, y: -0.16094366, z: -0.008533266, w: 0.985189}
+    m_Value: {x: 0.36182868, y: -0.17183708, z: 0.06941336, w: 0.9136377}
   m_Size:
-    m_Target: 305.0029
+    m_Target: 447.60162
     speed: 2
-    m_Value: 319.37476
+    m_Value: 468.6928
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -851,22 +851,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Materials
+    - Assets/Prefabs
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 96
   m_LastFolders:
-  - Assets/Materials
+  - Assets/Prefabs
   m_LastFoldersGridSize: 96
   m_LastProjectPath: C:\Users\morit\Desktop\Tesis 3D\Tesis-3D\Tesis Built-In
   m_LockTracker:
     m_IsLocked: 1
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 105}
-    m_SelectedIDs: d0510000
-    m_LastClickedID: 20944
-    m_ExpandedIDs: 00000000cc500000ce500000d0500000d2500000d4500000d650000000ca9a3b
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: ae510000
+    m_LastClickedID: 20910
+    m_ExpandedIDs: 000000005c5100005e5100006051000062510000645100006651000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -894,7 +894,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000cc500000ce500000d0500000d2500000d4500000d6500000
+    m_ExpandedIDs: 000000005c5100005e51000060510000625100006451000066510000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1093,7 +1093,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 4c3f0000
     m_LastClickedID: 16204
-    m_ExpandedIDs: 00000000cc500000ce500000d0500000d2500000d4500000d6500000
+    m_ExpandedIDs: 000000005c5100005e51000060510000625100006451000066510000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1121,7 +1121,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000cc500000ce500000d0500000d2500000d4500000d6500000
+    m_ExpandedIDs: 000000005c5100005e51000060510000625100006451000066510000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
