@@ -15,11 +15,11 @@ C:/Users/morit/Desktop/Tesis 3D/Tesis-3D/Tesis Built-In
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-63781
+59394
 Successfully changed project path to: C:/Users/morit/Desktop/Tesis 3D/Tesis-3D/Tesis Built-In
 C:/Users/morit/Desktop/Tesis 3D/Tesis-3D/Tesis Built-In
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 66.95 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 64.26 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.25f1 (9b9180224418)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/Resources/UnitySubsystems
@@ -35,77 +35,77 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56128
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56512
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
-Registered in 0.002576 seconds.
+Registered in 0.001940 seconds.
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 78.62 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 57.62 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.705 seconds
+- Completed reload, in  0.614 seconds
 Domain Reload Profiling:
-	ReloadAssembly (706ms)
-		BeginReloadAssembly (64ms)
+	ReloadAssembly (614ms)
+		BeginReloadAssembly (73ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (549ms)
-			LoadAssemblies (60ms)
+		EndReloadAssembly (473ms)
+			LoadAssemblies (69ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (155ms)
+			SetupTypeCache (171ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (34ms)
-			SetupLoadedEditorAssemblies (242ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (184ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (79ms)
-				BeforeProcessingInitializeOnLoad (17ms)
-				ProcessInitializeOnLoadAttributes (104ms)
-				ProcessInitializeOnLoadMethodAttributes (34ms)
+				RefreshPlugins (58ms)
+				BeforeProcessingInitializeOnLoad (12ms)
+				ProcessInitializeOnLoadAttributes (83ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006332 seconds.
+Registered in 0.006310 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 62.13 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 62.96 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.380 seconds
+- Completed reload, in  1.845 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2381ms)
-		BeginReloadAssembly (132ms)
+	ReloadAssembly (1845ms)
+		BeginReloadAssembly (134ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (16ms)
-		EndReloadAssembly (2183ms)
-			LoadAssemblies (95ms)
+		EndReloadAssembly (1651ms)
+			LoadAssemblies (90ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (374ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (79ms)
-			SetupLoadedEditorAssemblies (1519ms)
+			SetupTypeCache (296ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (82ms)
+			SetupLoadedEditorAssemblies (1071ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (62ms)
-				BeforeProcessingInitializeOnLoad (96ms)
-				ProcessInitializeOnLoadAttributes (1340ms)
-				ProcessInitializeOnLoadMethodAttributes (7ms)
-				AfterProcessingInitializeOnLoad (8ms)
+				RefreshPlugins (63ms)
+				BeforeProcessingInitializeOnLoad (72ms)
+				ProcessInitializeOnLoadAttributes (914ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (9ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (6ms)
@@ -113,14 +113,14 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 4.12 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3072 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 227.8 MB.
-System memory in use after: 227.9 MB.
+System memory in use before: 300.5 MB.
+System memory in use after: 300.5 MB.
 
-Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 3532.
-Total: 4.152300 ms (FindLiveObjects: 0.338800 ms CreateObjectMapping: 0.360600 ms MarkObjects: 3.270900 ms  DeleteObjects: 0.180300 ms)
+Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 3537.
+Total: 2.916100 ms (FindLiveObjects: 0.226200 ms CreateObjectMapping: 0.146700 ms MarkObjects: 2.392500 ms  DeleteObjects: 0.149700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -134,817 +134,105 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Fantasy Adventure Environment
-  artifactKey: Guid(af5b36e6caf97a24f8e0c1fe1ad8d939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Adventure Environment using Guid(af5b36e6caf97a24f8e0c1fe1ad8d939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc12dd0e0f1a78ffc861e6817bbdd146') in 0.008838 seconds 
-  Import took 0.013905 seconds .
+  path: Assets/Shaders/HardToonLightning.mat
+  artifactKey: Guid(e8346d5b1d47e9143892c33850891b1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/HardToonLightning.mat using Guid(e8346d5b1d47e9143892c33850891b1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a420171bf73a54f3cf061684e665cc5') in 0.088165 seconds 
+  Import took 0.092859 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000145 seconds.
-  path: Assets/Fantasy Adventure Environment/Terrain
-  artifactKey: Guid(c7f6fb5638c4e34468bea35f8bd9b387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Adventure Environment/Terrain using Guid(c7f6fb5638c4e34468bea35f8bd9b387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b2b1e696f835e753635b63fb9ad4444') in 0.002562 seconds 
-  Import took 0.007228 seconds .
+  Time since last request: 1.549490 seconds.
+  path: Assets/Shaders/s_Grass.shader
+  artifactKey: Guid(04d7d5fd779b31542ae41838c1d8ba29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/s_Grass.shader using Guid(04d7d5fd779b31542ae41838c1d8ba29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ab7fb911514566fb1761504bdb15cd0') in 0.005007 seconds 
+  Import took 0.010116 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.500643 seconds.
-  path: Assets/Fantasy Adventure Environment/_DemoScenes
-  artifactKey: Guid(295b9ea649c9d254e9cc8a1ad109a455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Adventure Environment/_DemoScenes using Guid(295b9ea649c9d254e9cc8a1ad109a455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7e8a691285d851337e323c9052b12fb') in 0.004083 seconds 
-  Import took 0.008854 seconds .
+  Time since last request: 4.465341 seconds.
+  path: Assets/Shaders/Grass.shader
+  artifactKey: Guid(04d7d5fd779b31542ae41838c1d8ba29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Grass.shader using Guid(04d7d5fd779b31542ae41838c1d8ba29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '126497cfade8a09948d0a153f58a65de') in 0.002175 seconds 
+  Import took 0.006741 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.818243 seconds.
-  path: Assets/Fantasy Adventure Environment/_DemoScenes/FAE_AssetOverview.unity
-  artifactKey: Guid(65dd4393d66e40844b95cd96aa7d660b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Adventure Environment/_DemoScenes/FAE_AssetOverview.unity using Guid(65dd4393d66e40844b95cd96aa7d660b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb33536aba045eb67df3c6536f76a637') in 0.012424 seconds 
-  Import took 0.017045 seconds .
+  Time since last request: 18.488249 seconds.
+  path: Assets/Shaders/Textures
+  artifactKey: Guid(810cf2115c7ebdb4d83cd5ebe48ea27c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Textures using Guid(810cf2115c7ebdb4d83cd5ebe48ea27c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b256e6e1d7194ad1ce6cc75b74fcb35f') in 0.002310 seconds 
+  Import took 0.006793 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.231871 seconds.
-  path: Assets/Fantasy Adventure Environment/_DemoScenes/FAE_CliffCoverageDemo.unity
-  artifactKey: Guid(271de4c5e6eaab449ab8dcb52402309f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Adventure Environment/_DemoScenes/FAE_CliffCoverageDemo.unity using Guid(271de4c5e6eaab449ab8dcb52402309f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '890ad4f1aee5dedbea1b717d9a779d27') in 0.009669 seconds 
-  Import took 0.015396 seconds .
+  Time since last request: 6.745253 seconds.
+  path: Assets/Shaders/Preafabs
+  artifactKey: Guid(8964efe22e33d65479801579d48939c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Preafabs using Guid(8964efe22e33d65479801579d48939c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c10a9fd047361061d1989e82d98fb22') in 0.002849 seconds 
+  Import took 0.008521 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.901149 seconds.
-  path: Assets/Fantasy Adventure Environment/_DemoScenes/FAE_Demo1.unity
-  artifactKey: Guid(8df6c78b22878164e8cd1bf5e9c0a1ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Adventure Environment/_DemoScenes/FAE_Demo1.unity using Guid(8df6c78b22878164e8cd1bf5e9c0a1ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3726a1670107a5e7331ed5e54d5f863') in 0.002896 seconds 
-  Import took 0.006918 seconds .
+  Time since last request: 4.529784 seconds.
+  path: Assets/Shaders/Prefabs
+  artifactKey: Guid(8964efe22e33d65479801579d48939c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Prefabs using Guid(8964efe22e33d65479801579d48939c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da1fdb396f3d6f4b7c813ec4e331363e') in 0.002043 seconds 
+  Import took 0.006604 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 12.698075 seconds.
-  path: Assets/Fantasy Adventure Environment/_DemoScenes/FAE_RocksDemo.unity
-  artifactKey: Guid(fe6c703b734b2d349b12b70e4b9057c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Adventure Environment/_DemoScenes/FAE_RocksDemo.unity using Guid(fe6c703b734b2d349b12b70e4b9057c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1ed55ae86aa2ea4279a6ec004ab4c58') in 0.002921 seconds 
-  Import took 0.007975 seconds .
+  Time since last request: 43.090155 seconds.
+  path: Assets/Shaders/MatiToonLighting.shader
+  artifactKey: Guid(b25446c7de1c7474ca3c2713751c5ddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/MatiToonLighting.shader using Guid(b25446c7de1c7474ca3c2713751c5ddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c2125bbc876b95a7dfdfed325ff979f') in 0.004432 seconds 
+  Import took 0.009329 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.745556 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(b2e53597b3ba3544fa324825e185d249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(b2e53597b3ba3544fa324825e185d249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97c7252c0230095ea6f696e32a1c4649') in 0.213197 seconds 
-  Import took 0.359709 seconds .
+  Time since last request: 6.844272 seconds.
+  path: Assets/Shaders/HardToonLightning.mat
+  artifactKey: Guid(e8346d5b1d47e9143892c33850891b1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/HardToonLightning.mat using Guid(e8346d5b1d47e9143892c33850891b1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9f7fa6e3cefbe3ebc4280f492be5bef') in 0.007906 seconds 
+  Import took 0.013304 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.486730 seconds.
-  path: Assets/Scenes/Level.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e49913472542e6bdb77dcfe2e50cd6d2') in 0.010417 seconds 
-  Import took 0.058818 seconds .
+  Time since last request: 23.627563 seconds.
+  path: Assets/Shaders/MatiToonLighting.mat
+  artifactKey: Guid(eca5b036b124bb946b83e052dbae7227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/MatiToonLighting.mat using Guid(eca5b036b124bb946b83e052dbae7227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adce908908b316ea7b8e29d81b5c7927') in 0.008652 seconds 
+  Import took 0.013481 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 30.447193 seconds.
-  path: Assets/Fantasy Adventure Environment/Materials
-  artifactKey: Guid(6179aae4ed923a747b082b57ea6f814b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Adventure Environment/Materials using Guid(6179aae4ed923a747b082b57ea6f814b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9924bb1c0adac26af4e378688643d71') in 0.004202 seconds 
-  Import took 0.011062 seconds .
+  Time since last request: 26.052874 seconds.
+  path: Assets/Shaders/MatiToonLighting.mat
+  artifactKey: Guid(eca5b036b124bb946b83e052dbae7227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/MatiToonLighting.mat using Guid(eca5b036b124bb946b83e052dbae7227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cf49ebe0101e4c7bced7d0bb72307d2') in 0.014716 seconds 
+  Import took 0.027062 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.577691 seconds.
-  path: Assets/Fantasy Adventure Environment/Materials/Trees
-  artifactKey: Guid(fc4a0261d53d6fe469e9be94db4afc24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Adventure Environment/Materials/Trees using Guid(fc4a0261d53d6fe469e9be94db4afc24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa2e74f0a20eb92694c42fa5be139429') in 0.002295 seconds 
-  Import took 0.006456 seconds .
+  Time since last request: 0.000195 seconds.
+  path: Assets/Shaders/Shadow Calculations.asset
+  artifactKey: Guid(8e0603f42c3071347a3196f8fe9bbe0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Shadow Calculations.asset using Guid(8e0603f42c3071347a3196f8fe9bbe0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a415b29eda01ebe1dc51ae46746d3018') in 0.007316 seconds 
+  Import took 0.012925 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.258013 seconds.
-  path: Assets/Fantasy Adventure Environment/Materials/Trees/FAE_BirchBranch.mat
-  artifactKey: Guid(e8e7f7a29d8c57d4588c75b1e3734626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Adventure Environment/Materials/Trees/FAE_BirchBranch.mat using Guid(e8e7f7a29d8c57d4588c75b1e3734626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f46719f2757d82d97c5ab03e6f4891e0') in 0.179484 seconds 
-  Import took 0.184372 seconds .
+  Time since last request: 91.545231 seconds.
+  path: Assets/Shaders/Shadow Calculations.asset
+  artifactKey: Guid(8e0603f42c3071347a3196f8fe9bbe0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Shadow Calculations.asset using Guid(8e0603f42c3071347a3196f8fe9bbe0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06a73e259e0bec409a7b77a505125892') in 0.003653 seconds 
+  Import took 0.009185 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000153 seconds.
-  path: Assets/Fantasy Adventure Environment/Materials/Trees/FAE_SpruceBranch.mat
-  artifactKey: Guid(7f949effa36fcd34a827d9795ea58363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Adventure Environment/Materials/Trees/FAE_SpruceBranch.mat using Guid(7f949effa36fcd34a827d9795ea58363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fe7f19cccf2638a0302e243d8fbfebb') in 0.008701 seconds 
-  Import took 0.013771 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000252 seconds.
-  path: Assets/Fantasy Adventure Environment/Materials/Trees/FAE_WillowBranch.mat
-  artifactKey: Guid(3bfca47a3c24bcf41946c0e0276a6b63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Adventure Environment/Materials/Trees/FAE_WillowBranch.mat using Guid(3bfca47a3c24bcf41946c0e0276a6b63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da6ae9251f9eae8afa2beb045b8f80a5') in 0.009960 seconds 
-  Import took 0.014468 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000220 seconds.
-  path: Assets/Fantasy Adventure Environment/Materials/Trees/FAE_PalmBranch.mat
-  artifactKey: Guid(78eb5fc2c8145724f97dbfa3aef6a514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Adventure Environment/Materials/Trees/FAE_PalmBranch.mat using Guid(78eb5fc2c8145724f97dbfa3aef6a514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16d295a6be1cefb5722126416d7e80e8') in 0.012020 seconds 
-  Import took 0.017064 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000185 seconds.
-  path: Assets/Fantasy Adventure Environment/Materials/Trees/FAE_SpruceTrunk.mat
-  artifactKey: Guid(3e6da3e84e53ed44a98380507f6e1e64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Adventure Environment/Materials/Trees/FAE_SpruceTrunk.mat using Guid(3e6da3e84e53ed44a98380507f6e1e64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0c53418f24f5ce799be4f8b38d5b396') in 0.093941 seconds 
-  Import took 0.098898 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000146 seconds.
-  path: Assets/Fantasy Adventure Environment/Materials/Trees/FAE_TreeBush.mat
-  artifactKey: Guid(ff1c184244e02964e991b1e1f4c2228c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Adventure Environment/Materials/Trees/FAE_TreeBush.mat using Guid(ff1c184244e02964e991b1e1f4c2228c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec904e022d8983985b04967251c1d883') in 0.012142 seconds 
-  Import took 0.018620 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000238 seconds.
-  path: Assets/Fantasy Adventure Environment/Materials/Trees/FAE_TreeTrunk.mat
-  artifactKey: Guid(38d620a641207954b84b3624003cff56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Adventure Environment/Materials/Trees/FAE_TreeTrunk.mat using Guid(38d620a641207954b84b3624003cff56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '254a4bbe0a4f051fca78cad7514a7494') in 0.013638 seconds 
-  Import took 0.019122 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000135 seconds.
-  path: Assets/Fantasy Adventure Environment/Materials/Trees/FAE_PineTrunk.mat
-  artifactKey: Guid(691c712f689a6c843bf45f83b06bb068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Adventure Environment/Materials/Trees/FAE_PineTrunk.mat using Guid(691c712f689a6c843bf45f83b06bb068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da9fbb7bec7718ede4653b47998e2ed8') in 0.015261 seconds 
-  Import took 0.020684 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000175 seconds.
-  path: Assets/Fantasy Adventure Environment/Materials/Trees/FAE_PalmBark.mat
-  artifactKey: Guid(1b1b906a1ee89014a8e4febf58b815e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Adventure Environment/Materials/Trees/FAE_PalmBark.mat using Guid(1b1b906a1ee89014a8e4febf58b815e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c9f4fff532d408d5b41218b91b81e97') in 0.013305 seconds 
-  Import took 0.018364 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000231 seconds.
-  path: Assets/Fantasy Adventure Environment/Materials/Trees/FAE_PineBranch.mat
-  artifactKey: Guid(c15a9e956ede7a24fabc27e1e51ffa37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Adventure Environment/Materials/Trees/FAE_PineBranch.mat using Guid(c15a9e956ede7a24fabc27e1e51ffa37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd59089406a786b5425ff8b935a53113') in 0.014250 seconds 
-  Import took 0.019818 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000149 seconds.
-  path: Assets/Fantasy Adventure Environment/Materials/Trees/FAE_WillowTrunk.mat
-  artifactKey: Guid(812991bf969095746910f26a7f33a6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Adventure Environment/Materials/Trees/FAE_WillowTrunk.mat using Guid(812991bf969095746910f26a7f33a6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd10e3541349469f8e488750ae0531315') in 0.011624 seconds 
-  Import took 0.016345 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000135 seconds.
-  path: Assets/Fantasy Adventure Environment/Materials/Trees/FAE_BirchTrunk.mat
-  artifactKey: Guid(535cfc5bf7bb00c47b5dfbd2de7b13ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Adventure Environment/Materials/Trees/FAE_BirchTrunk.mat using Guid(535cfc5bf7bb00c47b5dfbd2de7b13ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99fdf524683a5dcdb6fc506acbb5e28e') in 0.011410 seconds 
-  Import took 0.016349 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.969520 seconds.
-  path: Assets/Fantasy Adventure Environment/Materials/Effects
-  artifactKey: Guid(fb6c0e64cadbf1d40848375426433efe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Adventure Environment/Materials/Effects using Guid(fb6c0e64cadbf1d40848375426433efe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '631855016be812402afb14233a4b76ce') in 0.002345 seconds 
-  Import took 0.007155 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.077161 seconds.
-  path: Assets/Fantasy Adventure Environment/Materials/Effects/FAE_AdditiveParticle.mat
-  artifactKey: Guid(6f7eb092bd8c5744984d49b87e9aeafc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Adventure Environment/Materials/Effects/FAE_AdditiveParticle.mat using Guid(6f7eb092bd8c5744984d49b87e9aeafc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a9f773e3b2516f285b3920709d8ee8b') in 1.660708 seconds 
-  Import took 1.665095 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000127 seconds.
-  path: Assets/Fantasy Adventure Environment/Materials/Effects/Textures/FAE_Water_Normals.png
-  artifactKey: Guid(1a1e99c7f4bb0a4479e4e5c835fd6c98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Adventure Environment/Materials/Effects/Textures/FAE_Water_Normals.png using Guid(1a1e99c7f4bb0a4479e4e5c835fd6c98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '896e019dc6be3fe11ca70002600246f6') in 0.018121 seconds 
-  Import took 0.023478 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000128 seconds.
-  path: Assets/Fantasy Adventure Environment/Materials/Effects/Textures/FAE_Water_Shadermap_URP.png
-  artifactKey: Guid(39618f4b1a43f7b4e9dad30dd15e9fab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Adventure Environment/Materials/Effects/Textures/FAE_Water_Shadermap_URP.png using Guid(39618f4b1a43f7b4e9dad30dd15e9fab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d912c16a7b3393531dfeff7c4b0e7aa') in 0.007404 seconds 
-  Import took 0.012496 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000146 seconds.
-  path: Assets/Fantasy Adventure Environment/Materials/Effects/Textures/FAE_FloorFog_Particle.png
-  artifactKey: Guid(844dae9f5057cb141bb303905ef379fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Adventure Environment/Materials/Effects/Textures/FAE_FloorFog_Particle.png using Guid(844dae9f5057cb141bb303905ef379fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e770fdf9f83b8cf56f175b98b7be4438') in 0.006456 seconds 
-  Import took 0.010929 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000135 seconds.
-  path: Assets/Fantasy Adventure Environment/Materials/Effects/Textures/FAE_Waterfall_Color.png
-  artifactKey: Guid(cf6fb875805026b4f8c4df0ded4b341e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Adventure Environment/Materials/Effects/Textures/FAE_Waterfall_Color.png using Guid(cf6fb875805026b4f8c4df0ded4b341e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba25e75253100596dcdead7fbbfa757f') in 0.008482 seconds 
-  Import took 0.012948 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000138 seconds.
-  path: Assets/Fantasy Adventure Environment/Materials/Effects/Textures/FAE_Sunshaft_Shadermap.png
-  artifactKey: Guid(bef6984f846f11442b4bd5000f44af64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Adventure Environment/Materials/Effects/Textures/FAE_Sunshaft_Shadermap.png using Guid(bef6984f846f11442b4bd5000f44af64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79aa15d71e1d05a3db121dbe1e387c5c') in 0.008590 seconds 
-  Import took 0.012936 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000109 seconds.
-  path: Assets/Fantasy Adventure Environment/Materials/Effects/Textures/FAE_LensflareAtlas.png
-  artifactKey: Guid(300a963095cf5804bad4cf0beeb32a6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Adventure Environment/Materials/Effects/Textures/FAE_LensflareAtlas.png using Guid(300a963095cf5804bad4cf0beeb32a6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fe0d9f0880b0639ef0f57e5a7c0bcd6') in 0.016227 seconds 
-  Import took 0.020832 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000115 seconds.
-  path: Assets/Fantasy Adventure Environment/Materials/Effects/FAE_WindStreakTrail.mat
-  artifactKey: Guid(76d5aaedf8aab6646b89b30a06c9a90d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Adventure Environment/Materials/Effects/FAE_WindStreakTrail.mat using Guid(76d5aaedf8aab6646b89b30a06c9a90d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '270e1c93052624edd01e9daaeacacf07') in 0.172370 seconds 
-  Import took 0.176771 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000134 seconds.
-  path: Assets/Fantasy Adventure Environment/Materials/Effects/Textures/FAE_Water_Normals_URP.png
-  artifactKey: Guid(1aebbb812b32bde4b8eb211cdcaa87d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Adventure Environment/Materials/Effects/Textures/FAE_Water_Normals_URP.png using Guid(1aebbb812b32bde4b8eb211cdcaa87d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dfce6cb546528c1c21771cb5792d35e') in 0.007099 seconds 
-  Import took 0.011674 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000131 seconds.
-  path: Assets/Fantasy Adventure Environment/Materials/Effects/Textures/FAE_Water_Shadermap.png
-  artifactKey: Guid(f3a337f61eb58134f97ca1b4183a2ebf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Adventure Environment/Materials/Effects/Textures/FAE_Water_Shadermap.png using Guid(f3a337f61eb58134f97ca1b4183a2ebf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1565a62eeab04dd6c6854cb421efa966') in 0.006836 seconds 
-  Import took 0.011913 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000139 seconds.
-  path: Assets/Fantasy Adventure Environment/Materials/Effects/Textures/FAE_Windvectors.png
-  artifactKey: Guid(6c795dd1d1d319e479e68164001557e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Adventure Environment/Materials/Effects/Textures/FAE_Windvectors.png using Guid(6c795dd1d1d319e479e68164001557e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dd5afd5ece7357085395b5d49aeeb48') in 0.007879 seconds 
-  Import took 0.012452 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000121 seconds.
-  path: Assets/Fantasy Adventure Environment/Materials/Effects/Textures
-  artifactKey: Guid(5fba1977a4da91d4ea67e34aa4151a53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Adventure Environment/Materials/Effects/Textures using Guid(5fba1977a4da91d4ea67e34aa4151a53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c0326cdbbd72a4be01f2114e8a94648') in 0.002178 seconds 
-  Import took 0.006753 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000118 seconds.
-  path: Assets/Fantasy Adventure Environment/Materials/Effects/FAE_Sunshaft.mat
-  artifactKey: Guid(d5b77898dc615b742a3cfa8741f9ce3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Adventure Environment/Materials/Effects/FAE_Sunshaft.mat using Guid(d5b77898dc615b742a3cfa8741f9ce3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97ef62fd45d48352cee71dff0ac10f04') in 0.008700 seconds 
-  Import took 0.012920 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000137 seconds.
-  path: Assets/Fantasy Adventure Environment/Materials/Effects/FAE_FogsheetsParticle.mat
-  artifactKey: Guid(9607c63bc2492fd489245838e7b101fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Adventure Environment/Materials/Effects/FAE_FogsheetsParticle.mat using Guid(9607c63bc2492fd489245838e7b101fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e75829008426ef3750c0e330f9549bdd') in 0.008856 seconds 
-  Import took 0.013217 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000124 seconds.
-  path: Assets/Fantasy Adventure Environment/Materials/Effects/FAE_LeafParticle.mat
-  artifactKey: Guid(eb90cfcfbc575f6489371b97e180f526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Adventure Environment/Materials/Effects/FAE_LeafParticle.mat using Guid(eb90cfcfbc575f6489371b97e180f526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d778c715de3ceb7369db110da420049') in 1.412061 seconds 
-  Import took 1.416056 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000144 seconds.
-  path: Assets/Fantasy Adventure Environment/Materials/Effects/FAE_FogPlane.mat
-  artifactKey: Guid(bc8486fd976709b49afe3c08749c84b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Adventure Environment/Materials/Effects/FAE_FogPlane.mat using Guid(bc8486fd976709b49afe3c08749c84b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc0c0ab0d6b820419c7f4dc25ea4d3c1') in 0.231137 seconds 
-  Import took 0.235764 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000160 seconds.
-  path: Assets/Fantasy Adventure Environment/Materials/Effects/Textures/FAE_Waterfall_Shadermap.png
-  artifactKey: Guid(cd3599394ee15cf47a144615252f4943) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Adventure Environment/Materials/Effects/Textures/FAE_Waterfall_Shadermap.png using Guid(cd3599394ee15cf47a144615252f4943) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '805b1b89c53a86cece5ecc8cf7c776d9') in 0.011232 seconds 
-  Import took 0.016584 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000196 seconds.
-  path: Assets/Fantasy Adventure Environment/Materials/Effects/FAE_Lensflare.flare
-  artifactKey: Guid(9365737486dc4424f93336e7c4c9144a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Adventure Environment/Materials/Effects/FAE_Lensflare.flare using Guid(9365737486dc4424f93336e7c4c9144a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fbfab99aac398138e0447de309610ee') in 0.006379 seconds 
-  Import took 0.011298 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000152 seconds.
-  path: Assets/Fantasy Adventure Environment/Materials/Effects/FAE_Water.mat
-  artifactKey: Guid(510ef6177dc68c24b853414d9ec6612d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Adventure Environment/Materials/Effects/FAE_Water.mat using Guid(510ef6177dc68c24b853414d9ec6612d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54a674f1061e11a63659b513acbc2b22') in 0.123860 seconds 
-  Import took 0.129681 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000172 seconds.
-  path: Assets/Fantasy Adventure Environment/Materials/Effects/FAE_FogPlaneDark.mat
-  artifactKey: Guid(c71fd5bf700b6654381c77c2ba630425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Adventure Environment/Materials/Effects/FAE_FogPlaneDark.mat using Guid(c71fd5bf700b6654381c77c2ba630425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4882518f2623acbbaf147dc901c79902') in 0.008169 seconds 
-  Import took 0.013431 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000141 seconds.
-  path: Assets/Fantasy Adventure Environment/Materials/Effects/FAE_SunshaftParticle.mat
-  artifactKey: Guid(4c34341261dd5284d98c48e163e04a91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Adventure Environment/Materials/Effects/FAE_SunshaftParticle.mat using Guid(4c34341261dd5284d98c48e163e04a91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4faf04f539d9f99e45050f3d1dd42788') in 0.009151 seconds 
-  Import took 0.014494 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.550301 seconds.
-  path: Assets/Fantasy Adventure Environment/Materials/Vegetation
-  artifactKey: Guid(ed20bbd981ceb1e4e8f87b052d963be4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Adventure Environment/Materials/Vegetation using Guid(ed20bbd981ceb1e4e8f87b052d963be4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd884723468cc0b2ce5cc1ffebab76ddd') in 0.003458 seconds 
-  Import took 0.007937 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.037070 seconds.
-  path: Assets/Fantasy Adventure Environment/Materials/Vegetation/FAE_Bush.mat
-  artifactKey: Guid(18228a399286cf2439cfba233fa2280e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Adventure Environment/Materials/Vegetation/FAE_Bush.mat using Guid(18228a399286cf2439cfba233fa2280e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd326c7a1acab30236a8dc4c05241cc7') in 0.121909 seconds 
-  Import took 0.127470 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000126 seconds.
-  path: Assets/Fantasy Adventure Environment/Materials/Vegetation/FAE_IvyBillboards.mat
-  artifactKey: Guid(6768da274f48607499ff9bd5b6f0ae2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Adventure Environment/Materials/Vegetation/FAE_IvyBillboards.mat using Guid(6768da274f48607499ff9bd5b6f0ae2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3e67c96b6571a78c8997f68f1fc76da') in 0.389545 seconds 
-  Import took 0.395754 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000151 seconds.
-  path: Assets/Fantasy Adventure Environment/Materials/Vegetation/FAE_GrassAtlas.mat
-  artifactKey: Guid(a4e301f158fe17e4f8bbd0363da7d146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Adventure Environment/Materials/Vegetation/FAE_GrassAtlas.mat using Guid(a4e301f158fe17e4f8bbd0363da7d146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49aa3df1072f3bc9166ae402ba1e87ec') in 0.142023 seconds 
-  Import took 0.147787 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000140 seconds.
-  path: Assets/Fantasy Adventure Environment/Materials/Vegetation/FAE_VegetationAtlas.mat
-  artifactKey: Guid(a9d90c381090115459560756b8258e21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Adventure Environment/Materials/Vegetation/FAE_VegetationAtlas.mat using Guid(a9d90c381090115459560756b8258e21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bfb1ad7cc56b1ad7380b40202f27348') in 0.010523 seconds 
-  Import took 0.014889 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000147 seconds.
-  path: Assets/Fantasy Adventure Environment/Materials/Vegetation/FAE_IvyAtlas.mat
-  artifactKey: Guid(691d9f20f9d2ef9468baa5728a775033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Adventure Environment/Materials/Vegetation/FAE_IvyAtlas.mat using Guid(691d9f20f9d2ef9468baa5728a775033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5429fcfec4417cefbab45c0370bd74e7') in 0.014483 seconds 
-  Import took 0.019654 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.965048 seconds.
-  path: Assets/Fantasy Adventure Environment/Materials/Vegetation/Textures
-  artifactKey: Guid(6b316de7be168974fa559f55e183b929) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Adventure Environment/Materials/Vegetation/Textures using Guid(6b316de7be168974fa559f55e183b929) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5796419486a38522c4ac7f43e398a384') in 0.006344 seconds 
-  Import took 0.014232 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.059219 seconds.
-  path: Assets/Fantasy Adventure Environment/Materials/Vegetation/Textures/FAE_GrassAtlas.png
-  artifactKey: Guid(525ae300fbe8eef4a8261dbc5a6df69c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Adventure Environment/Materials/Vegetation/Textures/FAE_GrassAtlas.png using Guid(525ae300fbe8eef4a8261dbc5a6df69c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a0ed05f951241689fde58e2314fa7fe') in 0.006661 seconds 
-  Import took 0.011550 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000132 seconds.
-  path: Assets/Fantasy Adventure Environment/Materials/Vegetation/Textures/FAE_GrassAtlas_normals.png
-  artifactKey: Guid(4387287f95253734fa097e6a5c53e13d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Adventure Environment/Materials/Vegetation/Textures/FAE_GrassAtlas_normals.png using Guid(4387287f95253734fa097e6a5c53e13d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25cec7fa649866b8dee9d5eda9d6754f') in 0.007055 seconds 
-  Import took 0.011918 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000119 seconds.
-  path: Assets/Fantasy Adventure Environment/Materials/Vegetation/Textures/FAE_GrassBillboard.png
-  artifactKey: Guid(7c36b79f80c06ba4a8685c1589b81c39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Adventure Environment/Materials/Vegetation/Textures/FAE_GrassBillboard.png using Guid(7c36b79f80c06ba4a8685c1589b81c39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87cb784181191363cdf58e2360997e9f') in 0.007135 seconds 
-  Import took 0.011568 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000124 seconds.
-  path: Assets/Fantasy Adventure Environment/Materials/Vegetation/Textures/FAE_IvyAtlas_Normal.png
-  artifactKey: Guid(1314f0a9d4ff43c428940dd642b6e305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Adventure Environment/Materials/Vegetation/Textures/FAE_IvyAtlas_Normal.png using Guid(1314f0a9d4ff43c428940dd642b6e305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '739ad5e37c9a34c03b12f57e02f9ef5e') in 0.007888 seconds 
-  Import took 0.012614 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000121 seconds.
-  path: Assets/Fantasy Adventure Environment/Materials/Vegetation/Textures/FAE_IvyAtlas.png
-  artifactKey: Guid(778982456eb192b4f95cbe191da0f1cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Adventure Environment/Materials/Vegetation/Textures/FAE_IvyAtlas.png using Guid(778982456eb192b4f95cbe191da0f1cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '579b65d9f2f9555ab19505a991b2d553') in 0.007405 seconds 
-  Import took 0.011350 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000115 seconds.
-  path: Assets/Fantasy Adventure Environment/Materials/Vegetation/Textures/FAE_LeafParticle.png
-  artifactKey: Guid(cc92f22ef59deb346855e78f7f0e23d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Adventure Environment/Materials/Vegetation/Textures/FAE_LeafParticle.png using Guid(cc92f22ef59deb346855e78f7f0e23d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7c82217b854c2c7df031d3ce0c30576') in 0.006225 seconds 
-  Import took 0.010840 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000184 seconds.
-  path: Assets/Fantasy Adventure Environment/Materials/Vegetation/Textures/FAE_VegetationAtlas.png
-  artifactKey: Guid(47904388512f50c40b25b2f6a6b898a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Adventure Environment/Materials/Vegetation/Textures/FAE_VegetationAtlas.png using Guid(47904388512f50c40b25b2f6a6b898a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abc38c24ef6e451406232ea7da6ac490') in 0.007134 seconds 
-  Import took 0.011414 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.417546 seconds.
-  path: Assets/Fantasy Adventure Environment/Materials/Objects
-  artifactKey: Guid(4148861ebd5ac0c46a127e7fb8e407e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Adventure Environment/Materials/Objects using Guid(4148861ebd5ac0c46a127e7fb8e407e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3e2fcfa10004eb0749c71bddb324894') in 0.004103 seconds 
-  Import took 0.009122 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.217852 seconds.
-  path: Assets/Fantasy Adventure Environment/Materials/Objects/FAE_Branches.mat
-  artifactKey: Guid(67db05b848ced8c4e88dea90aaaefd0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Adventure Environment/Materials/Objects/FAE_Branches.mat using Guid(67db05b848ced8c4e88dea90aaaefd0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed3f5e71d12d372eb50a148c86aedc7c') in 0.070419 seconds 
-  Import took 0.078750 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.395513 seconds.
-  path: Assets/Fantasy Adventure Environment/Materials/Rocks
-  artifactKey: Guid(08865581d6ae64741b82750de10b2a88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Adventure Environment/Materials/Rocks using Guid(08865581d6ae64741b82750de10b2a88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4371f0cc27c069ee3f01af1a1c5d91ec') in 0.002216 seconds 
-  Import took 0.006655 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.621447 seconds.
-  path: Assets/Fantasy Adventure Environment/Materials/Skybox
-  artifactKey: Guid(68a6874f515f86e4aadade252f23408e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Adventure Environment/Materials/Skybox using Guid(68a6874f515f86e4aadade252f23408e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '638ec4efa7c11b89937fb7460395130f') in 0.002298 seconds 
-  Import took 0.006901 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.076963 seconds.
-  path: Assets/Fantasy Adventure Environment/Materials/Skybox/FAE_Skybox.mat
-  artifactKey: Guid(3afd1c7f9b00d254a9880e3445eee85c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Adventure Environment/Materials/Skybox/FAE_Skybox.mat using Guid(3afd1c7f9b00d254a9880e3445eee85c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6eb075543219b2a131f5efce163c564f') in 0.037509 seconds 
-  Import took 0.042899 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000635 seconds.
-  path: Assets/Fantasy Adventure Environment/Materials/Skybox/FAE_SkyboxRender_4k.png
-  artifactKey: Guid(a28bb56bb27d9f6429a638fcdeeed483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Adventure Environment/Materials/Skybox/FAE_SkyboxRender_4k.png using Guid(a28bb56bb27d9f6429a638fcdeeed483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4daa530b571f31806faa3cd302c71988') in 0.033383 seconds 
-  Import took 0.038822 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.741644 seconds.
-  path: Assets/Fantasy Adventure Environment/Materials/Trees/Textures
-  artifactKey: Guid(31a4bb72cf5129145b82bd6fe5de2829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Adventure Environment/Materials/Trees/Textures using Guid(31a4bb72cf5129145b82bd6fe5de2829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad65e6d4e56c560288b48041d2ae0076') in 0.002268 seconds 
-  Import took 0.006417 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.744170 seconds.
-  path: Assets/Fantasy Adventure Environment/Materials/Trees/Textures/Spruce
-  artifactKey: Guid(b8680b15ee392ab42a6be73f8c3ed7c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Adventure Environment/Materials/Trees/Textures/Spruce using Guid(b8680b15ee392ab42a6be73f8c3ed7c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dfbfd85d11657768f61d91d51f1a8de') in 0.002084 seconds 
-  Import took 0.006209 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.062931 seconds.
-  path: Assets/Fantasy Adventure Environment/Materials/Trees/Textures/Spruce/FAE_Spruce_A_billboard.png
-  artifactKey: Guid(ffd16fb88b86beb48857ad4aa84ba809) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Adventure Environment/Materials/Trees/Textures/Spruce/FAE_Spruce_A_billboard.png using Guid(ffd16fb88b86beb48857ad4aa84ba809) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4ead70d796f25bf6a136d9029085e1e') in 0.013024 seconds 
-  Import took 0.018726 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000211 seconds.
-  path: Assets/Fantasy Adventure Environment/Materials/Trees/Textures/Spruce/Spruce_Branch.png
-  artifactKey: Guid(ae87afc18db01154a9c5a13a54f483d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Adventure Environment/Materials/Trees/Textures/Spruce/Spruce_Branch.png using Guid(ae87afc18db01154a9c5a13a54f483d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '351ff9e86a20e9c71eb126ef5773381b') in 0.010281 seconds 
-  Import took 0.015169 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000386 seconds.
-  path: Assets/Fantasy Adventure Environment/Materials/Trees/Textures/Spruce/FAE_Spruce_C_billboard.png
-  artifactKey: Guid(c32691844943abf42b023a8ad5b2d9b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Adventure Environment/Materials/Trees/Textures/Spruce/FAE_Spruce_C_billboard.png using Guid(c32691844943abf42b023a8ad5b2d9b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '561234889b77c4d8422e52b288d6ee26') in 0.009850 seconds 
-  Import took 0.015262 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000169 seconds.
-  path: Assets/Fantasy Adventure Environment/Materials/Trees/Textures/Spruce/FAE_Spruce_C_billboard_normals.png
-  artifactKey: Guid(462672c11b5f04e4ea4e4ba711b67f2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Adventure Environment/Materials/Trees/Textures/Spruce/FAE_Spruce_C_billboard_normals.png using Guid(462672c11b5f04e4ea4e4ba711b67f2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '973e3a6b27044f69f5ff118bcd50821b') in 0.009093 seconds 
-  Import took 0.014657 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000178 seconds.
-  path: Assets/Fantasy Adventure Environment/Materials/Trees/Textures/Spruce/FAE_Spruce_B_billboard_normals.png
-  artifactKey: Guid(927f1af85e91b634898710af87fc9bd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Adventure Environment/Materials/Trees/Textures/Spruce/FAE_Spruce_B_billboard_normals.png using Guid(927f1af85e91b634898710af87fc9bd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfd12b1fb2d3f7801f59dab6ba450ab6') in 0.008701 seconds 
-  Import took 0.013747 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000225 seconds.
-  path: Assets/Fantasy Adventure Environment/Materials/Trees/Textures/Spruce/FAE_Spruce_A_billboard_normals.png
-  artifactKey: Guid(34bed5caf53f8dc409f3eab9848e9366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Adventure Environment/Materials/Trees/Textures/Spruce/FAE_Spruce_A_billboard_normals.png using Guid(34bed5caf53f8dc409f3eab9848e9366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30d9429d1e9274ce2bdc9d7335a532c1') in 0.009709 seconds 
-  Import took 0.014491 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000219 seconds.
-  path: Assets/Fantasy Adventure Environment/Materials/Trees/Textures/Spruce/FAE_Spruce_B_billboard.png
-  artifactKey: Guid(066b700556e743044867221eab5f4bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Adventure Environment/Materials/Trees/Textures/Spruce/FAE_Spruce_B_billboard.png using Guid(066b700556e743044867221eab5f4bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9ba4a6145932ad85d61d5369fe4670b') in 0.010127 seconds 
-  Import took 0.015942 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000155 seconds.
-  path: Assets/Fantasy Adventure Environment/Materials/Trees/Textures/Spruce/Spruce_Bark_normals.png
-  artifactKey: Guid(fb49619912679bd46a197b457e11d2c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Adventure Environment/Materials/Trees/Textures/Spruce/Spruce_Bark_normals.png using Guid(fb49619912679bd46a197b457e11d2c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12d42d3717f914350b711215318c7906') in 0.012762 seconds 
-  Import took 0.019186 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000139 seconds.
-  path: Assets/Fantasy Adventure Environment/Materials/Trees/Textures/Spruce/Spruce_Bark_diffuse.png
-  artifactKey: Guid(7aa22997304c43d428912a3bf3230785) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Adventure Environment/Materials/Trees/Textures/Spruce/Spruce_Bark_diffuse.png using Guid(7aa22997304c43d428912a3bf3230785) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bed266e76e6d53667389559521343688') in 0.010468 seconds 
-  Import took 0.016191 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.828659 seconds.
-  path: Assets/Fantasy Adventure Environment/Materials/Trees/Textures/Willow
-  artifactKey: Guid(9767329d23d45074ea3b9c76d877e860) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Adventure Environment/Materials/Trees/Textures/Willow using Guid(9767329d23d45074ea3b9c76d877e860) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f99d2d802e5b402ef5631974c4c4ad1b') in 0.002644 seconds 
-  Import took 0.007005 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.030030 seconds.
-  path: Assets/Fantasy Adventure Environment/Materials/Trees/Textures/Willow/FAE_Willow_A_billboard_diffuse.png
-  artifactKey: Guid(295b9dff7bb450f4199a5cee980bea26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Adventure Environment/Materials/Trees/Textures/Willow/FAE_Willow_A_billboard_diffuse.png using Guid(295b9dff7bb450f4199a5cee980bea26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21919ccdddc287ef227ccf70e0db1629') in 0.010155 seconds 
-  Import took 0.015747 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000263 seconds.
-  path: Assets/Fantasy Adventure Environment/Materials/Trees/Textures/Willow/FAE_Willow_A_billboard_normals.png
-  artifactKey: Guid(1b71099063ead4640bf8bef34e5ede63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Adventure Environment/Materials/Trees/Textures/Willow/FAE_Willow_A_billboard_normals.png using Guid(1b71099063ead4640bf8bef34e5ede63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddcb4a1ad62ed6b40c81a324e521a082') in 0.008249 seconds 
-  Import took 0.013584 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000132 seconds.
-  path: Assets/Fantasy Adventure Environment/Materials/Trees/Textures/Willow/FAE_Willow_Bark_normals.png
-  artifactKey: Guid(06f7f421fac668f4ab7f892a15a6e8c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Adventure Environment/Materials/Trees/Textures/Willow/FAE_Willow_Bark_normals.png using Guid(06f7f421fac668f4ab7f892a15a6e8c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fbc57f5acbcdc0af8bdb0ba7b7e9624') in 0.009728 seconds 
-  Import took 0.014701 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000194 seconds.
-  path: Assets/Fantasy Adventure Environment/Materials/Trees/Textures/Willow/FAE_Willow_Branch_Green.png
-  artifactKey: Guid(a2c58c0174253ee49bb7cc0242169f98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Adventure Environment/Materials/Trees/Textures/Willow/FAE_Willow_Branch_Green.png using Guid(a2c58c0174253ee49bb7cc0242169f98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5188294db34ee62e5031e55b9af4242') in 0.007964 seconds 
-  Import took 0.012272 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000141 seconds.
-  path: Assets/Fantasy Adventure Environment/Materials/Trees/Textures/Willow/FAE_Willow_B_billboard_diffuse.png
-  artifactKey: Guid(83a9e3928c4f599499bcfd78ff7a498a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Adventure Environment/Materials/Trees/Textures/Willow/FAE_Willow_B_billboard_diffuse.png using Guid(83a9e3928c4f599499bcfd78ff7a498a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85209613bc0c6da54adf4e0bdcc8f027') in 0.009277 seconds 
-  Import took 0.013744 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000184 seconds.
-  path: Assets/Fantasy Adventure Environment/Materials/Trees/Textures/Willow/FAE_Willow_B_billboard_normals.png
-  artifactKey: Guid(eaf25226d54922a4eb5be56535249702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Adventure Environment/Materials/Trees/Textures/Willow/FAE_Willow_B_billboard_normals.png using Guid(eaf25226d54922a4eb5be56535249702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed33c1f84273a06255710254ffb2facc') in 0.008818 seconds 
-  Import took 0.013209 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000131 seconds.
-  path: Assets/Fantasy Adventure Environment/Materials/Trees/Textures/Willow/FAE_Willow_Branch.png
-  artifactKey: Guid(cbfabb59003b056448c46f49504ebb7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Adventure Environment/Materials/Trees/Textures/Willow/FAE_Willow_Branch.png using Guid(cbfabb59003b056448c46f49504ebb7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fc7da4ee1034bbdbdea3dcb29d0957c') in 0.007828 seconds 
-  Import took 0.012141 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000137 seconds.
-  path: Assets/Fantasy Adventure Environment/Materials/Trees/Textures/Willow/FAE_Willow_Bark_diffuse.png
-  artifactKey: Guid(a0267378867f9c947a0e3a7b3353b6f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Adventure Environment/Materials/Trees/Textures/Willow/FAE_Willow_Bark_diffuse.png using Guid(a0267378867f9c947a0e3a7b3353b6f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d6cac41e5f57cbb75bae93810d02b59') in 0.008034 seconds 
-  Import took 0.012148 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 51.303659 seconds.
-  path: Assets/Fantasy Adventure Environment/Terrain/Textures/TerrainGrass/TerrainGrass_basecolor.png
-  artifactKey: Guid(6dc430d5c113ab14c91065b0117acafb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Adventure Environment/Terrain/Textures/TerrainGrass/TerrainGrass_basecolor.png using Guid(6dc430d5c113ab14c91065b0117acafb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a80b941a8349318a31ddf3a7d00a348') in 0.008735 seconds 
-  Import took 0.013339 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000149 seconds.
-  path: Assets/Fantasy Adventure Environment/Terrain/Textures/TerrainDirt/TerrainDirt_basecolor.png
-  artifactKey: Guid(2021285e492a4774bb1a0e59b3756ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Adventure Environment/Terrain/Textures/TerrainDirt/TerrainDirt_basecolor.png using Guid(2021285e492a4774bb1a0e59b3756ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a42f000240efe696cbd5000e427f4ba6') in 0.008349 seconds 
-  Import took 0.012694 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000254 seconds.
-  path: Assets/Fantasy Adventure Environment/Terrain/Textures/TerrainForestFloor_Birch/TerrainForestFloor_Birch_basecolor.png
-  artifactKey: Guid(a4b5297c80517ef46b297d5667139e1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Adventure Environment/Terrain/Textures/TerrainForestFloor_Birch/TerrainForestFloor_Birch_basecolor.png using Guid(a4b5297c80517ef46b297d5667139e1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d1788aad2477ce5d948b62398f38772') in 0.008439 seconds 
-  Import took 0.012913 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000240 seconds.
-  path: Assets/Fantasy Adventure Environment/Terrain/Textures/TerrainSnow/TerrainSnow_albedo.png
-  artifactKey: Guid(2c9a5d1ccb8feb24fabae7a84dd499cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Adventure Environment/Terrain/Textures/TerrainSnow/TerrainSnow_albedo.png using Guid(2c9a5d1ccb8feb24fabae7a84dd499cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7c07f26361e5d214dcfae6f6cc6d633') in 0.007020 seconds 
-  Import took 0.011511 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000171 seconds.
-  path: Assets/Fantasy Adventure Environment/Terrain/Textures/TerrainForestFloor/TerrainForestFloor_basecolor.png
-  artifactKey: Guid(78b8432705ca9134f8d1a77f0c4db31b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Adventure Environment/Terrain/Textures/TerrainForestFloor/TerrainForestFloor_basecolor.png using Guid(78b8432705ca9134f8d1a77f0c4db31b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '305c52d1c910877dc9c3d5dc0627c9e7') in 0.010382 seconds 
-  Import took 0.014870 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000133 seconds.
-  path: Assets/Fantasy Adventure Environment/Terrain/Textures/TerrainSand/TerrainSand_diffuse.png
-  artifactKey: Guid(f5903ee43302fcd44879ae6f5dfed325) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Adventure Environment/Terrain/Textures/TerrainSand/TerrainSand_diffuse.png using Guid(f5903ee43302fcd44879ae6f5dfed325) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b678da1f462eb7f343200a427f820ea') in 0.007470 seconds 
-  Import took 0.012114 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000147 seconds.
-  path: Assets/Fantasy Adventure Environment/Terrain/Textures/TerrainRock/TerrainRock_basecolor.png
-  artifactKey: Guid(82bdee967b2bb5742ae7493e6f7f90cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Adventure Environment/Terrain/Textures/TerrainRock/TerrainRock_basecolor.png using Guid(82bdee967b2bb5742ae7493e6f7f90cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43d3393972ccc9f492f74ea663b135e0') in 0.008290 seconds 
-  Import took 0.012557 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.846306 seconds.
-  path: Assets/Fantasy Adventure Environment/Terrain/Layers/FAE_Dirt.terrainlayer
-  artifactKey: Guid(3c2682431c6ad054ebc51f371376d9f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Adventure Environment/Terrain/Layers/FAE_Dirt.terrainlayer using Guid(3c2682431c6ad054ebc51f371376d9f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a08061773b34a0dd3182a722225ebfbf') in 0.014449 seconds 
-  Import took 0.019422 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000194 seconds.
-  path: Assets/Fantasy Adventure Environment/Terrain/Layers/FAE_Snow.terrainlayer
-  artifactKey: Guid(66176d9c7424a16489811004f9ea8171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Adventure Environment/Terrain/Layers/FAE_Snow.terrainlayer using Guid(66176d9c7424a16489811004f9ea8171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af3fa09e0603b086bf61c0ac0d67def7') in 0.013142 seconds 
-  Import took 0.017577 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000258 seconds.
-  path: Assets/Fantasy Adventure Environment/Terrain/Layers/FAE_Grass.terrainlayer
-  artifactKey: Guid(3b9fa63db17b4cd4799d6d4ddaa2e78f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Adventure Environment/Terrain/Layers/FAE_Grass.terrainlayer using Guid(3b9fa63db17b4cd4799d6d4ddaa2e78f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04b23a18a7ede8a06ece91acafc1801b') in 0.014032 seconds 
-  Import took 0.019112 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000176 seconds.
-  path: Assets/Fantasy Adventure Environment/Terrain/Layers/FAE_Rock.terrainlayer
-  artifactKey: Guid(5eb36a121c5dddc40b2bb4a9fef14c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Adventure Environment/Terrain/Layers/FAE_Rock.terrainlayer using Guid(5eb36a121c5dddc40b2bb4a9fef14c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c46f068879f08c363a1b14172b6af950') in 0.009921 seconds 
-  Import took 0.014695 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000214 seconds.
-  path: Assets/Fantasy Adventure Environment/Terrain/Layers/FAE_ForestBirch.terrainlayer
-  artifactKey: Guid(0c77f7a8fcffbcc47ab442f80868fed5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Adventure Environment/Terrain/Layers/FAE_ForestBirch.terrainlayer using Guid(0c77f7a8fcffbcc47ab442f80868fed5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0732dc60b1780eca20081069f9d18dba') in 0.011832 seconds 
-  Import took 0.016721 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000260 seconds.
-  path: Assets/Fantasy Adventure Environment/Terrain/Layers/FAE_Forest.terrainlayer
-  artifactKey: Guid(a5ff8d4887721f444a53456d79ca357d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Adventure Environment/Terrain/Layers/FAE_Forest.terrainlayer using Guid(a5ff8d4887721f444a53456d79ca357d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2f314a425f27407818fb8abc23569c6') in 0.015617 seconds 
-  Import took 0.020354 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000173 seconds.
-  path: Assets/Fantasy Adventure Environment/Terrain/Layers/FAE_Sand.terrainlayer
-  artifactKey: Guid(09eab4934162a2941ba4ac37699efedf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Adventure Environment/Terrain/Layers/FAE_Sand.terrainlayer using Guid(09eab4934162a2941ba4ac37699efedf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1b4f5e00c92acf97d33766d9bc69d4d') in 0.010684 seconds 
-  Import took 0.015140 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.042827 seconds.
-  path: Assets/Fantasy Adventure Environment/Terrain/Layers
-  artifactKey: Guid(355603792d0a5cb4cb32165f408aed2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Adventure Environment/Terrain/Layers using Guid(355603792d0a5cb4cb32165f408aed2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b674575c2ed87820a8b07563d80e434c') in 0.003843 seconds 
-  Import took 0.008025 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 36.996555 seconds.
-  path: Assets/Fantasy Adventure Environment/Terrain/Textures/TerrainForestFloor/TerrainForestFloor_normal.png
-  artifactKey: Guid(a04fec741d779664db787889b5c9995e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Adventure Environment/Terrain/Textures/TerrainForestFloor/TerrainForestFloor_normal.png using Guid(a04fec741d779664db787889b5c9995e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1046b531f575a55fe663b70fe416b3c0') in 0.010980 seconds 
-  Import took 0.015146 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000225 seconds.
-  path: Assets/Fantasy Adventure Environment/Terrain/Textures/TerrainForestFloor/TerrainForestFloor_MaskMap.png
-  artifactKey: Guid(2186908e434ae8345ab202558a94e30f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Adventure Environment/Terrain/Textures/TerrainForestFloor/TerrainForestFloor_MaskMap.png using Guid(2186908e434ae8345ab202558a94e30f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '624aef55dd1ed307eff22f3876ce64f0') in 0.006525 seconds 
-  Import took 0.011476 seconds .
+  Time since last request: 868.462191 seconds.
+  path: Assets/Shaders/MatiToonLighting.mat
+  artifactKey: Guid(eca5b036b124bb946b83e052dbae7227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/MatiToonLighting.mat using Guid(eca5b036b124bb946b83e052dbae7227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52c9c3ef6b9fb7868b93adcb1bc9b8dc') in 0.022516 seconds 
+  Import took 0.029566 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

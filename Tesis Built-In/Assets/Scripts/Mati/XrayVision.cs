@@ -1,4 +1,5 @@
 using UnityEngine;
+//using UnityEngine.Rendering.Universal;
 
 public class XrayVision : MonoBehaviour
 {
@@ -10,7 +11,7 @@ public class XrayVision : MonoBehaviour
     private void Start()
     {
         mainCamera = Camera.main;
-        //stackData = mainCamera.GetUniversalAdditionalCameraData();
+       // stackData = mainCamera.GetUniversalAdditionalCameraData();
         isStacked = false;
         CheckCameraPos();
     }
@@ -22,14 +23,14 @@ public class XrayVision : MonoBehaviour
         if (!Input.GetKeyDown(KeyCode.Q)) return;
         
         isStacked = !isStacked;
-        //StackCamera();
+        StackCamera();
     }
 
-  /*  private void StackCamera()
+    private void StackCamera()
     {
-        if (isStacked) stackData.cameraStack.Add(overlayCamera);
-        else stackData.cameraStack.Remove(overlayCamera);
-    }*/
+        //if (isStacked) stackData.cameraStack.Add(overlayCamera);
+        //else stackData.cameraStack.Remove(overlayCamera);
+    }
 
     void CheckCameraPos()
     {
