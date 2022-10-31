@@ -70,7 +70,6 @@ public class Spider : Entity
         if (Physics.Raycast(transform.position, transform.forward, out RaycastHit hit, _rangeAttack))
         {
             IDamagable dmg = hit.collider.GetComponent<IDamagable>();
-            Debug.Log(hit.collider.name);
             if(dmg != null) dmg.GetDamage(damage);
         }
     }
@@ -83,10 +82,10 @@ public class Spider : Entity
         Gizmos.DrawWireSphere(transform.position, _rangeAttack);
     }
 
-    public override void GetDamage(int damage, Vector3 particles)
+    public override void GetDamage(int damage, Vector3 point, Vector3 normal)
     {
         SoundManager.instance.Play(SoundID.Spider);
-        base.GetDamage(damage, particles);
+        base.GetDamage(damage, point, normal);
     }
 
     public override void Die()

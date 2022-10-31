@@ -1,17 +1,17 @@
 using UnityEngine;
-//using UnityEngine.Rendering.Universal;
+using UnityEngine.Rendering;
 
 public class XrayVision : MonoBehaviour
 {
-    private Camera mainCamera;
+    /*private Camera mainCamera;
     public Camera overlayCamera;
-   // private UniversalAdditionalCameraData stackData;
+    private UniversalAdditionalCameraData stackData;
     private bool isStacked;
 
     private void Start()
     {
         mainCamera = Camera.main;
-       // stackData = mainCamera.GetUniversalAdditionalCameraData();
+        stackData = mainCamera.GetUniversalAdditionalCameraData();
         isStacked = false;
         CheckCameraPos();
     }
@@ -28,12 +28,12 @@ public class XrayVision : MonoBehaviour
 
     private void StackCamera()
     {
-        //if (isStacked) stackData.cameraStack.Add(overlayCamera);
-        //else stackData.cameraStack.Remove(overlayCamera);
+        if (isStacked) stackData.cameraStack.Add(overlayCamera);
+        else stackData.cameraStack.Remove(overlayCamera);
     }
 
     void CheckCameraPos()
     {
         overlayCamera.fieldOfView = mainCamera.fieldOfView;
-    }
+    }*/
 }

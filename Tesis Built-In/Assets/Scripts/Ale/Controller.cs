@@ -1,4 +1,4 @@
-using System;
+    using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
@@ -17,13 +17,15 @@ public class Controller : Entity
     [SerializeField] private float _sprint = 10;
     [SerializeField] private float _speedRotation = 50;
     [SerializeField] private float _jumpForce = 5;
-    [SerializeField] private GameObject _bullet;
-    [SerializeField] private GameObject _shootPoint;
+    [SerializeField] private GameObject _shootParticles;
+    [SerializeField] private Transform _shootPoint;
+    [SerializeField] private LayerMask _layerShoot;
     [SerializeField] private Transform _hook;
     [SerializeField] private Transform _hand;
     [SerializeField] private float _hookDistance;
     [SerializeField] private LineRenderer _line;
     [SerializeField] private float viewAngle;
+    [SerializeField] public LayerMask stopWalking;
 
     private CinemachineTransposer _normalCameraAim;
     private CinemachineTransposer _zoomCameraAim;
@@ -40,7 +42,7 @@ public class Controller : Entity
 
     public Action onFixedUpdate = delegate{ };
     public event Action interactables;
-    public List<Vector3> hookSwingPoint;
+    public List<Transform> hookSwingPoint;
 
     private void Awake()
     {
@@ -90,23 +92,26 @@ public class Controller : Entity
 
         if (Input.GetKeyDown(KeyCode.E))
         {
-            if (interactables != null)
+            interactables?.Invoke();
+        }
+
+        if (Input.GetKeyDown(KeyCode.Q) && !_model.isHooking)
+        {
+            _model.hookPoint = FieldOfView();
+            if(_model.hookPoint != null)
             {
-                interactables();
-            }
-            else if(FieldOfView() != Vector3.zero)
-            {
-                _model.hookPoint = FieldOfView();
-                _model.nextActionHook = _model.SwingHook;
-                _model.StartHooking();
+                _model.hookPoint.GetComponent<HookPoint>().message.SetActive(false);
+                _line.enabled = true;
+                onFixedUpdate = _model.MoveHook;
             }
             else
             {
-                _model.ShootHook();
+                onFixedUpdate = _model.FailHook;
             }
+            _model.isHooking = true;
         }
 
-        if (Input.GetKeyUp(KeyCode.E))
+        if (Input.GetKeyUp(KeyCode.Q))
         {
             _model.StopHooking();
         }
@@ -123,7 +128,17 @@ public class Controller : Entity
 
     public void Shoot()
     {
-        Instantiate(_bullet, _shootPoint.transform.position, Quaternion.Euler(_zoomCamera.transform.rotation.eulerAngles + new Vector3(-1,3.5f,0)));
+        Destroy(Instantiate(_shootParticles, _shootPoint.position, _shootPoint.rotation), 2);
+
+        if (Physics.Raycast(Camera.main.transform.position, Camera.main.transform.forward, out RaycastHit hit, 30,
+                _layerShoot))
+        {
+            IDamagable d = hit.collider.GetComponent<IDamagable>();
+            if (d != null)
+            {
+                d.GetDamage(1, hit.point, hit.normal);
+            }
+        }
     }
 
     public void Sprint(bool active)
@@ -144,17 +159,24 @@ public class Controller : Entity
         _anim.ResetTrigger("Jump");
     }
 
-    private Vector3 FieldOfView()
+    private Transform FieldOfView()
     {
         foreach (var point in hookSwingPoint)
         {
-            Vector3 dir = point - transform.position;
+            Vector3 dir = point.position - transform.position;
             if (Vector3.Angle(Camera.main.transform.forward, dir) <= viewAngle / 2)
             {
                 return point;
             }
         }
-        return Vector3.zero;
+        return null;
+    }
+
+    public void GetLife(int amount)
+    {
+        currentHealth += amount;
+        currentHealth = Mathf.Clamp(currentHealth, 0, _maxHealth);
+        EventManager.TriggerEvent(EventManager.EventsType.Event_GetDamage, currentHealth, _maxHealth);
     }
     
     public override void GetDamage(int damage)
