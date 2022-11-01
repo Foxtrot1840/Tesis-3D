@@ -22,9 +22,11 @@ public class Controller : Entity
     [SerializeField] private LayerMask _layerShoot;
     [SerializeField] private Transform _hook;
     [SerializeField] private Transform _hand;
+    [SerializeField] private float _hookDistance;
     [SerializeField] private LineRenderer _line;
     [SerializeField] private float viewAngle;
     [SerializeField] public LayerMask stopWalking;
+    [SerializeField] private ParticleSystem shootWall;
 
     private CinemachineTransposer _normalCameraAim;
     private CinemachineTransposer _zoomCameraAim;
@@ -52,8 +54,8 @@ public class Controller : Entity
         _model = new Model(this, _rb, this.transform, _speedRotation, _speedAimRotation, _jumpForce, _normalCameraAim,
                            _zoomCameraAim, _hand, _hook, _line);
         _view = new View(_anim);
-        //Cursor.lockState = CursorLockMode.Locked;
-        //Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
     }
 
     private void Start()
@@ -132,10 +134,15 @@ public class Controller : Entity
         if (Physics.Raycast(Camera.main.transform.position, Camera.main.transform.forward, out RaycastHit hit, 30,
                 _layerShoot))
         {
+            SoundManager.instance.Play(SoundID.Disparo);
             IDamagable d = hit.collider.GetComponent<IDamagable>();
             if (d != null)
             {
                 d.GetDamage(1, hit.point, hit.normal);
+            }
+            else
+            {
+                Instantiate(shootWall, hit.point, Quaternion.Euler(hit.normal));
             }
         }
     }

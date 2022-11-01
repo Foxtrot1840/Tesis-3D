@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 5685112996268577242}
   - component: {fileID: 2723120539454717297}
   - component: {fileID: 3897563213745300608}
-  - component: {fileID: 7037487075164549559}
+  - component: {fileID: 8686019771049971534}
   m_Layer: 0
   m_Name: polySurface8
   m_TagString: Untagged
@@ -82,7 +82,7 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &7037487075164549559
+--- !u!64 &8686019771049971534
 MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -139,7 +139,7 @@ GameObject:
   - component: {fileID: 7589266252400569830}
   - component: {fileID: 3226460947741137871}
   - component: {fileID: 1695126094399230838}
-  - component: {fileID: 5991557819420359817}
+  - component: {fileID: 3693712508325253731}
   m_Layer: 0
   m_Name: polySurface7
   m_TagString: Untagged
@@ -210,7 +210,7 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &5991557819420359817
+--- !u!64 &3693712508325253731
 MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
