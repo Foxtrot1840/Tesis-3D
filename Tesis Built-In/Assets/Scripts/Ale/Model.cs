@@ -19,7 +19,6 @@ public class Model
     private CinemachineTransposer _zoomCameraOffset;
     private Transform _hand;
     private Transform _hook;
-    private float _maxDistanceHook;
     private Controller _controller;
     private LineRenderer _line;
     private float _currentSpeed;
@@ -30,14 +29,12 @@ public class Model
     private Vector3 _hookOffset;
     private quaternion _hookRotation;
 
-    public Action nextActionHook;
-
     private Vector3 _finalPos, _startPos;
     private float lerp;
 
     public Model(Controller controller, Rigidbody rb, Transform player, float speedRotation,
         float speedAim, float jumpForce, CinemachineTransposer normal, CinemachineTransposer zoom, Transform hand,
-        Transform hook, float hookDistance, LineRenderer line)
+        Transform hook, LineRenderer line)
     {
         _controller = controller;
         _rb = rb;
@@ -49,7 +46,6 @@ public class Model
         _jumpForce = jumpForce;
         _hand = hand;
         _hook = hook;
-        _maxDistanceHook = hookDistance;
         _line = line;
         _hookOffset = _hook.transform.localPosition;
         _hookRotation = _hook.localRotation;

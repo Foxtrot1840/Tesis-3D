@@ -22,7 +22,6 @@ public class Controller : Entity
     [SerializeField] private LayerMask _layerShoot;
     [SerializeField] private Transform _hook;
     [SerializeField] private Transform _hand;
-    [SerializeField] private float _hookDistance;
     [SerializeField] private LineRenderer _line;
     [SerializeField] private float viewAngle;
     [SerializeField] public LayerMask stopWalking;
@@ -51,10 +50,10 @@ public class Controller : Entity
         _rb = GetComponent<Rigidbody>();
         _anim = GetComponent<Animator>();
         _model = new Model(this, _rb, this.transform, _speedRotation, _speedAimRotation, _jumpForce, _normalCameraAim,
-                           _zoomCameraAim, _hand, _hook, _hookDistance, _line);
+                           _zoomCameraAim, _hand, _hook, _line);
         _view = new View(_anim);
-        Cursor.lockState = CursorLockMode.Locked;
-        Cursor.visible = false;
+        //Cursor.lockState = CursorLockMode.Locked;
+        //Cursor.visible = false;
     }
 
     private void Start()
@@ -198,6 +197,5 @@ public class Controller : Entity
     private void OnDrawGizmos()
     {
         Gizmos.color = Color.magenta;
-        Gizmos.DrawWireSphere(transform.position, _hookDistance);
     }
 }
