@@ -27,4 +27,19 @@ public class GameManager : MonoBehaviour
         EventManager.ClearEvents();
         Time.timeScale = 0;
     }
+
+    public void PauseGame(bool pause)
+    {
+        if (pause)
+        {
+            Time.timeScale = 0;
+            Cursor.lockState = CursorLockMode.None;
+        }
+        else
+        {
+            Time.timeScale = 1;
+            Cursor.lockState = CursorLockMode.Locked;
+        }
+            Cursor.visible = pause;
+    }
 }
