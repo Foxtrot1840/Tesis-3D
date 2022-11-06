@@ -83,5 +83,6 @@ public class SoundManager : MonoBehaviour
     {
         Spider,
         Glass,
-        Disparo
+        Disparo,
+        TNT
     }
