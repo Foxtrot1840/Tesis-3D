@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.25f1 (9b9180224418) revision 10195328'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'es' Physical Memory: 8116 MB
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'es' Physical Memory: 16326 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
 COMMAND LINE ARGUMENTS:
@@ -11,23 +11,23 @@ C:\Program Files\Unity\Hub\Editor\2020.3.25f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/Alejandro/Desktop/Tesis3d/Tesis-3D/Tesis Built-In
+C:/Users/Usuario/Desktop/Tesis-3D/Tesis Built-In
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-62208
-Successfully changed project path to: C:/Users/Alejandro/Desktop/Tesis3d/Tesis-3D/Tesis Built-In
-C:/Users/Alejandro/Desktop/Tesis3d/Tesis-3D/Tesis Built-In
+50084
+Successfully changed project path to: C:/Users/Usuario/Desktop/Tesis-3D/Tesis Built-In
+C:/Users/Usuario/Desktop/Tesis-3D/Tesis Built-In
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 78.72 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 59.66 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.25f1 (9b9180224418)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/Alejandro/Desktop/Tesis3d/Tesis-3D/Tesis Built-In/Assets
+[Subsystems] Discovering subsystems at path C:/Users/Usuario/Desktop/Tesis-3D/Tesis Built-In/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1660 Ti (ID=0x2182)
+    Renderer: NVIDIA GeForce GTX 1660 SUPER (ID=0x21c4)
     Vendor:   
     VRAM:     5991 MB
     Driver:   30.0.15.1215
@@ -35,98 +35,145 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56224
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56780
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
-Registered in 0.002870 seconds.
-Native extension for LinuxStandalone target not found
+Registered in 0.001464 seconds.
 Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 69.63 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 60.11 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.603 seconds
+- Completed reload, in  0.557 seconds
 Domain Reload Profiling:
-	ReloadAssembly (604ms)
-		BeginReloadAssembly (49ms)
+	ReloadAssembly (558ms)
+		BeginReloadAssembly (43ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (484ms)
-			LoadAssemblies (48ms)
+		EndReloadAssembly (429ms)
+			LoadAssemblies (41ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (146ms)
+			SetupTypeCache (149ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (37ms)
-			SetupLoadedEditorAssemblies (200ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (169ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
+				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (70ms)
-				BeforeProcessingInitializeOnLoad (12ms)
-				ProcessInitializeOnLoadAttributes (82ms)
-				ProcessInitializeOnLoadMethodAttributes (28ms)
+				RefreshPlugins (60ms)
+				BeforeProcessingInitializeOnLoad (13ms)
+				ProcessInitializeOnLoadAttributes (69ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.007333 seconds.
+Registered in 0.003816 seconds.
 Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
+Symbol file data-000002206FA4CEC0 doesn't match image C:\Users\Usuario\Desktop\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\sc.fae.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002206FA4CEC0 doesn't match image C:\Users\Usuario\Desktop\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002209577B020 doesn't match image C:\Users\Usuario\Desktop\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000220702DD220 doesn't match image C:\Users\Usuario\Desktop\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000220702DD220 doesn't match image C:\Users\Usuario\Desktop\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022095790830 doesn't match image C:\Users\Usuario\Desktop\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022094C67020 doesn't match image C:\Users\Usuario\Desktop\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022095790830 doesn't match image C:\Users\Usuario\Desktop\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Burst.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022094C4B230 doesn't match image C:\Users\Usuario\Desktop\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022095798840 doesn't match image C:\Users\Usuario\Desktop\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022095798840 doesn't match image C:\Users\Usuario\Desktop\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000220944C7020 doesn't match image C:\Users\Usuario\Desktop\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002206FE3F490 doesn't match image C:\Users\Usuario\Desktop\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022094C85430 doesn't match image C:\Users\Usuario\Desktop\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022094C9D440 doesn't match image C:\Users\Usuario\Desktop\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Animation.Rigging.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022094D88040 doesn't match image C:\Users\Usuario\Desktop\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002209516C070 doesn't match image C:\Users\Usuario\Desktop\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.TerrainTools.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002206FE3F490 doesn't match image C:\Users\Usuario\Desktop\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022070036440 doesn't match image C:\Users\Usuario\Desktop\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002206FC2CC20 doesn't match image C:\Users\Usuario\Desktop\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Burst.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000220946B6620 doesn't match image C:\Users\Usuario\Desktop\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022094C9D440 doesn't match image C:\Users\Usuario\Desktop\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022070036440 doesn't match image C:\Users\Usuario\Desktop\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.TerrainTools.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000220703E6010 doesn't match image C:\Users\Usuario\Desktop\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022094C9D440 doesn't match image C:\Users\Usuario\Desktop\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022095263A00 doesn't match image C:\Users\Usuario\Desktop\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002207049A050 doesn't match image C:\Users\Usuario\Desktop\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\sc.fae.runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000220948A5030 doesn't match image C:\Users\Usuario\Desktop\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Animation.Rigging.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 68.13 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 62.57 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.080 seconds
+- Completed reload, in  1.819 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2081ms)
-		BeginReloadAssembly (147ms)
+	ReloadAssembly (1820ms)
+		BeginReloadAssembly (130ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (20ms)
-		EndReloadAssembly (1870ms)
-			LoadAssemblies (98ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (1636ms)
+			LoadAssemblies (82ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (346ms)
+			SetupTypeCache (299ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (76ms)
-			SetupLoadedEditorAssemblies (1236ms)
+			RebuildScriptCaches (73ms)
+			SetupLoadedEditorAssemblies (1075ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (68ms)
-				BeforeProcessingInitializeOnLoad (77ms)
-				ProcessInitializeOnLoadAttributes (1071ms)
+				RefreshPlugins (63ms)
+				BeforeProcessingInitializeOnLoad (78ms)
+				ProcessInitializeOnLoadAttributes (917ms)
 				ProcessInitializeOnLoadMethodAttributes (8ms)
-				AfterProcessingInitializeOnLoad (6ms)
+				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.95 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3088 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 302.6 MB.
+System memory in use before: 302.7 MB.
 System memory in use after: 302.2 MB.
 
 Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 3556.
-Total: 4.113700 ms (FindLiveObjects: 0.350200 ms CreateObjectMapping: 0.197900 ms MarkObjects: 3.232800 ms  DeleteObjects: 0.331400 ms)
+Total: 4.430600 ms (FindLiveObjects: 0.266800 ms CreateObjectMapping: 0.157300 ms MarkObjects: 2.811600 ms  DeleteObjects: 1.193200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -140,67 +187,128 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Scripts/Ale/Puzzles/BriefcasePuzzle/BriefcaseManager.cs
-  artifactKey: Guid(5a39a262089566c4a8a1ee56d2141102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Ale/Puzzles/BriefcasePuzzle/BriefcaseManager.cs using Guid(5a39a262089566c4a8a1ee56d2141102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d11f4d012d9c33d2a3dd4dcc1e9da0f') in 0.060817 seconds 
-  Import took 0.068544 seconds .
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(6b41858cb93eb5d4ab542721de8ac2e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(6b41858cb93eb5d4ab542721de8ac2e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6c00fbc28e3758a422c324b114431a2') in 0.114965 seconds 
+  Import took 0.120508 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000483 seconds.
-  path: Assets/Scripts/Ale/Puzzles/BriefcasePuzzle/BriefcaseButton.cs
-  artifactKey: Guid(8a7b753bfaa472b4da33a87b149ec3ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Ale/Puzzles/BriefcasePuzzle/BriefcaseButton.cs using Guid(8a7b753bfaa472b4da33a87b149ec3ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c24b26bdd76e097155a556189ecbcbf8') in 0.007504 seconds 
-  Import took 0.013411 seconds .
+  Time since last request: 162.976207 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(b2e53597b3ba3544fa324825e185d249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(b2e53597b3ba3544fa324825e185d249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26307878c4343f92e453ddb7a8abbed1') in 0.005045 seconds 
+  Import took 0.009646 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.643545 seconds.
+  path: Assets/Scenes/Mine.unity
+  artifactKey: Guid(352a48b2d902b164bb815496b3038378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Mine.unity using Guid(352a48b2d902b164bb815496b3038378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a74842704f3144876832ff0d72869b80') in 0.005076 seconds 
+  Import took 0.009033 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004857 seconds.
+Registered in 0.003555 seconds.
 Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
+Symbol file data-0000022094C5A830 doesn't match image C:\Users\Usuario\Desktop\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\sc.fae.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022094C5A830 doesn't match image C:\Users\Usuario\Desktop\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022097915020 doesn't match image C:\Users\Usuario\Desktop\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022095E8E3E0 doesn't match image C:\Users\Usuario\Desktop\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022097915020 doesn't match image C:\Users\Usuario\Desktop\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022097915020 doesn't match image C:\Users\Usuario\Desktop\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002206F9EC010 doesn't match image C:\Users\Usuario\Desktop\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000220989A34B0 doesn't match image C:\Users\Usuario\Desktop\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Burst.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000220989794F0 doesn't match image C:\Users\Usuario\Desktop\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022095E8E3E0 doesn't match image C:\Users\Usuario\Desktop\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022095E8E3E0 doesn't match image C:\Users\Usuario\Desktop\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002209433F010 doesn't match image C:\Users\Usuario\Desktop\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002209493AA30 doesn't match image C:\Users\Usuario\Desktop\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022098E56FF0 doesn't match image C:\Users\Usuario\Desktop\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022097915020 doesn't match image C:\Users\Usuario\Desktop\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Animation.Rigging.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000220A0263040 doesn't match image C:\Users\Usuario\Desktop\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002209C7DA970 doesn't match image C:\Users\Usuario\Desktop\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.TerrainTools.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002209493AA30 doesn't match image C:\Users\Usuario\Desktop\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022098E56FF0 doesn't match image C:\Users\Usuario\Desktop\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000220989794F0 doesn't match image C:\Users\Usuario\Desktop\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Burst.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022097915020 doesn't match image C:\Users\Usuario\Desktop\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022097915020 doesn't match image C:\Users\Usuario\Desktop\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000220984C4020 doesn't match image C:\Users\Usuario\Desktop\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.TerrainTools.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022095630F90 doesn't match image C:\Users\Usuario\Desktop\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022097915020 doesn't match image C:\Users\Usuario\Desktop\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002206FDD9360 doesn't match image C:\Users\Usuario\Desktop\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022094F80A20 doesn't match image C:\Users\Usuario\Desktop\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\sc.fae.runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000220946ACC20 doesn't match image C:\Users\Usuario\Desktop\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Animation.Rigging.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.81 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.034 seconds
+- Completed reload, in  1.163 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2035ms)
-		BeginReloadAssembly (150ms)
+	ReloadAssembly (1163ms)
+		BeginReloadAssembly (93ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (51ms)
-		EndReloadAssembly (1802ms)
-			LoadAssemblies (128ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (1024ms)
+			LoadAssemblies (68ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (417ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (95ms)
-			SetupLoadedEditorAssemblies (1021ms)
+			SetupTypeCache (246ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (574ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (11ms)
-				SetLoadedEditorAssemblies (1ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (127ms)
-				ProcessInitializeOnLoadAttributes (862ms)
-				ProcessInitializeOnLoadMethodAttributes (11ms)
-				AfterProcessingInitializeOnLoad (9ms)
+				BeforeProcessingInitializeOnLoad (66ms)
+				ProcessInitializeOnLoadAttributes (492ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.01 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2796 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 274.0 MB.
-System memory in use after: 273.6 MB.
+Unloading 2801 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 274.2 MB.
+System memory in use after: 273.8 MB.
 
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3558.
-Total: 5.337100 ms (FindLiveObjects: 0.315000 ms CreateObjectMapping: 0.185500 ms MarkObjects: 4.417000 ms  DeleteObjects: 0.418300 ms)
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3565.
+Total: 3.024400 ms (FindLiveObjects: 0.202300 ms CreateObjectMapping: 0.125400 ms MarkObjects: 2.387200 ms  DeleteObjects: 0.308900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -214,18 +322,1914 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 2493.479059 seconds.
-  path: Assets/Models/Cartel.fbx
-  artifactKey: Guid(b230f96070981e7498134f03090e0f38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Cartel.fbx using Guid(b230f96070981e7498134f03090e0f38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd590990dbb61e1f8ea82c40850f593f6') in 0.544071 seconds 
-  Import took 0.580182 seconds .
+  Time since last request: 116.636619 seconds.
+  path: Assets/Main Character/Anims
+  artifactKey: Guid(8f0b8a883f0f5564f80a19e325ba3f8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main Character/Anims using Guid(8f0b8a883f0f5564f80a19e325ba3f8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a315e04348ac79eda9dd0da1fb56a33') in 0.007245 seconds 
+  Import took 0.011326 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 22.526719 seconds.
+  Time since last request: 1.343521 seconds.
+  path: Assets/Main Character/FBXs Anims/Main Character with Hat@Standard Walk.fbx
+  artifactKey: Guid(f115589ff8c7bad459016e6237421ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main Character/FBXs Anims/Main Character with Hat@Standard Walk.fbx using Guid(f115589ff8c7bad459016e6237421ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '766a684f4d6b71d5da8788ce14853178') in 0.109602 seconds 
+  Import took 0.114350 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.569881 seconds.
+  path: Assets/Main Character/Materials/Hat.mat
+  artifactKey: Guid(77276136148e5144d848e4e510b8b684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main Character/Materials/Hat.mat using Guid(77276136148e5144d848e4e510b8b684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '891ec9d0840cba0592a9c5d0cdeaa39b') in 0.170790 seconds 
+  Import took 0.175020 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.329859 seconds.
+  path: Assets/Main Character/Materials/Textures
+  artifactKey: Guid(2d91202cf8be9c043a095568819074bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main Character/Materials/Textures using Guid(2d91202cf8be9c043a095568819074bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d989ccf9a94521a43a6ab9efff6e985') in 0.004441 seconds 
+  Import took 0.008590 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.090870 seconds.
+  path: Assets/Main Character/Materials/Textures/Main Character with Hat_Body_BaseMap.png
+  artifactKey: Guid(a30efb6ffc3eeea478e7e20a86a12135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main Character/Materials/Textures/Main Character with Hat_Body_BaseMap.png using Guid(a30efb6ffc3eeea478e7e20a86a12135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e79ac2f59809107594e6c16d216dd650') in 0.035523 seconds 
+  Import took 0.041465 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Main Character/Materials/Textures/Main Character with Hat_ButtonHole_BaseMap.png
+  artifactKey: Guid(00b14430c490e794389ba7ed60a72755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main Character/Materials/Textures/Main Character with Hat_ButtonHole_BaseMap.png using Guid(00b14430c490e794389ba7ed60a72755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '465133ff8b5f3921d7c4a65d8945d657') in 0.044033 seconds 
+  Import took 0.047770 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Main Character/Materials/Textures/Main Character with Hat_ButtonHole_2_BaseMap.png
+  artifactKey: Guid(c9e6246cac1ebf64baf7c0b9a63270c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main Character/Materials/Textures/Main Character with Hat_ButtonHole_2_BaseMap.png using Guid(c9e6246cac1ebf64baf7c0b9a63270c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c5f713c57d9f2db88f04776841612ea') in 0.030841 seconds 
+  Import took 0.034472 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Main Character/Materials/Textures/Main Character with Hat_Shirt_BaseMap.png
+  artifactKey: Guid(ace6d835bee0a6f4cace12e17aa698be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main Character/Materials/Textures/Main Character with Hat_Shirt_BaseMap.png using Guid(ace6d835bee0a6f4cace12e17aa698be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7355f99f8f13f1a3d2dda1a940ff64bd') in 0.029619 seconds 
+  Import took 0.033301 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Main Character/Materials/Textures/Main Character with Hat_Buttons_BaseMap.png
+  artifactKey: Guid(8a4ce5f159343ff4bab0019b638a5a65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main Character/Materials/Textures/Main Character with Hat_Buttons_BaseMap.png using Guid(8a4ce5f159343ff4bab0019b638a5a65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58dfaab0fab592827b4287c56cb72754') in 0.022127 seconds 
+  Import took 0.025754 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Main Character/Materials/Textures/Main Character with Hat_Pants_BaseMap.png
+  artifactKey: Guid(e87954808a0a80e4f966ab2e553a501b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main Character/Materials/Textures/Main Character with Hat_Pants_BaseMap.png using Guid(e87954808a0a80e4f966ab2e553a501b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce5814c45317fd07436d9965ed4a6090') in 0.023838 seconds 
+  Import took 0.027438 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.390780 seconds.
+  path: Assets/Crystal_Mine/Animations
+  artifactKey: Guid(79f70c6d102e47547bc6e63668884421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Animations using Guid(79f70c6d102e47547bc6e63668884421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4114b972d874d2c03b58066a3425325') in 0.004938 seconds 
+  Import took 0.009217 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.062014 seconds.
+  path: Assets/Crystal_Mine/Models/ceilinglp.OBJ
+  artifactKey: Guid(2a9efe9b239e97b44ab8e8317d9ba35a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Models/ceilinglp.OBJ using Guid(2a9efe9b239e97b44ab8e8317d9ba35a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41c1389cdbdc29b7273c3222c4cb6606') in 0.042934 seconds 
+  Import took 0.047522 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Crystal_Mine/Models/floorlp 1.OBJ
+  artifactKey: Guid(904ecc4732714e54e9c6db12b0e9cef7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Models/floorlp 1.OBJ using Guid(904ecc4732714e54e9c6db12b0e9cef7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '664e8ee9eb1f5aa81ff6c32d25af5ac9') in 0.027276 seconds 
+  Import took 0.030943 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Crystal_Mine/Models/WoodenBox_1.obj
+  artifactKey: Guid(95123efc7ad69b842bd9257e9aa3d343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Models/WoodenBox_1.obj using Guid(95123efc7ad69b842bd9257e9aa3d343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08b827de23965efdb1d878d048cfc30e') in 0.025217 seconds 
+  Import took 0.028851 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Crystal_Mine/Models/DoubleWall_Coll.obj
+  artifactKey: Guid(30f92dd4b4e499c47b3561962bda970f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Models/DoubleWall_Coll.obj using Guid(30f92dd4b4e499c47b3561962bda970f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6705d8f7fb3dca45dcb8c6aee44db69d') in 0.026121 seconds 
+  Import took 0.029786 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Crystal_Mine/Models/LaternGlass.obj
+  artifactKey: Guid(37fae844385794f448f54dbacff9f905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Models/LaternGlass.obj using Guid(37fae844385794f448f54dbacff9f905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adbe7e497e91ccf132d72e6246266323') in 0.020340 seconds 
+  Import took 0.024083 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Crystal_Mine/Models/Minecart_Top.obj
+  artifactKey: Guid(354d72d93c91a4c4485cb78f80a9bb5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Models/Minecart_Top.obj using Guid(354d72d93c91a4c4485cb78f80a9bb5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38032c606fbb46c0a2e4789c7857d346') in 0.024886 seconds 
+  Import took 0.028594 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Crystal_Mine/Models/MineCartBottem.obj
+  artifactKey: Guid(1d6a770d2165aa74f876a1974444f72a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Models/MineCartBottem.obj using Guid(1d6a770d2165aa74f876a1974444f72a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da58f86370563e84a90a008eb7af8091') in 0.021668 seconds 
+  Import took 0.025448 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Crystal_Mine/Models/RockCrystal-.OBJ
+  artifactKey: Guid(56464b9861c660c4e8a470493b94e4dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Models/RockCrystal-.OBJ using Guid(56464b9861c660c4e8a470493b94e4dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41c0dd621a2d92d34337cd399adfbed6') in 0.023162 seconds 
+  Import took 0.026840 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Crystal_Mine/Models/doubleWall_lp.OBJ
+  artifactKey: Guid(0063b264b4b58ea48adcb47ea139ee09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Models/doubleWall_lp.OBJ using Guid(0063b264b4b58ea48adcb47ea139ee09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c94b16473364c8c4716709d3cb95bc78') in 0.023851 seconds 
+  Import took 0.027525 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Crystal_Mine/Models/MetalBarrierlp.obj
+  artifactKey: Guid(c0553108f1faf41448bd6e20eb325fac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Models/MetalBarrierlp.obj using Guid(c0553108f1faf41448bd6e20eb325fac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40e52fe1b4ba088cd901e62239d63191') in 0.022517 seconds 
+  Import took 0.026228 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/Crystal_Mine/Models/pickax.obj
+  artifactKey: Guid(db82dfa1d612606418aa4118a218dd0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Models/pickax.obj using Guid(db82dfa1d612606418aa4118a218dd0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ca43f37ddf380ffe100f2e9c485a500') in 0.032243 seconds 
+  Import took 0.036173 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Crystal_Mine/Models/Wall1_Coll.obj
+  artifactKey: Guid(f3710113d9cdb2849bd58717759c34bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Models/Wall1_Coll.obj using Guid(f3710113d9cdb2849bd58717759c34bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '805531292497addb6a4c334d84dcab89') in 0.023448 seconds 
+  Import took 0.027117 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Crystal_Mine/Models/WallLP 2.OBJ
+  artifactKey: Guid(67215ef37a433f249b728a17c3434be9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Models/WallLP 2.OBJ using Guid(67215ef37a433f249b728a17c3434be9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc645629d83fad5e198f999db8468c8e') in 0.019740 seconds 
+  Import took 0.023472 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Crystal_Mine/Models/Crystal.OBJ
+  artifactKey: Guid(26f07fb2e712386478d402c9c85df04b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Models/Crystal.OBJ using Guid(26f07fb2e712386478d402c9c85df04b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35e96b2ac23fc9c3773959767ded6878') in 0.021186 seconds 
+  Import took 0.024881 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Crystal_Mine/Models/CrystalCluster.OBJ
+  artifactKey: Guid(e700dc48f46111e4bbcefdc202e56ec6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Models/CrystalCluster.OBJ using Guid(e700dc48f46111e4bbcefdc202e56ec6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ddcd810a9dad862b6494facd94b4f56') in 0.020549 seconds 
+  Import took 0.024189 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Crystal_Mine/Models/LaternGlassLP.obj
+  artifactKey: Guid(6f9cedd1ca605b04e8de2628528e148c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Models/LaternGlassLP.obj using Guid(6f9cedd1ca605b04e8de2628528e148c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f0bd181dbf22e003e385963e8e8c76b') in 0.022403 seconds 
+  Import took 0.026045 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Crystal_Mine/Materials/MetalBarrier.mat
+  artifactKey: Guid(9a9c35d54bdc42849b1c184baee70f4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Materials/MetalBarrier.mat using Guid(9a9c35d54bdc42849b1c184baee70f4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c75d6c74b1576b302c110159983b5e41') in 0.021893 seconds 
+  Import took 0.025568 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Crystal_Mine/Materials/Box_Small.mat
+  artifactKey: Guid(14a2ef115cb3dc2469afb48e1fd69d13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Materials/Box_Small.mat using Guid(14a2ef115cb3dc2469afb48e1fd69d13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9085d1b1305e455cfbd91a172824aa4') in 0.101657 seconds 
+  Import took 0.105490 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Crystal_Mine/Materials/RockFormation.mat
+  artifactKey: Guid(62d7ff85d944b3a45b0b3e729b615bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Materials/RockFormation.mat using Guid(62d7ff85d944b3a45b0b3e729b615bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '118d9e65c1df6b4a47270b333193f954') in 0.016313 seconds 
+  Import took 0.020239 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Crystal_Mine/Materials/Fire.mat
+  artifactKey: Guid(06c8e84b1ae5c734b9ecea790e0fc0d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Materials/Fire.mat using Guid(06c8e84b1ae5c734b9ecea790e0fc0d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21b9314723584c4a0a8a9e4ed73dd49d') in 0.019916 seconds 
+  Import took 0.023585 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Crystal_Mine/Materials/Crystal Rock.mat
+  artifactKey: Guid(b25c312f34e64dc4fae118241af5b9fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Materials/Crystal Rock.mat using Guid(b25c312f34e64dc4fae118241af5b9fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20e481cbbf44b231393a691772d731c4') in 0.205360 seconds 
+  Import took 0.209021 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Crystal_Mine/Materials/Beams.mat
+  artifactKey: Guid(25e92036b8be0874a8ad30c16b0346f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Materials/Beams.mat using Guid(25e92036b8be0874a8ad30c16b0346f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b0d3cd2085c80d191c62990b430e439') in 0.011737 seconds 
+  Import took 0.015389 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Crystal_Mine/Materials/Box_Big.mat
+  artifactKey: Guid(56f6dc218dc99d847963258c367ab473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Materials/Box_Big.mat using Guid(56f6dc218dc99d847963258c367ab473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26cbc0dd3d54fff6c96048b21584a98a') in 0.013250 seconds 
+  Import took 0.016997 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Crystal_Mine/Materials/LaternMat.mat
+  artifactKey: Guid(9c51c6c560f47fc4c86c20055fd651c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Materials/LaternMat.mat using Guid(9c51c6c560f47fc4c86c20055fd651c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4546cf5f5d295c8409de986c9cb68db7') in 0.015310 seconds 
+  Import took 0.019003 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Crystal_Mine/Materials/Ceiling.mat
+  artifactKey: Guid(769215c890701594faedd488771c2a8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Materials/Ceiling.mat using Guid(769215c890701594faedd488771c2a8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2e2f825ea4ab154e7034667394e8171') in 0.017361 seconds 
+  Import took 0.021081 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Crystal_Mine/Models/LaternMisc.obj
+  artifactKey: Guid(58a7e9a731477064481218f3844b903a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Models/LaternMisc.obj using Guid(58a7e9a731477064481218f3844b903a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4655bef82f8ccfdf45d1c2fe19381488') in 0.027892 seconds 
+  Import took 0.031713 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Crystal_Mine/Models/Rock1LP.OBJ
+  artifactKey: Guid(d044ed3933e7afb4fae7ece47177a1fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Models/Rock1LP.OBJ using Guid(d044ed3933e7afb4fae7ece47177a1fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4372c790716f608f4183c82152777de3') in 0.020319 seconds 
+  Import took 0.024107 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Crystal_Mine/Models/Latern.obj
+  artifactKey: Guid(4e8a7fe3d168eac40907cd24041d152d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Models/Latern.obj using Guid(4e8a7fe3d168eac40907cd24041d152d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc2ca12fd85cea4defe2adaefed46920') in 0.020147 seconds 
+  Import took 0.023981 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Crystal_Mine/Models/WoodenWalllp.OBJ
+  artifactKey: Guid(2c2309614573a794fa57ae284eef30c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Models/WoodenWalllp.OBJ using Guid(2c2309614573a794fa57ae284eef30c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4f0a0142166197094462baff606c173') in 0.022989 seconds 
+  Import took 0.026797 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Crystal_Mine/Models/WoodenBeams 1.obj
+  artifactKey: Guid(29c94f67430db2749a8a4c226c22e31f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Models/WoodenBeams 1.obj using Guid(29c94f67430db2749a8a4c226c22e31f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e325f7232cbc9ab86403b64e18f9faaa') in 0.025360 seconds 
+  Import took 0.028977 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Crystal_Mine/Models/Wall2_Coll.obj
+  artifactKey: Guid(c70a4d7b13bb57b4c89df9c802b45af7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Models/Wall2_Coll.obj using Guid(c70a4d7b13bb57b4c89df9c802b45af7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aeed467823215cbcdddd06501fee4029') in 0.019012 seconds 
+  Import took 0.022724 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Crystal_Mine/Models/WoodBox_2.obj
+  artifactKey: Guid(1913198d9a64e48488443b278fdd92d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Models/WoodBox_2.obj using Guid(1913198d9a64e48488443b278fdd92d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b532998fa8d8b1c1bde024c2de003c3') in 0.022083 seconds 
+  Import took 0.025741 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Crystal_Mine/Materials/Latern.mat
+  artifactKey: Guid(838b78a7ace42fb4cafd2cd1ddb15429) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Materials/Latern.mat using Guid(838b78a7ace42fb4cafd2cd1ddb15429) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec97b4dff5731efa4261a29204ec5e7d') in 0.011716 seconds 
+  Import took 0.015474 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Crystal_Mine/Materials/Cart_Top.mat
+  artifactKey: Guid(072563f38601b244d8dff0244da8a332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Materials/Cart_Top.mat using Guid(072563f38601b244d8dff0244da8a332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7f6183ce08ca0bf81cfb5c2a969839a') in 0.012219 seconds 
+  Import took 0.015965 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Crystal_Mine/Materials/GlassMaterial.mat
+  artifactKey: Guid(1e80ef1b3308f2747876a71dd498cbce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Materials/GlassMaterial.mat using Guid(1e80ef1b3308f2747876a71dd498cbce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '236d7fdf81ee1c37917b8595c31a4d7b') in 0.010006 seconds 
+  Import took 0.013794 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Crystal_Mine/Materials/WoodenBarrier.mat
+  artifactKey: Guid(993b04202e339c348a09641abb202117) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Materials/WoodenBarrier.mat using Guid(993b04202e339c348a09641abb202117) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28404658b8bfd93600b9df3ad1d2a3e1') in 0.015397 seconds 
+  Import took 0.019114 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Crystal_Mine/Materials/RockWall.mat
+  artifactKey: Guid(9145cf53dfc69934fa3c4b44e5b03b51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Materials/RockWall.mat using Guid(9145cf53dfc69934fa3c4b44e5b03b51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c686b77894d3159d4c67df384510996') in 0.016626 seconds 
+  Import took 0.020427 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Crystal_Mine/Materials/PickAx.mat
+  artifactKey: Guid(60aec47d785dc2148bf89a49ab3c3d03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Materials/PickAx.mat using Guid(60aec47d785dc2148bf89a49ab3c3d03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d39573e0af62b99f40ee3a7f35ac9de') in 0.013773 seconds 
+  Import took 0.017626 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Crystal_Mine/Materials/Rail_Road.mat
+  artifactKey: Guid(75baccb9184c2dc4aa8394f403e0950e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Materials/Rail_Road.mat using Guid(75baccb9184c2dc4aa8394f403e0950e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d1a656e4e71c495d1851d9b98397be4') in 0.012123 seconds 
+  Import took 0.015893 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Crystal_Mine/Materials/LaternMiscMat.mat
+  artifactKey: Guid(26ad549fa70b88a4fbe2197a60d5ad45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Materials/LaternMiscMat.mat using Guid(26ad549fa70b88a4fbe2197a60d5ad45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd95d7b39aababaffe053d651960f19e8') in 0.014126 seconds 
+  Import took 0.017882 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Crystal_Mine/Materials/PickaxMetal_wire_086086086_AlbedoTransparency.mat
+  artifactKey: Guid(3b94e8520017a01418e54b74b934cf26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Materials/PickaxMetal_wire_086086086_AlbedoTransparency.mat using Guid(3b94e8520017a01418e54b74b934cf26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26ed36354ca6d0ee6b17d7528cf37d8f') in 0.013121 seconds 
+  Import took 0.016812 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Crystal_Mine/Materials/Cart_Bottom.mat
+  artifactKey: Guid(4f4884b082ddee148b31274bbbc5eaec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Materials/Cart_Bottom.mat using Guid(4f4884b082ddee148b31274bbbc5eaec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '093e847a922d1859b3f65a92f13d0b5b') in 0.013544 seconds 
+  Import took 0.017196 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Crystal_Mine/Materials/Crystal.mat
+  artifactKey: Guid(a00cdeb9e8dd5154c883f11673331a7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Materials/Crystal.mat using Guid(a00cdeb9e8dd5154c883f11673331a7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ec3734ea5d9c85b8bd45a58345dff59') in 0.010380 seconds 
+  Import took 0.014325 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/Crystal_Mine/Materials/Wall2.mat
+  artifactKey: Guid(a19f7bee3bcf37545af0d733fd0ca403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Materials/Wall2.mat using Guid(a19f7bee3bcf37545af0d733fd0ca403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03211db4068376555e464182acd84680') in 0.013898 seconds 
+  Import took 0.017654 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Crystal_Mine/Materials/RoundedWall.mat
+  artifactKey: Guid(2cebf4fdf0686cd44bdd373d6aa0c29d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Materials/RoundedWall.mat using Guid(2cebf4fdf0686cd44bdd373d6aa0c29d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20a00378e6f9b349c25f0157afa88e04') in 0.015281 seconds 
+  Import took 0.019025 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Crystal_Mine/Materials/Nails.mat
+  artifactKey: Guid(745b804ecebcb4d488617cafda623ee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Materials/Nails.mat using Guid(745b804ecebcb4d488617cafda623ee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04ff1b1103537a3899c8f98b7c10d470') in 0.009864 seconds 
+  Import took 0.013651 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Crystal_Mine/Models/woodenWall_2.obj
+  artifactKey: Guid(b3071b8a308cbe445b4949420e22bf97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Models/woodenWall_2.obj using Guid(b3071b8a308cbe445b4949420e22bf97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96f2f27183aa36605f5c223e58344e77') in 0.020658 seconds 
+  Import took 0.024694 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Crystal_Mine/Models/Wall2_LP.OBJ
+  artifactKey: Guid(f325258a1ada7e54db09518827882081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Models/Wall2_LP.OBJ using Guid(f325258a1ada7e54db09518827882081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edb6fc79c5f0ef45364d80721da1975d') in 0.019344 seconds 
+  Import took 0.023131 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Crystal_Mine/Materials/doublewall.mat
+  artifactKey: Guid(b56ddc7c8696f7341b6d80f31f47cacf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Materials/doublewall.mat using Guid(b56ddc7c8696f7341b6d80f31f47cacf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54e107a6522070197644e03711b796d9') in 0.012434 seconds 
+  Import took 0.016275 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Crystal_Mine/Materials/Floor.mat
+  artifactKey: Guid(9d47439176c33614b8854d1f791ccccb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Materials/Floor.mat using Guid(9d47439176c33614b8854d1f791ccccb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a39d4a27dd938714498a2c0dc7ab106') in 0.013555 seconds 
+  Import took 0.017236 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.988385 seconds.
+  path: Assets/Crystal_Mine/Models/Materials
+  artifactKey: Guid(f03d67aad15b8a44882b48b0ef8145b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Models/Materials using Guid(f03d67aad15b8a44882b48b0ef8145b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57bd710b0ee0231e0f19be4f67bf825f') in 0.004402 seconds 
+  Import took 0.008539 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.056080 seconds.
+  path: Assets/Crystal_Mine/Models/Materials/Box003Mat.mat
+  artifactKey: Guid(2ec0f544d2a242f47beb3e4e9c7be58f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Models/Materials/Box003Mat.mat using Guid(2ec0f544d2a242f47beb3e4e9c7be58f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23f5e0d3e0e897a7f00fcb86ace7ef83') in 0.009386 seconds 
+  Import took 0.013591 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Crystal_Mine/Models/Materials/CartMetalMat.mat
+  artifactKey: Guid(c89f1d647a378a74ca41ec5b733561ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Models/Materials/CartMetalMat.mat using Guid(c89f1d647a378a74ca41ec5b733561ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3627abeef5ef45f4b078973d954f3911') in 0.009739 seconds 
+  Import took 0.013850 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Crystal_Mine/Models/Materials/Cylinder001Mat.mat
+  artifactKey: Guid(5691ee9bc7d7fbc4d8245c4b6e4e74fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Models/Materials/Cylinder001Mat.mat using Guid(5691ee9bc7d7fbc4d8245c4b6e4e74fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52c1e855555a16fb795b1bfb9c8398fe') in 0.009358 seconds 
+  Import took 0.013393 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Crystal_Mine/Models/Materials/Rock1LPMat.mat
+  artifactKey: Guid(aa58136cd514162449329e5330dc14f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Models/Materials/Rock1LPMat.mat using Guid(aa58136cd514162449329e5330dc14f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c84bd59d93030a3f1a3eee137c76e043') in 0.009684 seconds 
+  Import took 0.013643 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Crystal_Mine/Models/Materials/Object001Mat.mat
+  artifactKey: Guid(4b3014398d2379a44a323873c89573c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Models/Materials/Object001Mat.mat using Guid(4b3014398d2379a44a323873c89573c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a36b8bdb7cebf4624aa85285c9dea72') in 0.011302 seconds 
+  Import took 0.015245 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Crystal_Mine/Models/Materials/Object007Mat.mat
+  artifactKey: Guid(dddeea2a320c1cf4aa88ce66b64c3a93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Models/Materials/Object007Mat.mat using Guid(dddeea2a320c1cf4aa88ce66b64c3a93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3871ba1c0fbdd7b29b8a0023e5df7e45') in 0.012192 seconds 
+  Import took 0.016103 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Crystal_Mine/Models/Materials/Group5552Mat.mat
+  artifactKey: Guid(be7ddcbba66cb414aa7025328cdc44a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Models/Materials/Group5552Mat.mat using Guid(be7ddcbba66cb414aa7025328cdc44a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3687ef48007b9114f3349500729c33be') in 0.009472 seconds 
+  Import took 0.013640 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Crystal_Mine/Models/Materials/Group63212Mat.mat
+  artifactKey: Guid(2149edb7bcf2e624ab077e696bde6809) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Models/Materials/Group63212Mat.mat using Guid(2149edb7bcf2e624ab077e696bde6809) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a793d04e5cdd69370a00910aa764e29c') in 0.010308 seconds 
+  Import took 0.014624 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Crystal_Mine/Models/Materials/Group63213Mat.mat
+  artifactKey: Guid(f3974413c6764a246a54cbd73a459b51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Models/Materials/Group63213Mat.mat using Guid(f3974413c6764a246a54cbd73a459b51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8727ac437add81c8cd7b167386023f8f') in 0.011227 seconds 
+  Import took 0.015275 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Crystal_Mine/Models/Materials/HeadMat.mat
+  artifactKey: Guid(18f03633dd35c164abdd041e154fcd10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Models/Materials/HeadMat.mat using Guid(18f03633dd35c164abdd041e154fcd10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70bff9f9a7d6787fe409627fa97c28a2') in 0.009215 seconds 
+  Import took 0.013144 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Crystal_Mine/Models/Materials/Group18462Mat.mat
+  artifactKey: Guid(0afadc66e49d7c248b7024c47aebe8a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Models/Materials/Group18462Mat.mat using Guid(0afadc66e49d7c248b7024c47aebe8a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cabdfd2d3586bf0dc24bddec487d967') in 0.009470 seconds 
+  Import took 0.013873 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Crystal_Mine/Models/Materials/Group18461Mat.mat
+  artifactKey: Guid(4c05c0a5c5e6b0c48a80df937fb6d925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Models/Materials/Group18461Mat.mat using Guid(4c05c0a5c5e6b0c48a80df937fb6d925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '348aa6a46c252df27b394e1f3bbaf54f') in 0.009520 seconds 
+  Import took 0.014055 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Crystal_Mine/Models/Materials/Group5392Mat.mat
+  artifactKey: Guid(96293cfdbf8c2ac4094a30d253837831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Models/Materials/Group5392Mat.mat using Guid(96293cfdbf8c2ac4094a30d253837831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00613b4ea9098e257d8d42e0a7ab9ade') in 0.009466 seconds 
+  Import took 0.013835 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Crystal_Mine/Models/Materials/Latern002Mat.mat
+  artifactKey: Guid(a2fd6d8fcafa2b6439e8da000abf8a13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Models/Materials/Latern002Mat.mat using Guid(a2fd6d8fcafa2b6439e8da000abf8a13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '353a47ee5dfc67822d10da05bf386408') in 0.014045 seconds 
+  Import took 0.018113 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Crystal_Mine/Models/Materials/Group38071Mat.mat
+  artifactKey: Guid(09c1c6cef6ff6ba4b98c3bb3cd3287c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Models/Materials/Group38071Mat.mat using Guid(09c1c6cef6ff6ba4b98c3bb3cd3287c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dae2dcc92aa13a7d7a9047c739d6a36') in 0.010746 seconds 
+  Import took 0.014487 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Crystal_Mine/Models/Materials/FireMat.mat
+  artifactKey: Guid(c95062de66eeb274db9c972d117058ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Models/Materials/FireMat.mat using Guid(c95062de66eeb274db9c972d117058ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dc3ebc092e5262de5225675e133a543') in 0.012958 seconds 
+  Import took 0.016655 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Crystal_Mine/Models/Materials/Group38072Mat.mat
+  artifactKey: Guid(bfa4b468fc25b7e4db1ddff5b64c4c98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Models/Materials/Group38072Mat.mat using Guid(bfa4b468fc25b7e4db1ddff5b64c4c98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8c4decb4784d717a834042eaf8bd9d8') in 0.012797 seconds 
+  Import took 0.016568 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Crystal_Mine/Models/Materials/PickaxMat.mat
+  artifactKey: Guid(08c1f5fe36df79248a7ba07db8483cef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Models/Materials/PickaxMat.mat using Guid(08c1f5fe36df79248a7ba07db8483cef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97bf300a93eb49de2a5e5ddb2b0f1c35') in 0.012318 seconds 
+  Import took 0.016056 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Crystal_Mine/Models/Materials/Group63214Mat.mat
+  artifactKey: Guid(264d65f34afeb31458069dab8e1320b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Models/Materials/Group63214Mat.mat using Guid(264d65f34afeb31458069dab8e1320b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80739c509b0e6481aa6b56857ddb4a72') in 0.011977 seconds 
+  Import took 0.015813 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Crystal_Mine/Models/Materials/Group18803Mat.mat
+  artifactKey: Guid(c27892d61fe05d04888fe17e2aa35970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Models/Materials/Group18803Mat.mat using Guid(c27892d61fe05d04888fe17e2aa35970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c523db67cf4dddd61c31acacbe2f8fe') in 0.012238 seconds 
+  Import took 0.016305 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Crystal_Mine/Models/Materials/Group63211Mat.mat
+  artifactKey: Guid(c79666e3412fbe54fa28012b87b84038) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Models/Materials/Group63211Mat.mat using Guid(c79666e3412fbe54fa28012b87b84038) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dca6f1cfadee5b0198b39e87051c33cc') in 0.009590 seconds 
+  Import took 0.013390 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Crystal_Mine/Models/Materials/Box008Mat.mat
+  artifactKey: Guid(96b050ee33d99ed498dcbf29732513d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Models/Materials/Box008Mat.mat using Guid(96b050ee33d99ed498dcbf29732513d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b614a17f3682520a3432664f65b921b5') in 0.010716 seconds 
+  Import took 0.014667 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Crystal_Mine/Models/Materials/ceilingloMat.mat
+  artifactKey: Guid(69efc9203baa539439e388126fe87534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Models/Materials/ceilingloMat.mat using Guid(69efc9203baa539439e388126fe87534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '991103cea8c74b33a0305115da16f092') in 0.009755 seconds 
+  Import took 0.013572 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Crystal_Mine/Models/Materials/Object008Mat.mat
+  artifactKey: Guid(4ec2fd28888918445898cabf182542b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Models/Materials/Object008Mat.mat using Guid(4ec2fd28888918445898cabf182542b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80e07e0d6e97cc1eaa4c48cc89a084c6') in 0.009685 seconds 
+  Import took 0.013699 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Crystal_Mine/Models/Materials/Box005Mat.mat
+  artifactKey: Guid(e363f9d6c56cc3c42af167dee360b6b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Models/Materials/Box005Mat.mat using Guid(e363f9d6c56cc3c42af167dee360b6b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21dcba47558d5fbb73884b7e1121fa31') in 0.009837 seconds 
+  Import took 0.013792 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Crystal_Mine/Models/Materials/Group21462Mat.mat
+  artifactKey: Guid(6dd244b4b64d5cd44abac67417f9edbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Models/Materials/Group21462Mat.mat using Guid(6dd244b4b64d5cd44abac67417f9edbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a5c9d3dc570bfb142ff9f112be7e9d9') in 0.009767 seconds 
+  Import took 0.013893 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Crystal_Mine/Models/Materials/zMat.mat
+  artifactKey: Guid(641139ba1e341bd43818d9db7f80506d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Models/Materials/zMat.mat using Guid(641139ba1e341bd43818d9db7f80506d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1f34570ca6ffa840eda7e0392125e07') in 0.014740 seconds 
+  Import took 0.018534 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.534768 seconds.
+  path: Assets/Crystal_Mine/Prefabs/Ceiling.prefab
+  artifactKey: Guid(f95ea3f4f5c3378459f5f4c7110f5805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Prefabs/Ceiling.prefab using Guid(f95ea3f4f5c3378459f5f4c7110f5805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c83912d5e98d35ffb904f231f9a9fdd6') in 0.012580 seconds 
+  Import took 0.016706 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Crystal_Mine/Prefabs/WoodBox_Large.prefab
+  artifactKey: Guid(1c33964a412b8934e9fa1b662b54c78c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Prefabs/WoodBox_Large.prefab using Guid(1c33964a412b8934e9fa1b662b54c78c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af55defe721ef0484c6bc186a104de31') in 0.012783 seconds 
+  Import took 0.016585 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Crystal_Mine/Prefabs/WoodenBox_Small.prefab
+  artifactKey: Guid(5a218251e7d6a604c91ee9fcbf855ed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Prefabs/WoodenBox_Small.prefab using Guid(5a218251e7d6a604c91ee9fcbf855ed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ba15bb95cc115dc03600a385f924013') in 0.013203 seconds 
+  Import took 0.017395 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Crystal_Mine/Prefabs/WoodenBeams.prefab
+  artifactKey: Guid(8985ba593c9e50b4984f406f3e24b061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Prefabs/WoodenBeams.prefab using Guid(8985ba593c9e50b4984f406f3e24b061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12676503519d5f80dcf059f1efbb81a6') in 0.015440 seconds 
+  Import took 0.019299 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Crystal_Mine/Prefabs/WoodenWall.prefab
+  artifactKey: Guid(0332f975d38b4984bb3aaee3af5085ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Prefabs/WoodenWall.prefab using Guid(0332f975d38b4984bb3aaee3af5085ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fa548e1041a5f635ceb2cc719c90f53') in 0.015450 seconds 
+  Import took 0.019191 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Crystal_Mine/Prefabs/Wall.prefab
+  artifactKey: Guid(274eda99c510a1f44a1db8802f60a5bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Prefabs/Wall.prefab using Guid(274eda99c510a1f44a1db8802f60a5bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcdc07abfc83413cdfa2928ab0a6207e') in 0.018498 seconds 
+  Import took 0.022256 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/Crystal_Mine/Prefabs/WoodenWall_Long.prefab
+  artifactKey: Guid(99e74361ca7e9a34da345c7e41827e06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Prefabs/WoodenWall_Long.prefab using Guid(99e74361ca7e9a34da345c7e41827e06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dd98336a03ba7c5637c9798fb349dd7') in 0.017661 seconds 
+  Import took 0.021596 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Crystal_Mine/Prefabs/Wall 2x1.prefab
+  artifactKey: Guid(d3fdda8eed586cb4b84582ea5c7cf12b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Prefabs/Wall 2x1.prefab using Guid(d3fdda8eed586cb4b84582ea5c7cf12b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47a03b495cda355083e4ec635f11978a') in 0.015032 seconds 
+  Import took 0.018814 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Crystal_Mine/Prefabs/Crystal.prefab
+  artifactKey: Guid(36d1fedae9f36dc4e95fc4f8ca4e9ac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Prefabs/Crystal.prefab using Guid(36d1fedae9f36dc4e95fc4f8ca4e9ac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6cc1eaf51f4b83fe541d9ca9450588d') in 0.009966 seconds 
+  Import took 0.013683 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Crystal_Mine/Prefabs/PickAx.prefab
+  artifactKey: Guid(988fc5747321c5e4d9f0acff90043f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Prefabs/PickAx.prefab using Guid(988fc5747321c5e4d9f0acff90043f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbbf2108055ab4bc2fc44118385bd405') in 0.011900 seconds 
+  Import took 0.015967 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Crystal_Mine/Prefabs/MetalBarrier.prefab
+  artifactKey: Guid(e86184aeba7b66f4b85a3d56052c0b23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Prefabs/MetalBarrier.prefab using Guid(e86184aeba7b66f4b85a3d56052c0b23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a2394d90cb5a7c268b08ab1b53e43f0') in 0.014643 seconds 
+  Import took 0.018357 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Crystal_Mine/Prefabs/Floor.prefab
+  artifactKey: Guid(8e2a80e35db1ddd4090f8cc5ca764511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Prefabs/Floor.prefab using Guid(8e2a80e35db1ddd4090f8cc5ca764511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '883f51faf1bc9274f33cb84d26e1c090') in 0.013258 seconds 
+  Import took 0.017002 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Crystal_Mine/Prefabs/Traintrack_Spline.prefab
+  artifactKey: Guid(a97dc03b443fbf347845257b1f03b14f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Prefabs/Traintrack_Spline.prefab using Guid(a97dc03b443fbf347845257b1f03b14f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ef977f7ffdd6aa119d315262abde0dc') in 0.008266 seconds 
+  Import took 0.012043 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Crystal_Mine/Prefabs/Wall_Corner.prefab
+  artifactKey: Guid(d0c912cf2ddddbc4483afce747d3db90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Prefabs/Wall_Corner.prefab using Guid(d0c912cf2ddddbc4483afce747d3db90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd867365e2c73a1003708e76348589428') in 0.014392 seconds 
+  Import took 0.018317 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Crystal_Mine/Prefabs/CrystalCluster.prefab
+  artifactKey: Guid(45775b024fd64674bab6655bde5115ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Prefabs/CrystalCluster.prefab using Guid(45775b024fd64674bab6655bde5115ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cf62a4d5bb0176b8c846c5d3ffee22e') in 0.013976 seconds 
+  Import took 0.017804 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Crystal_Mine/Prefabs/Latern.prefab
+  artifactKey: Guid(cd6ccd0946bd7e74c84b8e50127efaf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Prefabs/Latern.prefab using Guid(cd6ccd0946bd7e74c84b8e50127efaf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '286e046ae4eff50ba5988b0ff447676f') in 0.028266 seconds 
+  Import took 0.032097 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Crystal_Mine/Prefabs/Rocks.prefab
+  artifactKey: Guid(855cc5ef16abedc4cb4c6c5328cb71d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Prefabs/Rocks.prefab using Guid(855cc5ef16abedc4cb4c6c5328cb71d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '389f8b32bfc1dc34e37d30d9ab5d4c02') in 0.013518 seconds 
+  Import took 0.017440 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Crystal_Mine/Prefabs/MineCart.prefab
+  artifactKey: Guid(dbaf3d66d9a70974b8e02d4a9db045f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Prefabs/MineCart.prefab using Guid(dbaf3d66d9a70974b8e02d4a9db045f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54bd1910d2364c3a26e0cae0f866f558') in 0.012988 seconds 
+  Import took 0.016928 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 245.920847 seconds.
+  path: Assets/Scenes/Level.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb53fc968e31ddc5c87d07cbef1836fc') in 0.005687 seconds 
+  Import took 0.010741 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.469923 seconds.
+  path: Assets/Scenes/Map.unity
+  artifactKey: Guid(075a1ae7d891eed46b99e54f01d2ba30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Map.unity using Guid(075a1ae7d891eed46b99e54f01d2ba30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f5434323583c4be8fa5e6c3ee0e27fe') in 0.005506 seconds 
+  Import took 0.009630 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 98.044213 seconds.
+  path: Assets/Scenes/Mine.unity
+  artifactKey: Guid(352a48b2d902b164bb815496b3038378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Mine.unity using Guid(352a48b2d902b164bb815496b3038378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aef7d81ca1593291b846c4c9ba6258be') in 0.002181 seconds 
+  Import took 0.006682 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 158.713594 seconds.
+  path: Assets/Crystal_Mine/Prefabs
+  artifactKey: Guid(ac9461d480631e643a087c5b67e4295f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Prefabs using Guid(ac9461d480631e643a087c5b67e4295f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afd3ed6be9cd9f36133e9d3a4ce02d63') in 0.005573 seconds 
+  Import took 0.009857 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.342305 seconds.
+  path: Assets/Crystal_Mine/Spline_Tool
+  artifactKey: Guid(53cc86a7ba38d4ad3a68d3b8f4e0574b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Spline_Tool using Guid(53cc86a7ba38d4ad3a68d3b8f4e0574b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4d34366356e0dd65b5ccbd6451286ad') in 0.005576 seconds 
+  Import took 0.009650 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.199432 seconds.
+  path: Assets/Crystal_Mine/Spline_Tool/MeshTrail - path.prefab
+  artifactKey: Guid(618bfaf13f26528478a752ca9a629c71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Spline_Tool/MeshTrail - path.prefab using Guid(618bfaf13f26528478a752ca9a629c71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3878669a572c4b74819fbb983b3fa43') in 0.007209 seconds 
+  Import took 0.013969 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Crystal_Mine/Spline_Tool/TrainTrack_segment_small 1.obj
+  artifactKey: Guid(05875b52d326aab479ca17b221755528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Spline_Tool/TrainTrack_segment_small 1.obj using Guid(05875b52d326aab479ca17b221755528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f438070dd48289fc863364abcfe75b39') in 0.021805 seconds 
+  Import took 0.025618 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.432766 seconds.
+  path: Assets/Crystal_Mine/Textures/Barrier_heights.bmp
+  artifactKey: Guid(fb9969f8d05be7e48a6f92a350361480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Textures/Barrier_heights.bmp using Guid(fb9969f8d05be7e48a6f92a350361480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '182e574b04a8a77fc41c19eca65bfbf2') in 0.011831 seconds 
+  Import took 0.016081 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Crystal_Mine/Textures/Ceiling_occlusion.bmp
+  artifactKey: Guid(c838f43161a5f2e4ab02fe11c4d2fe47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Textures/Ceiling_occlusion.bmp using Guid(c838f43161a5f2e4ab02fe11c4d2fe47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71f5cca8c8216dd14b56a0cb98446ea4') in 0.013656 seconds 
+  Import took 0.017352 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Crystal_Mine/Textures/Ceiling_heights.bmp
+  artifactKey: Guid(b7ac26fc29fae6a428c8f79d9b958172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Textures/Ceiling_heights.bmp using Guid(b7ac26fc29fae6a428c8f79d9b958172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de0ec6b0fff3d7c0ee4e572d5ba68d15') in 0.011925 seconds 
+  Import took 0.015665 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Crystal_Mine/Textures/doubleWall_lp_defaultMat_MetallicSmoothness.png
+  artifactKey: Guid(4b5309ee6cd7e124ca20567c84fd715e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Textures/doubleWall_lp_defaultMat_MetallicSmoothness.png using Guid(4b5309ee6cd7e124ca20567c84fd715e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aed916418a6588558c511d1fc5399203') in 0.010410 seconds 
+  Import took 0.014381 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Crystal_Mine/Textures/PickAx_normals.bmp
+  artifactKey: Guid(40618dc0ff10c90489b342b701288c5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Textures/PickAx_normals.bmp using Guid(40618dc0ff10c90489b342b701288c5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c17eba1ff2d72279b3f3e76441a21747') in 0.011643 seconds 
+  Import took 0.015447 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Crystal_Mine/Textures/MetalBarrierlp_wire_177148027_MetallicSmoothness.png
+  artifactKey: Guid(29c2e63d5791dbf46a38741c9c20baca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Textures/MetalBarrierlp_wire_177148027_MetallicSmoothness.png using Guid(29c2e63d5791dbf46a38741c9c20baca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b723ea1bd4ec1baa6155b6ea7023ba29') in 0.010194 seconds 
+  Import took 0.014046 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Crystal_Mine/Textures/MineCartBottem_wire_086086086_MetallicSmoothness.png
+  artifactKey: Guid(b680e43d7e21efb4fbb4d29d76efa770) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Textures/MineCartBottem_wire_086086086_MetallicSmoothness.png using Guid(b680e43d7e21efb4fbb4d29d76efa770) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9958a5b14f05f59238a0adfd32635e0d') in 0.010186 seconds 
+  Import took 0.014197 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Crystal_Mine/Textures/TrainTrack_segment_small 1__TrainTrack_segment_small_1default_AlbedoTransparency.png
+  artifactKey: Guid(4db34ba121870494eabc33e0debd3f67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Textures/TrainTrack_segment_small 1__TrainTrack_segment_small_1default_AlbedoTransparency.png using Guid(4db34ba121870494eabc33e0debd3f67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1df7cd840ec4a0befd62b5ace5952940') in 0.010784 seconds 
+  Import took 0.014594 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Crystal_Mine/Textures/LaternMisc__metal2defaultMat_AlbedoTransparency.png
+  artifactKey: Guid(f78b94f8d65e66244b7b6afbb2d46e49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Textures/LaternMisc__metal2defaultMat_AlbedoTransparency.png using Guid(f78b94f8d65e66244b7b6afbb2d46e49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6aaf841f2060d7797bff59b2297c3dfd') in 0.010516 seconds 
+  Import took 0.014297 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Crystal_Mine/Textures/Rock1LP_default_AlbedoTransparency.png
+  artifactKey: Guid(565f2249ed78ea94a9de51993821db90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Textures/Rock1LP_default_AlbedoTransparency.png using Guid(565f2249ed78ea94a9de51993821db90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '341e4293f87c60eb01cb0e64e1b8a10b') in 0.013115 seconds 
+  Import took 0.016945 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Crystal_Mine/Textures/Floor_normals.bmp
+  artifactKey: Guid(aec87a157316d894688297b241c95942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Textures/Floor_normals.bmp using Guid(aec87a157316d894688297b241c95942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ba05713869f5d467d9b227c536e0368') in 0.011911 seconds 
+  Import took 0.015635 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/Crystal_Mine/Textures/MetalBarrierlp_wire_177148027_AlbedoTransparency 1.png
+  artifactKey: Guid(89295956a58b3564080a42b8a89f7e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Textures/MetalBarrierlp_wire_177148027_AlbedoTransparency 1.png using Guid(89295956a58b3564080a42b8a89f7e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a712f6cbac214b2929d9518236caac0e') in 0.016300 seconds 
+  Import took 0.020159 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Crystal_Mine/Textures/CrystalRock_normals.bmp
+  artifactKey: Guid(a4fb854a914a3e44fb3a72138c9d0b11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Textures/CrystalRock_normals.bmp using Guid(a4fb854a914a3e44fb3a72138c9d0b11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '189a3e9cdced07f0882a60991204b397') in 0.011037 seconds 
+  Import took 0.014811 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Crystal_Mine/Textures/Minecart_Top_wire_086086086_MetallicSmoothness.png
+  artifactKey: Guid(e593fa0404395394293a73fa1028065a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Textures/Minecart_Top_wire_086086086_MetallicSmoothness.png using Guid(e593fa0404395394293a73fa1028065a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7b73f8a0421986f72df0afeb80a97d8') in 0.009769 seconds 
+  Import took 0.013765 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Crystal_Mine/Textures/Floor_heights.bmp
+  artifactKey: Guid(eca0946a833b17c4da27296ec94fad97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Textures/Floor_heights.bmp using Guid(eca0946a833b17c4da27296ec94fad97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdfeb06c821ee3f122b9d1888e004340') in 0.015141 seconds 
+  Import took 0.019055 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Crystal_Mine/Textures/Minecart_Top_wire_086086086_AlbedoTransparency.png
+  artifactKey: Guid(a29ebd269e7516249813c8ba0a3b6a37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Textures/Minecart_Top_wire_086086086_AlbedoTransparency.png using Guid(a29ebd269e7516249813c8ba0a3b6a37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3509fcea665cda1b0d4a2953a928a183') in 0.009351 seconds 
+  Import took 0.013102 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/Crystal_Mine/Textures/Rock1_normals.bmp
+  artifactKey: Guid(26c59452144a1e741b9d6622b1dbb050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Textures/Rock1_normals.bmp using Guid(26c59452144a1e741b9d6622b1dbb050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae98a993f45b3359b20ad12015e4335a') in 0.012676 seconds 
+  Import took 0.016654 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Crystal_Mine/Textures/PickaxMetal_wire_086086086_AlbedoTransparency.png
+  artifactKey: Guid(028a4fbe8fc914e4f8fd88fd9b0aab74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Textures/PickaxMetal_wire_086086086_AlbedoTransparency.png using Guid(028a4fbe8fc914e4f8fd88fd9b0aab74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7a012e3b6c3dccf7648fa690f04c180') in 0.008402 seconds 
+  Import took 0.012325 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Crystal_Mine/Textures/CrystalRock_occlusion.bmp
+  artifactKey: Guid(c81b684cab8f1104288be843212334c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Textures/CrystalRock_occlusion.bmp using Guid(c81b684cab8f1104288be843212334c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '643b276f982c9c0a98bfafb4fe1c3fd9') in 0.011698 seconds 
+  Import took 0.015697 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Crystal_Mine/Textures/ceilinglp_default_AlbedoTransparency.png
+  artifactKey: Guid(6c88b673e2fc50f4bad9a51d9cebc12e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Textures/ceilinglp_default_AlbedoTransparency.png using Guid(6c88b673e2fc50f4bad9a51d9cebc12e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b2eaf20eaa1ded0b6f63bd922156f57') in 0.010064 seconds 
+  Import took 0.013821 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Crystal_Mine/Textures/LaternLP__metal2defaultMat_Normal.png
+  artifactKey: Guid(938f562c91815084bb86c1d324b4a680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Textures/LaternLP__metal2defaultMat_Normal.png using Guid(938f562c91815084bb86c1d324b4a680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e41d288f2a606a4f2356f1d812bd00b') in 0.009733 seconds 
+  Import took 0.013748 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Crystal_Mine/Textures/PickAx_occlusion.bmp
+  artifactKey: Guid(296f13363a55a6d47b1f769be49303ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Textures/PickAx_occlusion.bmp using Guid(296f13363a55a6d47b1f769be49303ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f58df350a73f0462ed82d35f7aabe678') in 0.011297 seconds 
+  Import took 0.015168 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Crystal_Mine/Textures/CrystalRock_heights.bmp
+  artifactKey: Guid(5728475ae743e1e42921d10a5694f54a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Textures/CrystalRock_heights.bmp using Guid(5728475ae743e1e42921d10a5694f54a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bda0f02b456c107ba6496e3f9106f19') in 0.011625 seconds 
+  Import took 0.015631 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Crystal_Mine/Textures/floorlp_default_AlbedoTransparency.png
+  artifactKey: Guid(572630a8bba99d94eb31c4331e961efe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Textures/floorlp_default_AlbedoTransparency.png using Guid(572630a8bba99d94eb31c4331e961efe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b5a9acd6b3454a7b89d0de7b072b938') in 0.010080 seconds 
+  Import took 0.014532 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Crystal_Mine/Textures/Rock1_occlusion.bmp
+  artifactKey: Guid(08c40b6b8ee785a4eabeba45e8961541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Textures/Rock1_occlusion.bmp using Guid(08c40b6b8ee785a4eabeba45e8961541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aec3c651cc3fc486c16e01906bcee37f') in 0.012073 seconds 
+  Import took 0.015974 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Crystal_Mine/Textures/LaternLP__metal2defaultMat_AlbedoTransparency.png
+  artifactKey: Guid(8e59ba9359a0c6e4a81fc020b5050be6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Textures/LaternLP__metal2defaultMat_AlbedoTransparency.png using Guid(8e59ba9359a0c6e4a81fc020b5050be6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '601c4874057ab0c6b7386a7d8d4a2001') in 0.011137 seconds 
+  Import took 0.015111 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Crystal_Mine/Textures/Latern_heights.bmp
+  artifactKey: Guid(b732e8f6fb6821f4781e2f816643d316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Textures/Latern_heights.bmp using Guid(b732e8f6fb6821f4781e2f816643d316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97d45e9740b934564ee53af3780627b0') in 0.012516 seconds 
+  Import took 0.016467 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Crystal_Mine/Textures/PickaxHandle_wire_086086086_AlbedoTransparency.png
+  artifactKey: Guid(062849224c61ddb43a6f57a56208a18f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Textures/PickaxHandle_wire_086086086_AlbedoTransparency.png using Guid(062849224c61ddb43a6f57a56208a18f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bde93a6309e8d8f247fa622338c8183') in 0.009131 seconds 
+  Import took 0.013058 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Crystal_Mine/Textures/PickAx_heights.bmp
+  artifactKey: Guid(0d53a70701229f740a1aaf011f503de3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Textures/PickAx_heights.bmp using Guid(0d53a70701229f740a1aaf011f503de3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccc6e05c589185805b1956beef7ab0f3') in 0.008890 seconds 
+  Import took 0.012659 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Crystal_Mine/Textures/LaternMisc__metal2defaultMat_Normal.png
+  artifactKey: Guid(4c8830686ed506740b4658c7aa3081b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Textures/LaternMisc__metal2defaultMat_Normal.png using Guid(4c8830686ed506740b4658c7aa3081b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cafd7fad192714e0dcfe3a186b543ff5') in 0.009546 seconds 
+  Import took 0.013595 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Crystal_Mine/Textures/LaternLP__metal2defaultMat_MetallicSmoothness.png
+  artifactKey: Guid(199bf74f62c535244b97ef3ff2ec28fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Textures/LaternLP__metal2defaultMat_MetallicSmoothness.png using Guid(199bf74f62c535244b97ef3ff2ec28fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e3a5938a5e5902b697efb371800d532') in 0.010364 seconds 
+  Import took 0.014533 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Crystal_Mine/Textures/DoubleWall_heights.bmp
+  artifactKey: Guid(9f8f674f2628bfa4db4bdf8f0531afd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Textures/DoubleWall_heights.bmp using Guid(9f8f674f2628bfa4db4bdf8f0531afd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '323ddab55670c5f33dcb0592f49802b6') in 0.009931 seconds 
+  Import took 0.013972 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Crystal_Mine/Textures/MineCartBottem_wire_086086086_Normal.png
+  artifactKey: Guid(f4f4335eaef769842a450b74e10098b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Textures/MineCartBottem_wire_086086086_Normal.png using Guid(f4f4335eaef769842a450b74e10098b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '389369d221cb3110672f3578de850fee') in 0.009230 seconds 
+  Import took 0.013008 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Crystal_Mine/Textures/Minecart_Top_wire_086086086_Normal.png
+  artifactKey: Guid(29f46ab5ce8fa514d8014cd1550c3871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Textures/Minecart_Top_wire_086086086_Normal.png using Guid(29f46ab5ce8fa514d8014cd1550c3871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '830dd44d0587cb91be8c4a53a4e62a13') in 0.011697 seconds 
+  Import took 0.015449 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Crystal_Mine/Textures/MineWall_heights.bmp
+  artifactKey: Guid(81102033b411c0e41bdfad646577afa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Textures/MineWall_heights.bmp using Guid(81102033b411c0e41bdfad646577afa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd851344006287ec4e2b5e67efe11104b') in 0.012498 seconds 
+  Import took 0.016474 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Crystal_Mine/Textures/Rock1LP_default_MetallicSmoothness.png
+  artifactKey: Guid(3bfebdbf25a74a543bf0efb3354c4481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Textures/Rock1LP_default_MetallicSmoothness.png using Guid(3bfebdbf25a74a543bf0efb3354c4481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6826b4d00d149ab60f0d583af8b72f5e') in 0.009782 seconds 
+  Import took 0.013897 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Crystal_Mine/Textures/MetalBarrierlp_wire_177148027_Normal.png
+  artifactKey: Guid(99282c6331a37ef4981f47eaa5dcc571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Textures/MetalBarrierlp_wire_177148027_Normal.png using Guid(99282c6331a37ef4981f47eaa5dcc571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be96597b80c2099aa8269319b5d301dd') in 0.010372 seconds 
+  Import took 0.014416 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/Crystal_Mine/Textures/Barrier_occlusion.bmp
+  artifactKey: Guid(3f3e8133ce05e9b42b8de13ed204b57a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Textures/Barrier_occlusion.bmp using Guid(3f3e8133ce05e9b42b8de13ed204b57a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3d849391812ad7fc9b17c22e48e0f03') in 0.010233 seconds 
+  Import took 0.013937 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Crystal_Mine/Textures/Rock1_heights.bmp
+  artifactKey: Guid(d13a11fef63afeb4d964301ce5250ca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Textures/Rock1_heights.bmp using Guid(d13a11fef63afeb4d964301ce5250ca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc00597e30351a007ed55b66ceb59ab4') in 0.010331 seconds 
+  Import took 0.014195 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Crystal_Mine/Textures/MineCartBottem_wire_086086086_AlbedoTransparency.png
+  artifactKey: Guid(da61cd1a1d813d143a2c5556f9380d3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Textures/MineCartBottem_wire_086086086_AlbedoTransparency.png using Guid(da61cd1a1d813d143a2c5556f9380d3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40e30a20b2c397d69f7a2551f8b42914') in 0.009172 seconds 
+  Import took 0.013002 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Crystal_Mine/Textures/MineWall_occlusion.bmp
+  artifactKey: Guid(17cfe329315ef6c4eabfaec0045bdc0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Textures/MineWall_occlusion.bmp using Guid(17cfe329315ef6c4eabfaec0045bdc0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fa473f79ac652ed38d5b121eb88894b') in 0.011539 seconds 
+  Import took 0.015581 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Crystal_Mine/Textures/Ceiling_normals.bmp
+  artifactKey: Guid(d245ad6cdfef3f74880a47aa74759c7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Textures/Ceiling_normals.bmp using Guid(d245ad6cdfef3f74880a47aa74759c7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e7c8a5ab9f7a56e4f2c228e79cc6b8a') in 0.009917 seconds 
+  Import took 0.013676 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Crystal_Mine/Textures/doubleWall_lp_defaultMat_Normal.png
+  artifactKey: Guid(ca4d142daf26e4049b7c67af9cf832ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Textures/doubleWall_lp_defaultMat_Normal.png using Guid(ca4d142daf26e4049b7c67af9cf832ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bcfed1743b5bc05d9dcc12b30711057') in 0.011993 seconds 
+  Import took 0.016066 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Crystal_Mine/Textures/MineWall_normals.bmp
+  artifactKey: Guid(39e98214d221794479f5aaf8cfae4385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Textures/MineWall_normals.bmp using Guid(39e98214d221794479f5aaf8cfae4385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0141ba07816b5645fef9adc6c5a8e0b6') in 0.011238 seconds 
+  Import took 0.014857 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Crystal_Mine/Textures/LaternMisc__metal2defaultMat_MetallicSmoothness.png
+  artifactKey: Guid(e26bbad7e9c17984a8b1bf66b5c94d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Textures/LaternMisc__metal2defaultMat_MetallicSmoothness.png using Guid(e26bbad7e9c17984a8b1bf66b5c94d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a6a60ed04f93232a27e6fba36ad749c') in 0.008888 seconds 
+  Import took 0.012647 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Crystal_Mine/Textures/Latern_occlusion.bmp
+  artifactKey: Guid(fe7be47f23a563b43a3928605c83c9e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Textures/Latern_occlusion.bmp using Guid(fe7be47f23a563b43a3928605c83c9e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f23b5b831290a245f9b9af86a8f8a17a') in 0.010406 seconds 
+  Import took 0.014354 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/Crystal_Mine/Textures/DoubleWall_occlusion.bmp
+  artifactKey: Guid(188fe2ff16635294794e045e939489ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Textures/DoubleWall_occlusion.bmp using Guid(188fe2ff16635294794e045e939489ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80d4e387d3db4ccae33affb84f696a19') in 0.011696 seconds 
+  Import took 0.015343 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Crystal_Mine/Textures/Floor_occlusion.bmp
+  artifactKey: Guid(74eab29825906f04fafca1ae7ac85e26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Textures/Floor_occlusion.bmp using Guid(74eab29825906f04fafca1ae7ac85e26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5737c50acf5a93f506652389bb85e1f8') in 0.009651 seconds 
+  Import took 0.013346 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Crystal_Mine/Textures/doubleWall_lp_defaultMat_AlbedoTransparency.png
+  artifactKey: Guid(b5b5bbf2bed24dd44a42f853adb404b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Textures/doubleWall_lp_defaultMat_AlbedoTransparency.png using Guid(b5b5bbf2bed24dd44a42f853adb404b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '241ce4f54a63c0fbd10316614e160349') in 0.009156 seconds 
+  Import took 0.012960 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.332880 seconds.
+  path: Assets/Crystal_Mine/Textures/TrainTrack_segment_small 1__TrainTrack_segment_small_1default_MetallicSmoothness.png
+  artifactKey: Guid(7a17af86e01966f4aa86c0640ebb0442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Textures/TrainTrack_segment_small 1__TrainTrack_segment_small_1default_MetallicSmoothness.png using Guid(7a17af86e01966f4aa86c0640ebb0442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c46a7a32c8c12f52d767a65414e2f6a') in 0.013425 seconds 
+  Import took 0.021989 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Crystal_Mine/Textures/Wall_2_occlusion.bmp
+  artifactKey: Guid(0a23c06561c045141b20d5450707b3e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Textures/Wall_2_occlusion.bmp using Guid(0a23c06561c045141b20d5450707b3e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd82f9bfd82612c6aa08bf849a0f80af5') in 0.020057 seconds 
+  Import took 0.023664 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Crystal_Mine/Textures/Wall_2_heights.bmp
+  artifactKey: Guid(dbfde42c7a1ab5844900d2e918020a0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Textures/Wall_2_heights.bmp using Guid(dbfde42c7a1ab5844900d2e918020a0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '843ff329a1c3f68d107172dd41299158') in 0.011060 seconds 
+  Import took 0.014788 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Crystal_Mine/Textures/WoodBox_2_wire_028089177_AlbedoTransparency.png
+  artifactKey: Guid(da4e7dbd33a3c804c999c97d058c8f05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Textures/WoodBox_2_wire_028089177_AlbedoTransparency.png using Guid(da4e7dbd33a3c804c999c97d058c8f05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9656e02a6bf587bb0b021d825df931f6') in 0.009501 seconds 
+  Import took 0.013373 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Crystal_Mine/Textures/TrainTrack_segment_small 1__TrainTrack_segment_small_1default_Normal.png
+  artifactKey: Guid(7be2421c60c33a0499ca60f98b9c891b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Textures/TrainTrack_segment_small 1__TrainTrack_segment_small_1default_Normal.png using Guid(7be2421c60c33a0499ca60f98b9c891b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fdf601755f99a54e37da4a3438e2f94') in 0.009249 seconds 
+  Import took 0.013024 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Crystal_Mine/Textures/Wall_2_normals.bmp
+  artifactKey: Guid(c384f8ea33b812e49ba1d1b7f7de62fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Textures/Wall_2_normals.bmp using Guid(c384f8ea33b812e49ba1d1b7f7de62fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1668d90ca2c3b114fe05ce5614b01ef4') in 0.011048 seconds 
+  Import took 0.015015 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Crystal_Mine/Textures/Wall2_LP__Wall2_LPdefault_MetallicSmoothness.png
+  artifactKey: Guid(472ab1cc2802b5042bf16230893aac16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Textures/Wall2_LP__Wall2_LPdefault_MetallicSmoothness.png using Guid(472ab1cc2802b5042bf16230893aac16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed400250002d1b90505e561431936e42') in 0.009552 seconds 
+  Import took 0.013397 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Crystal_Mine/Textures/WoodBox_2_wire_028089177_MetallicSmoothness.png
+  artifactKey: Guid(54e0229bd3a4e644a9c0ef7ce640e3d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Textures/WoodBox_2_wire_028089177_MetallicSmoothness.png using Guid(54e0229bd3a4e644a9c0ef7ce640e3d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1623317961ff2a649fc31e6f19614180') in 0.008714 seconds 
+  Import took 0.012824 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Crystal_Mine/Textures/WoodBox_2_wire_028089177_Normal.png
+  artifactKey: Guid(52947bd98050c044b97343b38f32891c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Textures/WoodBox_2_wire_028089177_Normal.png using Guid(52947bd98050c044b97343b38f32891c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91d94c0d8784a5a3d0741e1e84a77062') in 0.010835 seconds 
+  Import took 0.014696 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Crystal_Mine/Textures/Wall2_LP__Wall2_LPdefault_AlbedoTransparency.png
+  artifactKey: Guid(8b462f9c79920454084257a21ff6d01e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Textures/Wall2_LP__Wall2_LPdefault_AlbedoTransparency.png using Guid(8b462f9c79920454084257a21ff6d01e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac2ede5de8d52e88c3012d3647778f9f') in 0.010173 seconds 
+  Import took 0.014158 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Crystal_Mine/Textures/Wall2_LP__Wall2_LPdefault_Normal.png
+  artifactKey: Guid(1b82c373d41370f428ab6ad5f2b45ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Textures/Wall2_LP__Wall2_LPdefault_Normal.png using Guid(1b82c373d41370f428ab6ad5f2b45ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0438f1a0d0ba6271ecf3502c29fdede') in 0.011445 seconds 
+  Import took 0.015525 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Crystal_Mine/Textures/WallLP__WallLPdefault_AlbedoTransparency.png
+  artifactKey: Guid(db76149a717868541a91d16e9b96b41b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Textures/WallLP__WallLPdefault_AlbedoTransparency.png using Guid(db76149a717868541a91d16e9b96b41b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed2725bb61f729dc7029155281c36ada') in 0.015474 seconds 
+  Import took 0.019526 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.074895 seconds.
+  path: Assets/Crystal_Mine/Textures/WoodenBeams_wire_198225087_AlbedoTransparency.png
+  artifactKey: Guid(9aa2cdff1574bc741b93bc26e90844ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Textures/WoodenBeams_wire_198225087_AlbedoTransparency.png using Guid(9aa2cdff1574bc741b93bc26e90844ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb40ea97e0c0192a6be90bb80178166a') in 0.013397 seconds 
+  Import took 0.017725 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Crystal_Mine/Textures/woodenWall_2_default_AlbedoTransparency.png
+  artifactKey: Guid(4d83b86925c519e4e9215229495d7c98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Textures/woodenWall_2_default_AlbedoTransparency.png using Guid(4d83b86925c519e4e9215229495d7c98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4054fce4d373e315a01a6508a6bf610c') in 0.009335 seconds 
+  Import took 0.013247 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Crystal_Mine/Textures/WoodenBox_1_wire_028089177_MetallicSmoothness.png
+  artifactKey: Guid(d5d8b3f99a4f229418c2a1c80cc14d7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Textures/WoodenBox_1_wire_028089177_MetallicSmoothness.png using Guid(d5d8b3f99a4f229418c2a1c80cc14d7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c46c00e973428bfd5c6952b7ac236a25') in 0.009091 seconds 
+  Import took 0.013057 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Crystal_Mine/Textures/WoodenBeams_wire_198225087_MetallicSmoothness.png
+  artifactKey: Guid(e46c3653260890e4a983d7cadc263541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Textures/WoodenBeams_wire_198225087_MetallicSmoothness.png using Guid(e46c3653260890e4a983d7cadc263541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db23b67921c3cf1696c6ae2a958f5012') in 0.012124 seconds 
+  Import took 0.016129 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Crystal_Mine/Textures/WoodenWall_heights.bmp
+  artifactKey: Guid(c35a91dac87bb2343aebfd1e73705845) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Textures/WoodenWall_heights.bmp using Guid(c35a91dac87bb2343aebfd1e73705845) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '541f9998878a24892f9fdc40c3507cff') in 0.010662 seconds 
+  Import took 0.014433 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Crystal_Mine/Textures/WoodenWall_occlusion.bmp
+  artifactKey: Guid(8061891d00920b4419bdcf8adbee492a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Textures/WoodenWall_occlusion.bmp using Guid(8061891d00920b4419bdcf8adbee492a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e92294f4bb043f740402bd9620f6abb7') in 0.011234 seconds 
+  Import took 0.015030 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Crystal_Mine/Textures/WoodenWall_normals.bmp
+  artifactKey: Guid(5db9341faffb66046a847b7e08990b84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Textures/WoodenWall_normals.bmp using Guid(5db9341faffb66046a847b7e08990b84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ef865ec38540d9c611e020305e9e7de') in 0.010620 seconds 
+  Import took 0.014783 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Crystal_Mine/Textures/woodenWall_2_default_Normal.png
+  artifactKey: Guid(d4aa6027c8d52574f937bada92258c84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Textures/woodenWall_2_default_Normal.png using Guid(d4aa6027c8d52574f937bada92258c84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f79599e321b323aa4f688284ab340b90') in 0.009945 seconds 
+  Import took 0.013924 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Crystal_Mine/Textures/woodenWall_2_default_MetallicSmoothness.png
+  artifactKey: Guid(fe0e8a8fc0aa1394a939968f58351876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Textures/woodenWall_2_default_MetallicSmoothness.png using Guid(fe0e8a8fc0aa1394a939968f58351876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76814f6651c8e80714ca73b4e916c71c') in 0.009700 seconds 
+  Import took 0.013653 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Crystal_Mine/Textures/WoodenBox_1_wire_028089177_Normal.png
+  artifactKey: Guid(82f1e9d06035a814ea12678ca77f3989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Textures/WoodenBox_1_wire_028089177_Normal.png using Guid(82f1e9d06035a814ea12678ca77f3989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '210679dd09adb61f5b0428f28919104f') in 0.009579 seconds 
+  Import took 0.013548 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Crystal_Mine/Textures/WoodenBox_1_wire_028089177_AlbedoTransparency.png
+  artifactKey: Guid(1a76f9568e9645346a7a958c49d23483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Textures/WoodenBox_1_wire_028089177_AlbedoTransparency.png using Guid(1a76f9568e9645346a7a958c49d23483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '563df3ab4df45ca4c84f79d5341adcdf') in 0.012781 seconds 
+  Import took 0.017082 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Crystal_Mine/Textures/WoodenBeams_wire_198225087_Normal.png
+  artifactKey: Guid(6602fbd4fcaf93e43ac1e80880ce0ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Textures/WoodenBeams_wire_198225087_Normal.png using Guid(6602fbd4fcaf93e43ac1e80880ce0ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c98f49e78e5bf0dcf541066794fe6c88') in 0.012178 seconds 
+  Import took 0.016009 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.347371 seconds.
+  path: Assets/Crystal_Mine/Textures/WoodenWalllp_default_AlbedoTransparency.png
+  artifactKey: Guid(a49429d962928ee42b1265e5d473d557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Textures/WoodenWalllp_default_AlbedoTransparency.png using Guid(a49429d962928ee42b1265e5d473d557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b154f269f9e81f5e700f62d2fc46233') in 0.014490 seconds 
+  Import took 0.020377 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Crystal_Mine/Textures/WoodenWalllp_default_Normal.png
+  artifactKey: Guid(e6a7e42261f543148901851181bfed53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Textures/WoodenWalllp_default_Normal.png using Guid(e6a7e42261f543148901851181bfed53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a43c587ac89b31c185abb04c902c3716') in 0.010700 seconds 
+  Import took 0.015543 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/Crystal_Mine/Textures/WoodenWalllp_default_MetallicSmoothness.png
+  artifactKey: Guid(154e937154c65a84daceee08a3f92b94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Textures/WoodenWalllp_default_MetallicSmoothness.png using Guid(154e937154c65a84daceee08a3f92b94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a3ce0c56fcb92e160fd8037cfcc7f23') in 0.013358 seconds 
+  Import took 0.017735 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.872667 seconds.
+  path: Assets/Crystal_Mine/Spline_Tool/Track_Tool/TrainTrack_segment_small 1.obj
+  artifactKey: Guid(34142c1633eefb04eb9f3efc75a20c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Spline_Tool/Track_Tool/TrainTrack_segment_small 1.obj using Guid(34142c1633eefb04eb9f3efc75a20c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43a26533f6124d043beb7bc986444e0b') in 0.016643 seconds 
+  Import took 0.021442 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.025456 seconds.
+  path: Assets/Crystal_Mine/Spline_Tool/Track_Tool/Materials/Train_trackSegment_smallMat.mat
+  artifactKey: Guid(98fc61b80f883f74495bccf4339147eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Spline_Tool/Track_Tool/Materials/Train_trackSegment_smallMat.mat using Guid(98fc61b80f883f74495bccf4339147eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d994dac07f45b3464f22d72196dd4df') in 0.009888 seconds 
+  Import took 0.013965 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 220.840153 seconds.
+  path: Assets/Crystal_Mine/Spline_Tool/Track_Tool/Materials
+  artifactKey: Guid(a800f8bf33e168448840b90e436165e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Spline_Tool/Track_Tool/Materials using Guid(a800f8bf33e168448840b90e436165e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99a75cbce80de1ae0f610e99b4ce8078') in 0.002270 seconds 
+  Import took 0.008155 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.556253 seconds.
+  path: Assets/Crystal_Mine/Textures
+  artifactKey: Guid(461321495a31ac5428a494c5102aa2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Textures using Guid(461321495a31ac5428a494c5102aa2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '966d8789a0f2171c1035c9223f9c541f') in 0.001929 seconds 
+  Import took 0.006753 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.113351 seconds.
+  path: Assets/Crystal_Mine/Textures/New Material.mat
+  artifactKey: Guid(655e6551cfef66b499806b893fcae207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal_Mine/Textures/New Material.mat using Guid(655e6551cfef66b499806b893fcae207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93582fe591131c7affb71505edd82f46') in 0.012191 seconds 
+  Import took 0.016467 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 763.237661 seconds.
+  path: Assets/Main Character/FBXs Anims
+  artifactKey: Guid(9664b675136e2924c9e05ba8b6235528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main Character/FBXs Anims using Guid(9664b675136e2924c9e05ba8b6235528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dc74adc3a6639e5660928b3d5684108') in 0.006247 seconds 
+  Import took 0.011227 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2158.741551 seconds.
+  path: Assets/Character/Ambient_Occlusion_Map_from_Mesh_lambert1.png
+  artifactKey: Guid(3d3a468bc17cf654a8f2380df2d8d5aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Ambient_Occlusion_Map_from_Mesh_lambert1.png using Guid(3d3a468bc17cf654a8f2380df2d8d5aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f706e16265668786a99c32440dd6f6e') in 0.010830 seconds 
+  Import took 0.016192 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Character/Hat_lambert1_BaseMap.png
+  artifactKey: Guid(f7b05138508a84e4da3e8a5c824e0827) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Hat_lambert1_BaseMap.png using Guid(f7b05138508a84e4da3e8a5c824e0827) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a65807bdfe89450c42755386268eb8f') in 0.011440 seconds 
+  Import took 0.015682 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.311783 seconds.
+  path: Assets/AmplifyShaderEditor/AmplifyShaderEditor.asmdef
+  artifactKey: Guid(f540dafdfbc0586439d98823585550d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyShaderEditor/AmplifyShaderEditor.asmdef using Guid(f540dafdfbc0586439d98823585550d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51f3b18d67d037196b2880c40c478390') in 0.005851 seconds 
+  Import took 0.010028 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.926120 seconds.
+  path: Assets/Fonts/alarm clock.ttf
+  artifactKey: Guid(8556a46baf521cf4f98a57e9720be3a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/alarm clock.ttf using Guid(8556a46baf521cf4f98a57e9720be3a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99544e1791423a2efbfb9ddae13c04e9') in 0.034025 seconds 
+  Import took 0.039819 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.688237 seconds.
+  path: Assets/Images/ArrowBlue.png
+  artifactKey: Guid(8ecb986b828ba2949822ddd975f6963c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/ArrowBlue.png using Guid(8ecb986b828ba2949822ddd975f6963c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96bc1aef7fd57e7e7678b38137ec9f70') in 0.023624 seconds 
+  Import took 0.028263 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Images/unnamed.png
+  artifactKey: Guid(49a0e800b8103284487356a18bb41401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/unnamed.png using Guid(49a0e800b8103284487356a18bb41401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6144d7e48055a45ac0ec9f66e4a96520') in 0.017419 seconds 
+  Import took 0.021199 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Images/Gear_7.svg.png
+  artifactKey: Guid(9407b401e765456488d3ee4a610b3c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Gear_7.svg.png using Guid(9407b401e765456488d3ee4a610b3c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c0b06afcee8e59320bc9299ad2b3897') in 0.020632 seconds 
+  Import took 0.024391 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Images/Candado.png
+  artifactKey: Guid(fa9481341d0f89742b853a5a1e2f3c8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Candado.png using Guid(fa9481341d0f89742b853a5a1e2f3c8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0593444b3d84e2d7da4604c091d9f41') in 0.022364 seconds 
+  Import took 0.026084 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.539936 seconds.
+  path: Assets/Materials/HookLine.mat
+  artifactKey: Guid(0909bb32bcd2b0940b9dc7abae5667aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/HookLine.mat using Guid(0909bb32bcd2b0940b9dc7abae5667aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae371be94b52f66578b8941ed7097fe7') in 0.016299 seconds 
+  Import took 0.021296 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/Materials/Player_Mat.mat
+  artifactKey: Guid(1d0b0fe168a45844ab7320146c394390) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Player_Mat.mat using Guid(1d0b0fe168a45844ab7320146c394390) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d8dfb7eb24b5d5bb9fcde689ba5af22') in 0.010647 seconds 
+  Import took 0.014627 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.658629 seconds.
+  path: Assets/Textures/seamless_brick_rock_wall_difuse_by_zabacar_d90plia-pre.jpg
+  artifactKey: Guid(4d6fc90315034b346bb1910b21ae7525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/seamless_brick_rock_wall_difuse_by_zabacar_d90plia-pre.jpg using Guid(4d6fc90315034b346bb1910b21ae7525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd15a62c8d3bdd9178268a0d20662a639') in 0.019026 seconds 
+  Import took 0.023982 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Textures/seamless_brick_rock_wall_normal_map_by_zabacar_d90plz3-pre.jpg
+  artifactKey: Guid(dd7cc26706350d141b55fe56a4cd1c1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/seamless_brick_rock_wall_normal_map_by_zabacar_d90plz3-pre.jpg using Guid(dd7cc26706350d141b55fe56a4cd1c1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8371fec436b4aa3a12e0ad46ed6904c3') in 0.021020 seconds 
+  Import took 0.024650 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.650042 seconds.
+  path: Assets/Conifers [BOTD]/Render Pipeline Support
+  artifactKey: Guid(74e04825400cf4046b667135c0718eb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Conifers [BOTD]/Render Pipeline Support using Guid(74e04825400cf4046b667135c0718eb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb3c52ed5083040318e48956d29bdc43') in 0.005139 seconds 
+  Import took 0.009245 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.033933 seconds.
+  path: Assets/Conifers [BOTD]/Render Pipeline Support/Built-in RP
+  artifactKey: Guid(4d5e6f451b26f33469e4efbdadbeb406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Conifers [BOTD]/Render Pipeline Support/Built-in RP using Guid(4d5e6f451b26f33469e4efbdadbeb406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ded9d91fbec0943f102209f1adde381') in 0.005732 seconds 
+  Import took 0.010782 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.853619 seconds.
+  path: Assets/Conifers [BOTD]/Render Pipeline Support/Built-in RP/CTI Runtime Components
+  artifactKey: Guid(b76cc831df8c2894ca775b8215b1f974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Conifers [BOTD]/Render Pipeline Support/Built-in RP/CTI Runtime Components using Guid(b76cc831df8c2894ca775b8215b1f974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58a3e931d1169ce713c81eb008129289') in 0.005473 seconds 
+  Import took 0.010208 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.765460 seconds.
+  path: Assets/Conifers [BOTD]/Render Pipeline Support/Built-in RP/CTI Runtime Components/Scripts
+  artifactKey: Guid(076f09e0d7eb394419623ea36bf5c1b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Conifers [BOTD]/Render Pipeline Support/Built-in RP/CTI Runtime Components/Scripts using Guid(076f09e0d7eb394419623ea36bf5c1b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2df8a0a5f3da009113e06a9bb3821c6') in 0.006095 seconds 
+  Import took 0.011235 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003865 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000002209C3082D0 doesn't match image C:\Users\Usuario\Desktop\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\sc.fae.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002209C050710 doesn't match image C:\Users\Usuario\Desktop\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002209CA01050 doesn't match image C:\Users\Usuario\Desktop\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002206FB99AE0 doesn't match image C:\Users\Usuario\Desktop\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000220A15E6A20 doesn't match image C:\Users\Usuario\Desktop\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002209F4D2020 doesn't match image C:\Users\Usuario\Desktop\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002209D9420B0 doesn't match image C:\Users\Usuario\Desktop\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022098E40010 doesn't match image C:\Users\Usuario\Desktop\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Burst.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002209D725010 doesn't match image C:\Users\Usuario\Desktop\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002209C6C5D50 doesn't match image C:\Users\Usuario\Desktop\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000220A09499A0 doesn't match image C:\Users\Usuario\Desktop\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002209433F010 doesn't match image C:\Users\Usuario\Desktop\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002209FF074F0 doesn't match image C:\Users\Usuario\Desktop\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022094BED020 doesn't match image C:\Users\Usuario\Desktop\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002206FF1F020 doesn't match image C:\Users\Usuario\Desktop\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Animation.Rigging.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000220A44827F0 doesn't match image C:\Users\Usuario\Desktop\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002209C7DA970 doesn't match image C:\Users\Usuario\Desktop\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.TerrainTools.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002209C4FDBF0 doesn't match image C:\Users\Usuario\Desktop\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000220A092FD10 doesn't match image C:\Users\Usuario\Desktop\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002209CEF3E20 doesn't match image C:\Users\Usuario\Desktop\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Burst.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002209D632CB0 doesn't match image C:\Users\Usuario\Desktop\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002209E2FE020 doesn't match image C:\Users\Usuario\Desktop\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002209D9D1010 doesn't match image C:\Users\Usuario\Desktop\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.TerrainTools.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002209CCB3EB0 doesn't match image C:\Users\Usuario\Desktop\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002209E2FE020 doesn't match image C:\Users\Usuario\Desktop\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000220E8D5CC30 doesn't match image C:\Users\Usuario\Desktop\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002209F7A1190 doesn't match image C:\Users\Usuario\Desktop\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\sc.fae.runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022095423010 doesn't match image C:\Users\Usuario\Desktop\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Animation.Rigging.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.201 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1201ms)
+		BeginReloadAssembly (107ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (1046ms)
+			LoadAssemblies (73ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (262ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (576ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (67ms)
+				ProcessInitializeOnLoadAttributes (494ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.67 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2801 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 278.1 MB.
+System memory in use after: 277.7 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 3618.
+Total: 3.158300 ms (FindLiveObjects: 0.206700 ms CreateObjectMapping: 0.124300 ms MarkObjects: 2.512100 ms  DeleteObjects: 0.314500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 12.551029 seconds.
+  path: Assets/Models/AgujeroCasaEngranajes.fbx
+  artifactKey: Guid(b7e4b6a4bbc75c84ea699c3a0e091a17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/AgujeroCasaEngranajes.fbx using Guid(b7e4b6a4bbc75c84ea699c3a0e091a17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fec27619ea756d0532b70d3bc3006d9') in 0.087662 seconds 
+  Import took 0.091693 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Models/SpiderRig.fbx
+  artifactKey: Guid(677614de36739214bae5eaa111e293af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SpiderRig.fbx using Guid(677614de36739214bae5eaa111e293af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d977fa0e8a0e8a1c8c3cf30d402758e') in 0.063673 seconds 
+  Import took 0.067570 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Models/Box2.fbx
+  artifactKey: Guid(8108f58c91b883d4487d05bc577233a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Box2.fbx using Guid(8108f58c91b883d4487d05bc577233a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e04b28af3574857026fee1def42d070b') in 0.040798 seconds 
+  Import took 0.044567 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Models/GraveyardAssets.fbx
+  artifactKey: Guid(ca7bab67201f779498be39792a302708) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/GraveyardAssets.fbx using Guid(ca7bab67201f779498be39792a302708) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1fcc8db521af46d554e445584e01a93') in 0.086997 seconds 
+  Import took 0.090839 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
   path: Assets/Models/Cartel.fbx
   artifactKey: Guid(b230f96070981e7498134f03090e0f38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Cartel.fbx using Guid(b230f96070981e7498134f03090e0f38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee06987d14b4809fe987a2312a9d5ad4') in 0.130359 seconds 
-  Import took 0.142567 seconds .
+Start importing Assets/Models/Cartel.fbx using Guid(b230f96070981e7498134f03090e0f38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f92ff080e23cc35f41055ec6d384992d') in 0.030532 seconds 
+  Import took 0.034281 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Models/PuzzleBridge.fbx
+  artifactKey: Guid(1d5848a8e5af1224d994f7c84a0abae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/PuzzleBridge.fbx using Guid(1d5848a8e5af1224d994f7c84a0abae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '177ee952403f3f6db2c2c7bc0e77e642') in 0.058022 seconds 
+  Import took 0.062071 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Models/Sword.fbx
+  artifactKey: Guid(60f6c66206d39e2488d7ca6233a25404) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Sword.fbx using Guid(60f6c66206d39e2488d7ca6233a25404) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc08bb06f37533ac658505abfe4b3fab') in 0.039486 seconds 
+  Import took 0.043337 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Models/Hook2.fbx
+  artifactKey: Guid(74f9511f3ad6a4f4c86662ead84e4357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Hook2.fbx using Guid(74f9511f3ad6a4f4c86662ead84e4357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1373fc08753123f59ab2eab11eb98cf') in 0.088174 seconds 
+  Import took 0.092150 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.217954 seconds.
+  path: Assets/Scenes/Mine.unity
+  artifactKey: Guid(352a48b2d902b164bb815496b3038378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Mine.unity using Guid(352a48b2d902b164bb815496b3038378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f21da85487f98d6af697dc16ea7af12b') in 0.006119 seconds 
+  Import took 0.010815 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.134766 seconds.
+  path: Assets/Fantasy Adventure Environment/Models
+  artifactKey: Guid(e7461902fa2e7604d9005a18ed4aa15b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Adventure Environment/Models using Guid(e7461902fa2e7604d9005a18ed4aa15b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33d8c547df644eab06417e54760041de') in 0.005093 seconds 
+  Import took 0.009573 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.010990 seconds.
+  path: Assets/Fantasy Adventure Environment/Runtime/sc.fae.runtime.asmdef
+  artifactKey: Guid(8c4644ab61e3e7d4d8f26823347fc459) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Adventure Environment/Runtime/sc.fae.runtime.asmdef using Guid(8c4644ab61e3e7d4d8f26823347fc459) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a97ddc75c4d8d72ed47c3385d9722776') in 0.005180 seconds 
+  Import took 0.009567 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.397020 seconds.
+  path: Assets/Fantasy Adventure Environment/Prefabs/CliffAppearance.prefab
+  artifactKey: Guid(c10c321eba25fd048889f2ab186d7ba2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Adventure Environment/Prefabs/CliffAppearance.prefab using Guid(c10c321eba25fd048889f2ab186d7ba2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b4c04f5e4c3bce78edbdb9dedbe3c7e') in 0.033016 seconds 
+  Import took 0.038924 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.906975 seconds.
+  path: Assets/Building/BufferGeneric_type1.prefab
+  artifactKey: Guid(73968c6ff0237004b82285d3e2ba93ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building/BufferGeneric_type1.prefab using Guid(73968c6ff0237004b82285d3e2ba93ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f741ef3d5dbf302e7b3687fb8492bb61') in 0.015256 seconds 
+  Import took 0.019541 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
