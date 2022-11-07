@@ -22,11 +22,11 @@ public class Controller : Entity
     [SerializeField] private LayerMask _layerShoot;
     [SerializeField] private Transform _hook;
     [SerializeField] private Transform _hand;
-    [SerializeField] private float _hookDistance;
     [SerializeField] private LineRenderer _line;
     [SerializeField] private float viewAngle;
     [SerializeField] public LayerMask stopWalking;
     [SerializeField] private ParticleSystem shootWall;
+    public bool hook, gun;
 
     private CinemachineTransposer _normalCameraAim;
     private CinemachineTransposer _zoomCameraAim;
@@ -37,7 +37,6 @@ public class Controller : Entity
 
     private bool _isZoom = false;
 
-    public LayerMask hookLayers;
     public List<Enum> gearInventary = new List<Enum>();
     public Vector3 lastSavePoint;
 
@@ -79,7 +78,7 @@ public class Controller : Entity
 
         //El click izquierdo se realiza la animacion de ataque
         ////(el animator pregunta si se apunta se hace un disparo, sino se usa la espada) 
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(0) && gun)
         {
             _view.Attack();
         }
@@ -163,6 +162,11 @@ public class Controller : Entity
     public void ResetJump()
     {
         _anim.ResetTrigger("Jump");
+    }
+
+    public void ResetShoot()
+    {
+        _anim.SetBool("isShooting", false);
     }
 
     private Transform FieldOfView()

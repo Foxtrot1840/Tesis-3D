@@ -14,8 +14,11 @@ public class View
 
     public void UpdateMove(Vector3 dir)
     {
-        _anim.SetFloat("MovX", dir.x);
-        _anim.SetFloat("MovY", dir.z);
+        //_anim.SetFloat("MovX", dir.x);
+        //_anim.SetFloat("MovY", dir.z);
+
+        _anim.SetBool("isWalking", dir.magnitude > 0);
+
     }
 
     public void Jump()
@@ -25,12 +28,12 @@ public class View
 
     public void Attack()
     {
-        _anim.SetTrigger("Attack");
+        _anim.SetBool("isShooting", true);
     }
 
     public void Sprint(bool sprint)
     {
-        _anim.SetBool("Sprint",sprint);
+        _anim.SetBool("isRunning",sprint);
     }
 
     public void Hit()

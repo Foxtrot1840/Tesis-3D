@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: M_Gun
-  m_Shader: {fileID: -6465566751694194690, guid: 8baa901c42c4a784897add36e7817ce4, type: 3}
+  m_Shader: {fileID: 4800000, guid: b25446c7de1c7474ca3c2713751c5ddd, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -25,6 +25,10 @@ Material:
         m_Offset: {x: 0, y: 0}
     - Texture2D_fd3a35dc5c8f4dc4991e5b8f7ecc34a6:
         m_Texture: {fileID: 2800000, guid: 2717d8a4e535b2645a47a02d68d5da68, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Albedo:
+        m_Texture: {fileID: 2800000, guid: b3087d5a19775a54795afa448bf65334, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BaseMap:
@@ -59,6 +63,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Normal:
+        m_Texture: {fileID: 2800000, guid: 2717d8a4e535b2645a47a02d68d5da68, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -68,6 +76,14 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SpecGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample0:
+        m_Texture: {fileID: 2800000, guid: b3087d5a19775a54795afa448bf65334, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -98,28 +114,40 @@ Material:
     - _DstBlend: 0
     - _EnvironmentReflections: 1
     - _FalloffAmount: 0.05
+    - _FirstPosition: 0.43
+    - _Float2: 0.61
+    - _Float3: 1.23
     - _FresnelSize: 0.1
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
     - _LightingCutoff: 0
     - _Metallic: 0
+    - _NormalScale: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.005
     - _QueueOffset: 0
     - _ReceiveShadows: 1
+    - _SecondPosition: 0.294
+    - _SecondPositionIntensity: 0.393
+    - _ShadowIntensity: 0
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
+    - _Steps: 10
     - _Surface: 0
+    - _ThirdPosition: 0.022
+    - _ThirdPositionIntensity: 0
     - _WorkflowMode: 1
     - _ZWrite: 1
+    - __dirty: 0
     m_Colors:
     - Color_d149292f3a7d4b33890aa4469a0c0268: {r: 0, g: 0, b: 0, a: 0}
     - Color_fa295c28b8734a3795f6d48207cbe68a: {r: 1, g: 1, b: 1, a: 0}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Color0: {r: 0, g: 0, b: 0, a: 0}
     - _DiffuseColor: {r: 1, g: 1, b: 1, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
