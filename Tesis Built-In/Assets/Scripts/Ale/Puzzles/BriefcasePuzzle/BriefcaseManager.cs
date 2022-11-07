@@ -5,6 +5,7 @@ using UnityEngine;
 public class BriefcaseManager : Interactuables
 {
     [SerializeField] private GameObject canvas;
+    [SerializeField] private GameObject hookCollectable;
 
     private int _rightButtons;
     
@@ -28,7 +29,8 @@ public class BriefcaseManager : Interactuables
 
     public void  PuzzleComplete()
     {
-        Debug.Log("Complete");
+        hookCollectable.SetActive(true);
         ClosePuzzle();
+        Destroy(gameObject);
     }
 }

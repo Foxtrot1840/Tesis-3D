@@ -26,6 +26,7 @@ public class Controller : Entity
     [SerializeField] private float viewAngle;
     [SerializeField] public LayerMask stopWalking;
     [SerializeField] private ParticleSystem shootWall;
+    public GameObject hookObj, gunObj;
     public bool hook, gun;
 
     private CinemachineTransposer _normalCameraAim;
@@ -95,7 +96,7 @@ public class Controller : Entity
             interactables?.Invoke();
         }
 
-        if (Input.GetKeyDown(KeyCode.Q) && !_model.isHooking)
+        if (Input.GetKeyDown(KeyCode.Q) && !_model.isHooking && hook)
         {
             _model.hookPoint = FieldOfView();
             if(_model.hookPoint != null)
