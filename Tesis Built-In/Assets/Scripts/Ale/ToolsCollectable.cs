@@ -13,6 +13,7 @@ public class ToolsCollectable : Interactuables
     
     protected override void Action()
     {
+        PlayerPrefs.SetInt(type.ToString(), 1);
         if (type == Tools.gun)
         {
             plyController.gun = true;

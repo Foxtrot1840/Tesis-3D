@@ -18,6 +18,11 @@ public class Menu : MonoBehaviour
             .buildIndex);
     }
 
+    public void DeleteData()
+    {
+        PlayerPrefs.DeleteAll();
+    }
+    
     public void Exit()
     {
         Application.Quit();
