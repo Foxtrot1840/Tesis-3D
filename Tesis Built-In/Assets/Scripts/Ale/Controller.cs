@@ -28,6 +28,7 @@ public class Controller : Entity
     [SerializeField] private ParticleSystem shootWall;
     public GameObject hookObj, gunObj;
     public bool hook, gun;
+    public GameObject mira;
 
     private CinemachineTransposer _normalCameraAim;
     private CinemachineTransposer _zoomCameraAim;
@@ -70,16 +71,14 @@ public class Controller : Entity
         _model.Rotate();
         _model.CameraAim();
 
-        //Con click derecho se invierte el Zoom
-        if (Input.GetMouseButtonDown(1))
-        {
-            _isZoom = !_isZoom;
-            _anim.SetBool("Zoom",_isZoom);
-        }
+        _isZoom = Input.GetMouseButton(1);
+        _anim.SetBool("Zoom", _isZoom);
+        mira.SetActive(_isZoom);
+        
 
         //El click izquierdo se realiza la animacion de ataque
         ////(el animator pregunta si se apunta se hace un disparo, sino se usa la espada) 
-        if (Input.GetMouseButtonDown(0) && gun)
+        if (Input.GetMouseButtonDown(0) && gun && _isZoom)
         {
             _view.Attack();
         }
@@ -101,18 +100,14 @@ public class Controller : Entity
             _model.hookPoint = FieldOfView();
             if(_model.hookPoint != null)
             {
-                _model.hookPoint.GetComponent<HookPoint>().message.SetActive(false);
+                _model.StartHooking();
                 _line.enabled = true;
                 onFixedUpdate = _model.MoveHook;
+                _model.isHooking = true;
             }
-            else
-            {
-                onFixedUpdate = _model.FailHook;
-            }
-            _model.isHooking = true;
         }
 
-        if (Input.GetKeyUp(KeyCode.Q))
+        if (Input.GetKeyUp(KeyCode.Q) && _model.isHooking)
         {
             _model.StopHooking();
         }

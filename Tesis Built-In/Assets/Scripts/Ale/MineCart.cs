@@ -6,29 +6,36 @@ using System;
 public class MineCart : Interactuables
 {
     private bool active;
-    private Action movement = delegate { };
+    //private Action movement = delegate { };
     private Vector3 playerInitialPos, cartInitialPos;
     private float offset;
-    private BoxCollider bColl;
+    private Animator _anim;
+    [SerializeField] private float posX;
+    [SerializeField] private GameObject wall;
 
     protected override void Start()
     {
         base.Start();
-        bColl = GetComponent<BoxCollider>();
+        _anim = GetComponent<Animator>();
     }
 
     private void Update()
     {
-        movement();
+        if (transform.position.x < posX)
+        {
+            _anim.enabled = true;
+            _anim.SetTrigger("Movement");
+        }
+        //movement();
     }
 
     protected override void Action()
     {
-        active = !active;
+        /*active = !active;
         bColl.enabled = !active;
         playerInitialPos = active ? player.transform.position : Vector3.zero;
         cartInitialPos = active ? transform.position : Vector3.zero;
-        movement = active ? (Action)FollowPlayer : delegate { };
+        movement = active ? (Action)FollowPlayer : delegate { };*/
     }
 
     private void FollowPlayer()
@@ -36,4 +43,10 @@ public class MineCart : Interactuables
         offset = playerInitialPos.x - player.transform.position.x;
         transform.position = cartInitialPos - Vector3.right * offset;
     }
+
+    public void DestroyWall()
+    {
+        Destroy(wall);
+    }
+    
 }

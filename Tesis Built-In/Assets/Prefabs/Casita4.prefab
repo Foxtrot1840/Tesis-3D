@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1591569009014872580}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: pasted__group 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40,7 +40,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5313733026505280}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: pCube14
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -71,7 +71,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2085787990231535962}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: transform5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -103,7 +103,7 @@ GameObject:
   - component: {fileID: 4331937696255232808}
   - component: {fileID: 4309745744131839682}
   - component: {fileID: 5759211343091894378}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: pGear1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -182,7 +182,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5620974456923961817}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: transform7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -212,7 +212,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7841917520880484803}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: group
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -243,7 +243,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5477284459396714324}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: transform8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -273,8 +273,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2040748906179934544}
-  - component: {fileID: 783621965003485938}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Casita4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -288,7 +287,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1664611116869706730}
-  m_LocalRotation: {x: -0, y: -0.4993236, z: -0, w: 0.8664156}
+  m_LocalRotation: {x: 0, y: -0.4993196, z: 0, w: 0.8664179}
   m_LocalPosition: {x: 152.98373, y: 19.384132, z: -74.323425}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -305,20 +304,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: -59.91, z: 0}
---- !u!64 &783621965003485938
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1664611116869706730}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
 --- !u!1 &2938113080130400993
 GameObject:
   m_ObjectHideFlags: 0
@@ -328,7 +313,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 661312487779373518}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: group1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -361,7 +346,8 @@ GameObject:
   - component: {fileID: 2172960469976550462}
   - component: {fileID: 7490881672319843995}
   - component: {fileID: 6333322275418450464}
-  m_Layer: 0
+  - component: {fileID: 5667522582134793837}
+  m_Layer: 7
   m_Name: pCylinder25
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -435,6 +421,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &5667522582134793837
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3054651817719699559}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -6810606194074719695, guid: d64b0a1f38ad85644b602170dce4eb41, type: 3}
 --- !u!1 &3070091908103613738
 GameObject:
   m_ObjectHideFlags: 0
@@ -444,7 +444,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9180171966608051191}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: pasted__group
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -474,7 +474,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 544428002170857520}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: pPlane1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -505,7 +505,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9127823749799836535}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: transform6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -537,7 +537,7 @@ GameObject:
   - component: {fileID: 5583593088284264238}
   - component: {fileID: 6197109982472879134}
   - component: {fileID: 1657436296496966807}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: pasted__pGear1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -616,7 +616,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3683808859742037394}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: pCylinder9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -649,7 +649,7 @@ GameObject:
   - component: {fileID: 4690676475005554310}
   - component: {fileID: 755862521342011320}
   - component: {fileID: 4782473223536920124}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: pasted__pasted__pGear1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -728,7 +728,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3529649656425134571}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: pCylinder6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -759,7 +759,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7055105388888970608}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: group2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -790,7 +790,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8612851388580579502}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: pCube15
   m_TagString: Untagged
   m_Icon: {fileID: 0}

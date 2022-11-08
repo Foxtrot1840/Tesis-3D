@@ -233,9 +233,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3642315777071149089}
-  - component: {fileID: 3639912339151367105}
   - component: {fileID: 3639912339151367119}
   - component: {fileID: 3639912339151367118}
+  - component: {fileID: 1395013832}
   m_Layer: 0
   m_Name: MineCartMove
   m_TagString: Untagged
@@ -252,26 +252,13 @@ Transform:
   m_GameObject: {fileID: 3641018674585051041}
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
   m_LocalPosition: {x: -8.550523, y: -0.0000019073486, z: -1.1388144}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.7656, y: 0.7656, z: 0.7656}
   m_Children:
   - {fileID: 3642806624025923795}
   - {fileID: 3644470019144230279}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
---- !u!135 &3639912339151367105
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3641018674585051041}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 1.7
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!65 &3639912339151367119
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -280,7 +267,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3641018674585051041}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1.0239204, y: 1.1303942, z: 1.5077327}
@@ -297,3 +284,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2856cf5358fee6d4f9c8d49db785af7a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  posX: 26.5
+  wall: {fileID: 0}
+--- !u!95 &1395013832
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3641018674585051041}
+  m_Enabled: 0
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b25acfd1cce164c4c9600ddbd85c5d89, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
