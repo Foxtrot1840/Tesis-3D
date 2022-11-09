@@ -126,8 +126,7 @@ public class Controller : Entity
     {
         Destroy(Instantiate(_shootParticles, _shootPoint.position, _shootPoint.rotation), 2);
 
-        if (Physics.Raycast(Camera.main.transform.position, Camera.main.transform.forward, out RaycastHit hit, 30,
-                _layerShoot))
+        if (Physics.Raycast(Camera.main.transform.position, Camera.main.transform.forward, out RaycastHit hit, 30, _layerShoot))
         {
             SoundManager.instance.Play(SoundID.Disparo);
             IDamagable d = hit.collider.GetComponent<IDamagable>();
@@ -137,9 +136,11 @@ public class Controller : Entity
             }
             else
             {
-                Instantiate(shootWall, hit.point, Quaternion.Euler(hit.normal));
+                var a = Instantiate(shootWall, hit.point, Quaternion.Euler(hit.normal));
+                a.transform.forward = (transform.position - hit.point).normalized;
             }
         }
+    
     }
 
     public void Sprint(bool active)
