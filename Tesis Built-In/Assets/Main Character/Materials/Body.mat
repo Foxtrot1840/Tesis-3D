@@ -70,6 +70,7 @@ Material:
     - _DstBlend: 0
     - _Float2: 0.61
     - _Float3: 1.23
+    - _Float4: 0.4
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
@@ -86,6 +87,6 @@ Material:
     - __dirty: 0
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _Color0: {r: 0, g: 0, b: 0, a: 0}
+    - _Color0: {r: 0.4339623, g: 0.3678421, b: 0.30568412, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
   m_BuildTextureStacks: []
