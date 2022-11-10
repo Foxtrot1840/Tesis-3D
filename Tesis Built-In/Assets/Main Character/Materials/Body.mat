@@ -84,7 +84,7 @@ Material:
     - _Steps: 10
     - _UVSec: 0
     - _ZWrite: 1
-    - __dirty: 0
+    - __dirty: 1
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _Color0: {r: 0.4339623, g: 0.3678421, b: 0.30568412, a: 1}
