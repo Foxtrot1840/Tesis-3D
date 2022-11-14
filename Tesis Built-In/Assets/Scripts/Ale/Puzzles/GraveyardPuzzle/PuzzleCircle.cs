@@ -13,7 +13,7 @@ public class PuzzleCircle : MonoBehaviour
     public Action _onUpdate = delegate { };
     public bool _activate;
     public PuzzleManager manager;
-    
+
     private float _rotation;
     private float t, posA, posB;
     public int snap;
@@ -35,15 +35,15 @@ public class PuzzleCircle : MonoBehaviour
     public void RotatePiece()
     {
         t += Time.deltaTime * speed;
-        _rotation = Mathf.Lerp(posA, posB,t);
+        _rotation = Mathf.Lerp(posA, posB, t);
         if (t >= 1)
         {
             posA += snap;
             posB += snap;
-            
+
             t = 0;
         }
-        transform.localRotation = Quaternion.Euler(0, _rotation, 0);
+        transform.localRotation = Quaternion.Euler(0, 0, _rotation);
     }
 
     public void ChangeState()
@@ -52,8 +52,8 @@ public class PuzzleCircle : MonoBehaviour
         if (_activate) _onUpdate = RotatePiece;
         else
         {
-            transform.localRotation = Quaternion.Euler(0, t < 0.5f ? posA : posB, 0);
-            _onUpdate = delegate{};
+            transform.localRotation = Quaternion.Euler(0, 0, t < 0.5f ? posA : posB);
+            _onUpdate = delegate { };
             manager.Check();
         }
     }
@@ -72,6 +72,6 @@ public class PuzzleCircle : MonoBehaviour
     public void RotateToFinal()
     {
         posA = 145;
-        transform.localRotation = Quaternion.Euler(Vector3.Lerp(transform.localRotation.eulerAngles, new Vector3(0,145,0) ,speed * Time.deltaTime));
+        transform.localRotation = Quaternion.Euler(Vector3.Lerp(transform.localRotation.eulerAngles, new Vector3(0, 0, 145), speed * Time.deltaTime));
     }
 }
