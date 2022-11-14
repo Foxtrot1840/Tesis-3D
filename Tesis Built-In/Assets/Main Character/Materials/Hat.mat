@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Hat
-  m_Shader: {fileID: 4800000, guid: b25446c7de1c7474ca3c2713751c5ddd, type: 3}
+  m_Shader: {fileID: 4800000, guid: 1e4a7cb00d3cbf645907d06b0e32be82, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 0
   m_EnableInstancingVariants: 0
@@ -70,6 +70,7 @@ Material:
     - _DstBlend: 0
     - _Float2: 0.61
     - _Float3: 1.23
+    - _Float4: 0
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
