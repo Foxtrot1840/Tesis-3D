@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.25f1 (9b9180224418) revision 10195328'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'es' Physical Memory: 16326 MB
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'es' Physical Memory: 8116 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
 COMMAND LINE ARGUMENTS:
@@ -11,23 +11,23 @@ C:\Program Files\Unity\Hub\Editor\2020.3.25f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/Usuario/Desktop/Tesis-3D/Tesis Built-In
+C:/Users/Alejandro/Desktop/Tesis3d/Tesis-3D/Tesis Built-In
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-58846
-Successfully changed project path to: C:/Users/Usuario/Desktop/Tesis-3D/Tesis Built-In
-C:/Users/Usuario/Desktop/Tesis-3D/Tesis Built-In
+57392
+Successfully changed project path to: C:/Users/Alejandro/Desktop/Tesis3d/Tesis-3D/Tesis Built-In
+C:/Users/Alejandro/Desktop/Tesis3d/Tesis-3D/Tesis Built-In
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 71.74 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 121.19 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.25f1 (9b9180224418)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/Usuario/Desktop/Tesis-3D/Tesis Built-In/Assets
+[Subsystems] Discovering subsystems at path C:/Users/Alejandro/Desktop/Tesis3d/Tesis-3D/Tesis Built-In/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1660 SUPER (ID=0x21c4)
+    Renderer: NVIDIA GeForce GTX 1660 Ti (ID=0x2182)
     Vendor:   
     VRAM:     5991 MB
     Driver:   30.0.15.1215
@@ -35,89 +35,156 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56628
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56688
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001496 seconds.
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Registered in 0.012103 seconds.
+Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 70.25 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 143.94 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.535 seconds
+- Completed reload, in  1.163 seconds
 Domain Reload Profiling:
-	ReloadAssembly (535ms)
-		BeginReloadAssembly (42ms)
+	ReloadAssembly (1163ms)
+		BeginReloadAssembly (87ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (433ms)
-			LoadAssemblies (41ms)
+		EndReloadAssembly (961ms)
+			LoadAssemblies (87ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (127ms)
+			SetupTypeCache (235ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (26ms)
-			SetupLoadedEditorAssemblies (190ms)
+			RebuildScriptCaches (102ms)
+			SetupLoadedEditorAssemblies (357ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (36ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (70ms)
-				BeforeProcessingInitializeOnLoad (14ms)
-				ProcessInitializeOnLoadAttributes (74ms)
-				ProcessInitializeOnLoadMethodAttributes (27ms)
+				RefreshPlugins (144ms)
+				BeforeProcessingInitializeOnLoad (18ms)
+				ProcessInitializeOnLoadAttributes (117ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003729 seconds.
+Registered in 0.019447 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file data-000001CB9D694030 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\sc.fae.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CB9D016010 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\AmplifyShaderEditor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CB77F2AC40 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CB780CAC20 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CB9D6F7040 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CB7816D230 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CB780E0430 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CB9D230020 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CB9D6F7040 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Burst.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CB78773C40 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CB9D6F7040 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CB9D6F7040 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CB9CBD7020 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CB9CE47A30 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CB9D24E430 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CB9D266440 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Animation.Rigging.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CB9D546010 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CB78859AB0 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.TerrainTools.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CB9CA6C240 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CB9D122020 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CB9D148C30 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Burst.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CB9CC5B630 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CB9D266440 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CB9CD7B020 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.TerrainTools.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CB9CD7B020 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CB9D266440 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CB77DFCE30 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CB9DEC7A60 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\sc.fae.runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CB7877BC50 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Animation.Rigging.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 70.88 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 124.24 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.773 seconds
+- Completed reload, in  3.462 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1774ms)
-		BeginReloadAssembly (124ms)
+	ReloadAssembly (3463ms)
+		BeginReloadAssembly (214ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (8ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (14ms)
-		EndReloadAssembly (1596ms)
-			LoadAssemblies (82ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (3148ms)
+			LoadAssemblies (205ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (273ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (72ms)
-			SetupLoadedEditorAssemblies (1059ms)
+			SetupTypeCache (485ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (119ms)
+			SetupLoadedEditorAssemblies (2163ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
+				InitializePlatformSupportModulesInManaged (10ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (71ms)
-				BeforeProcessingInitializeOnLoad (72ms)
-				ProcessInitializeOnLoadAttributes (902ms)
-				ProcessInitializeOnLoadMethodAttributes (7ms)
-				AfterProcessingInitializeOnLoad (5ms)
+				RefreshPlugins (124ms)
+				BeforeProcessingInitializeOnLoad (118ms)
+				ProcessInitializeOnLoadAttributes (1882ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (8ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.73 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 1.56 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3114 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 306.5 MB.
 System memory in use after: 306.1 MB.
 
 Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 3579.
-Total: 3.360000 ms (FindLiveObjects: 0.218300 ms CreateObjectMapping: 0.131100 ms MarkObjects: 2.690900 ms  DeleteObjects: 0.318500 ms)
+Total: 6.203800 ms (FindLiveObjects: 0.428700 ms CreateObjectMapping: 0.290100 ms MarkObjects: 4.412800 ms  DeleteObjects: 1.070400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -131,137 +198,1406 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
+  path: Assets/NewLayer.terrainlayer
+  artifactKey: Guid(2d229add97a9d914daa13002099026de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewLayer.terrainlayer using Guid(2d229add97a9d914daa13002099026de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a82eadaa8b35bda7daa15bc46f7d8e2') in 0.158701 seconds 
+  Import took 0.167546 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000459 seconds.
+  path: Assets/NewLayer 1.terrainlayer
+  artifactKey: Guid(642887dbbc76e474487b5fcffe588242) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewLayer 1.terrainlayer using Guid(642887dbbc76e474487b5fcffe588242) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9175a5570fe887c5e84bb65636c17f62') in 0.069537 seconds 
+  Import took 0.076461 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(6b41858cb93eb5d4ab542721de8ac2e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(6b41858cb93eb5d4ab542721de8ac2e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1714973886bbefb7292e4734fcbf8afb') in 0.112982 seconds 
+  Import took 0.124395 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 49.070458 seconds.
+  path: Assets/Shaders/flowmap.png
+  artifactKey: Guid(d9eb7988ce1faab4486cedc08fcaa9fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/flowmap.png using Guid(d9eb7988ce1faab4486cedc08fcaa9fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '757de8607cf4248369aed9ddf2017349') in 0.065481 seconds 
+  Import took 0.071892 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Shaders/TexturesCom_Rock_Lava2_1K_normal.tif
+  artifactKey: Guid(568a77822a63341468a79858273d8b10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/TexturesCom_Rock_Lava2_1K_normal.tif using Guid(568a77822a63341468a79858273d8b10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '575e5fc0b0d081690792528abce52729') in 0.026059 seconds 
+  Import took 0.032054 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Shaders/TexturesCom_Rock_Lava2_1K_height.tif
+  artifactKey: Guid(032f7b566a226184fb2b451f336719c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/TexturesCom_Rock_Lava2_1K_height.tif using Guid(032f7b566a226184fb2b451f336719c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02808787e1f01911b23b0892cff7e952') in 0.017102 seconds 
+  Import took 0.025034 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009232 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001CB9D26E6E0 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\sc.fae.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CB9D016010 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\AmplifyShaderEditor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CB9D26E6E0 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CB9DE62010 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CB9D6F7040 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CB9DE62010 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CB9DE62010 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CB78050010 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CB9C8F3020 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Burst.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBA090B040 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CB9D6F7040 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CB77DF7140 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CB9DD96020 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CB9C8F3020 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBAE277080 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CB9DE62010 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Animation.Rigging.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CB78378010 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBACB733E0 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.TerrainTools.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CB9D335430 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBAE1D7010 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CB9FD7C020 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Burst.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CB9E4FC010 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CB9DDBAE30 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CB9E71F010 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.TerrainTools.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CB9CD7B020 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CB9DDBAE30 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CB72E1A4E0 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBA0D0D830 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\sc.fae.runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CB9DDBAE30 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Animation.Rigging.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.59 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.803 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2803ms)
+		BeginReloadAssembly (250ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (68ms)
+		EndReloadAssembly (2457ms)
+			LoadAssemblies (272ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (771ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (132ms)
+			SetupLoadedEditorAssemblies (1094ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (143ms)
+				ProcessInitializeOnLoadAttributes (911ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.76 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2807 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 279.3 MB.
+System memory in use after: 278.9 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3586.
+Total: 4.887200 ms (FindLiveObjects: 0.238700 ms CreateObjectMapping: 0.143100 ms MarkObjects: 3.859100 ms  DeleteObjects: 0.644500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 185.056912 seconds.
+  path: Assets/Character/Ambient_Occlusion_Map_from_Mesh_lambert1.png
+  artifactKey: Guid(3d3a468bc17cf654a8f2380df2d8d5aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Ambient_Occlusion_Map_from_Mesh_lambert1.png using Guid(3d3a468bc17cf654a8f2380df2d8d5aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '966c7df459775319e19ec96ef434e8ea') in 0.084677 seconds 
+  Import took 0.091311 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/Character/Hat_lambert1_BaseMap.png
+  artifactKey: Guid(f7b05138508a84e4da3e8a5c824e0827) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Hat_lambert1_BaseMap.png using Guid(f7b05138508a84e4da3e8a5c824e0827) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce9872609235344d3af27a737ecf6f47') in 0.027910 seconds 
+  Import took 0.034266 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.787457 seconds.
+  path: Assets/Building/Cartel pista.png
+  artifactKey: Guid(94658ccd6540b694aa01ce764cf19a24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building/Cartel pista.png using Guid(94658ccd6540b694aa01ce764cf19a24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '060876771e8216291125911262545988') in 0.059563 seconds 
+  Import took 0.065551 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000420 seconds.
+  path: Assets/Building/PruebaDeFlor.fbx
+  artifactKey: Guid(a45113ee5ba6ead4a8372ee875cc95ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building/PruebaDeFlor.fbx using Guid(a45113ee5ba6ead4a8372ee875cc95ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b571ff02c2ca86808f264d27d1d64455') in 0.150706 seconds 
+  Import took 0.156898 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
   path: Assets/Building/flor.mat
   artifactKey: Guid(0cbac96f5e3f5c949b5d11e3919f413e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Building/flor.mat using Guid(0cbac96f5e3f5c949b5d11e3919f413e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46a8cc35f7be085d8ea4c627098e64ae') in 0.097112 seconds 
-  Import took 0.102382 seconds .
+Start importing Assets/Building/flor.mat using Guid(0cbac96f5e3f5c949b5d11e3919f413e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eef58046874a0c4ca4abc670f9e24609') in 0.021707 seconds 
+  Import took 0.029419 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 10.263933 seconds.
-  path: Assets/Building/Graveyard
-  artifactKey: Guid(ae6f18c7c6411224b82d285209bd7037) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Building/Graveyard using Guid(ae6f18c7c6411224b82d285209bd7037) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a10f985fac3e8ec30d8f54f0af27a23') in 0.004363 seconds 
-  Import took 0.008908 seconds .
+  Time since last request: 0.000287 seconds.
+  path: Assets/Building/Quemado.png
+  artifactKey: Guid(662d1f6d584d84a4186abab0b7e68fb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building/Quemado.png using Guid(662d1f6d584d84a4186abab0b7e68fb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f34df16dca7c1c6687a79a57de8b4d2') in 0.030688 seconds 
+  Import took 0.036096 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.046410 seconds.
-  path: Assets/Building/Graveyard/Ambient Occlusion Map from Mesh Lapidas.png
-  artifactKey: Guid(b9ae812264556604784977d1f11c8d5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Building/Graveyard/Ambient Occlusion Map from Mesh Lapidas.png using Guid(b9ae812264556604784977d1f11c8d5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aadc8d7fa97a7af410ff13093ba5017e') in 0.053735 seconds 
-  Import took 0.058259 seconds .
+  Time since last request: 6.135781 seconds.
+  path: Assets/Models/AgujeroCasaEngranajes.fbx
+  artifactKey: Guid(b7e4b6a4bbc75c84ea699c3a0e091a17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/AgujeroCasaEngranajes.fbx using Guid(b7e4b6a4bbc75c84ea699c3a0e091a17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b88b4de910ea29dfe6b97239c40c8a0') in 0.031773 seconds 
+  Import took 0.038215 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000182 seconds.
-  path: Assets/Building/Graveyard/GraveyardAssets_Lapidas_Normal.png
-  artifactKey: Guid(65c1845fd39a7c5478a0bf6aa28b355a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Building/Graveyard/GraveyardAssets_Lapidas_Normal.png using Guid(65c1845fd39a7c5478a0bf6aa28b355a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8b6056580c997e46f235bb495e691da') in 0.027977 seconds 
-  Import took 0.032787 seconds .
+  Time since last request: 0.000262 seconds.
+  path: Assets/Models/GraveyardAssets.fbx
+  artifactKey: Guid(ca7bab67201f779498be39792a302708) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/GraveyardAssets.fbx using Guid(ca7bab67201f779498be39792a302708) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebef8ae4b8a5910a05cdf7d69fa5f332') in 0.153311 seconds 
+  Import took 0.160025 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000217 seconds.
-  path: Assets/Building/Graveyard/Ambient Occlusion Map from Mesh Tumbas.png
-  artifactKey: Guid(32137b6d2d0272342aae1e211b26bc74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Building/Graveyard/Ambient Occlusion Map from Mesh Tumbas.png using Guid(32137b6d2d0272342aae1e211b26bc74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b3ad7862de6b6731ce37277e87c9a2a') in 0.017945 seconds 
-  Import took 0.022456 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000190 seconds.
-  path: Assets/Building/Graveyard/GraveyardAssets_Lapidas_AlbedoTransparency.png
-  artifactKey: Guid(81a2a99966fd54b4596346a8e4c01d29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Building/Graveyard/GraveyardAssets_Lapidas_AlbedoTransparency.png using Guid(81a2a99966fd54b4596346a8e4c01d29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94e7de20d124e2f3cc3cf4bc3b772eab') in 0.015254 seconds 
-  Import took 0.019984 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000168 seconds.
-  path: Assets/Building/Graveyard/GraveyardAssets_Tumbas_AlbedoTransparency.png
-  artifactKey: Guid(78cf01de780f01242b753095911dd540) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Building/Graveyard/GraveyardAssets_Tumbas_AlbedoTransparency.png using Guid(78cf01de780f01242b753095911dd540) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73f07466fd7a0c25bb6066e92e2574fa') in 0.019805 seconds 
-  Import took 0.024063 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000259 seconds.
-  path: Assets/Building/Graveyard/GraveyardAssets_Tumbas_Normal.png
-  artifactKey: Guid(dfb032c5e836a774b85c605ade0ca942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Building/Graveyard/GraveyardAssets_Tumbas_Normal.png using Guid(dfb032c5e836a774b85c605ade0ca942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7318e8cc51d0b24106c955e45e8c65f7') in 0.017183 seconds 
-  Import took 0.021896 seconds .
+  Time since last request: 0.000291 seconds.
+  path: Assets/Models/LAb.fbx
+  artifactKey: Guid(69743367e1c796b4092303456b2ef6d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/LAb.fbx using Guid(69743367e1c796b4092303456b2ef6d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4ea40cf38de3fc0f5b6cb48bdfbd9e9') in 0.037184 seconds 
+  Import took 0.044606 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000189 seconds.
-  path: Assets/Building/Graveyard/GraveyardAssets_Tumbas_MetallicSmoothness.png
-  artifactKey: Guid(cbb70e307ed85774db5bd8f4e1e00704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Building/Graveyard/GraveyardAssets_Tumbas_MetallicSmoothness.png using Guid(cbb70e307ed85774db5bd8f4e1e00704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '350e547e72b3f76738e9a73a57eaa9c9') in 0.014936 seconds 
-  Import took 0.019814 seconds .
+  path: Assets/Models/SpiderRig.fbx
+  artifactKey: Guid(677614de36739214bae5eaa111e293af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SpiderRig.fbx using Guid(677614de36739214bae5eaa111e293af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f3d5e6c696650cdcfa2e8ee55a258b6') in 0.085675 seconds 
+  Import took 0.091306 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000231 seconds.
-  path: Assets/Building/Graveyard/Lapidas.mat
-  artifactKey: Guid(a9531e35fb96d594d82630311c599315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Building/Graveyard/Lapidas.mat using Guid(a9531e35fb96d594d82630311c599315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '455fef8b6234fd2bd7efc2c449497d40') in 0.028225 seconds 
-  Import took 0.033225 seconds .
+  Time since last request: 0.000208 seconds.
+  path: Assets/Models/Cartel.fbx
+  artifactKey: Guid(b230f96070981e7498134f03090e0f38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Cartel.fbx using Guid(b230f96070981e7498134f03090e0f38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e1e47ce523394cabf354b45af2f39b3') in 0.031718 seconds 
+  Import took 0.037039 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000248 seconds.
-  path: Assets/Building/Graveyard/Tumbas.mat
-  artifactKey: Guid(7f04dc24c64543643bd58af972b4b175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Building/Graveyard/Tumbas.mat using Guid(7f04dc24c64543643bd58af972b4b175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96a456e19695cba15ebfe9a92ae8de87') in 0.018596 seconds 
-  Import took 0.023595 seconds .
+  Time since last request: 0.000185 seconds.
+  path: Assets/Models/Obelisk.fbx
+  artifactKey: Guid(fc00d020ad6766f42832de2ff742542b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Obelisk.fbx using Guid(fc00d020ad6766f42832de2ff742542b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '858fef7dd68900f4119f16eb79a7ec5b') in 0.038754 seconds 
+  Import took 0.045463 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000191 seconds.
-  path: Assets/Building/Graveyard/GraveyardAssets_Lapidas_MetallicSmoothness.png
-  artifactKey: Guid(62e0f58e9b274ef4286b8b96d2e37a06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Building/Graveyard/GraveyardAssets_Lapidas_MetallicSmoothness.png using Guid(62e0f58e9b274ef4286b8b96d2e37a06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6887be6abe198a2e45741a05b8c0ba1d') in 0.013607 seconds 
-  Import took 0.018386 seconds .
+  Time since last request: 0.000187 seconds.
+  path: Assets/Models/SpiderSpawner.fbx
+  artifactKey: Guid(6de0c0bc1ad36274091791a9dbcb1c53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SpiderSpawner.fbx using Guid(6de0c0bc1ad36274091791a9dbcb1c53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1e2cf7b0c83f1c3c733a074533bbcc9') in 0.112278 seconds 
+  Import took 0.118102 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 33.462438 seconds.
-  path: Assets/Building/Graveyard/rejas.fbx
-  artifactKey: Guid(3a626c592b1edf04f924d8d09f1676ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Building/Graveyard/rejas.fbx using Guid(3a626c592b1edf04f924d8d09f1676ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f342fcf6ac40567a75e77b4957ed1a1') in 0.102535 seconds 
-  Import took 0.107043 seconds .
+  Time since last request: 0.000213 seconds.
+  path: Assets/Models/Box.fbx
+  artifactKey: Guid(4b117d43192aed347898fc0e2b3c4b50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Box.fbx using Guid(4b117d43192aed347898fc0e2b3c4b50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94721ee1fa573fe93996af11c41bac61') in 0.040475 seconds 
+  Import took 0.047533 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 11.002954 seconds.
-  path: Assets/Building/Graveyard/rejas.fbx
-  artifactKey: Guid(3a626c592b1edf04f924d8d09f1676ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Building/Graveyard/rejas.fbx using Guid(3a626c592b1edf04f924d8d09f1676ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5ee3ae204f6b58f19e65bc421208230') in 0.066534 seconds 
-  Import took 0.071424 seconds .
+  Time since last request: 0.000192 seconds.
+  path: Assets/Models/Box2.fbx
+  artifactKey: Guid(8108f58c91b883d4487d05bc577233a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Box2.fbx using Guid(8108f58c91b883d4487d05bc577233a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd38d83f4677b405e1bb06e9721d088e7') in 0.060370 seconds 
+  Import took 0.067564 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.670354 seconds.
-  path: Assets/Building/Graveyard/rejas.fbx
-  artifactKey: Guid(3a626c592b1edf04f924d8d09f1676ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Building/Graveyard/rejas.fbx using Guid(3a626c592b1edf04f924d8d09f1676ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a381b83fabecb21cd85026057412e627') in 0.051134 seconds 
-  Import took 0.055951 seconds .
+  Time since last request: 0.000165 seconds.
+  path: Assets/Models/PuzzleBridge.fbx
+  artifactKey: Guid(1d5848a8e5af1224d994f7c84a0abae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/PuzzleBridge.fbx using Guid(1d5848a8e5af1224d994f7c84a0abae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71d9628ef824a4989d8be0c793e48592') in 0.102580 seconds 
+  Import took 0.108475 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.417040 seconds.
-  path: Assets/Building/Graveyard/rejas.fbx
-  artifactKey: Guid(3a626c592b1edf04f924d8d09f1676ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Building/Graveyard/rejas.fbx using Guid(3a626c592b1edf04f924d8d09f1676ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f16d19b98a720cfac3538ab1d757ca3') in 0.058763 seconds 
-  Import took 0.063738 seconds .
+  Time since last request: 0.000271 seconds.
+  path: Assets/Models/Porton.fbx
+  artifactKey: Guid(f84e46fbb5aa4a942a9aea8b056a1791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Porton.fbx using Guid(f84e46fbb5aa4a942a9aea8b056a1791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '857f663cbfda387563757448253840c9') in 0.067539 seconds 
+  Import took 0.073882 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 379.772853 seconds.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Models/Sword.fbx
+  artifactKey: Guid(60f6c66206d39e2488d7ca6233a25404) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Sword.fbx using Guid(60f6c66206d39e2488d7ca6233a25404) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cc243396915195dd634b98898e181ec') in 0.063377 seconds 
+  Import took 0.069369 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.222820 seconds.
+  path: Assets/Building/Generator
+  artifactKey: Guid(301e151aa9a85814b837652c9ac5f219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building/Generator using Guid(301e151aa9a85814b837652c9ac5f219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e19a15f83c13b4265794a8bceb046b12') in 0.005932 seconds 
+  Import took 0.014522 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.042480 seconds.
+  path: Assets/Building/Generator/Generator.fbx
+  artifactKey: Guid(cd753346cb23ece4a821c022cc6f2a32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building/Generator/Generator.fbx using Guid(cd753346cb23ece4a821c022cc6f2a32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38d02a3b3dad0f1142d0d1faeb58eb27') in 0.032593 seconds 
+  Import took 0.040849 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/Building/Generator/Generator.mat
+  artifactKey: Guid(82eca0d5a6c0dab4d873bf2f50d14454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building/Generator/Generator.mat using Guid(82eca0d5a6c0dab4d873bf2f50d14454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcbf64fc592eb8dfdcb1831a0ca558ff') in 0.019213 seconds 
+  Import took 0.026667 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 361.829550 seconds.
+  path: Assets/Building/Palanca.fbx
+  artifactKey: Guid(d92a2f64d1ab0dc41b3b6424b72d056d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building/Palanca.fbx using Guid(d92a2f64d1ab0dc41b3b6424b72d056d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f45543980bff75a69933bdf504dae1c1') in 0.048252 seconds 
+  Import took 0.058729 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.713491 seconds.
+  path: Assets/Building/Palanca.fbx
+  artifactKey: Guid(d92a2f64d1ab0dc41b3b6424b72d056d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building/Palanca.fbx using Guid(d92a2f64d1ab0dc41b3b6424b72d056d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8f35178089ede266f9c6cecd324d665') in 0.053601 seconds 
+  Import took 0.060318 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.747905 seconds.
+  path: Assets/Building/Palanca.fbx
+  artifactKey: Guid(d92a2f64d1ab0dc41b3b6424b72d056d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building/Palanca.fbx using Guid(d92a2f64d1ab0dc41b3b6424b72d056d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a02a2482fb8752c4daede0ada03141e') in 0.051764 seconds 
+  Import took 0.063455 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 191.971998 seconds.
+  path: Assets/Scripts/Ale/Puzzles/GraveyardPuzzle/PuzzleButton.cs
+  artifactKey: Guid(272df6e3a85a9494ba46b97115338b4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Ale/Puzzles/GraveyardPuzzle/PuzzleButton.cs using Guid(272df6e3a85a9494ba46b97115338b4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '653e5bf688f7ec955dfc3889296f4f42') in 0.228727 seconds 
+  Import took 0.291820 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 280.934114 seconds.
+  path: Assets/Scripts/Ale/Puzzles/GraveyardPuzzle/PuzzleButton.cs
+  artifactKey: Guid(272df6e3a85a9494ba46b97115338b4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Ale/Puzzles/GraveyardPuzzle/PuzzleButton.cs using Guid(272df6e3a85a9494ba46b97115338b4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a175041ac101f365fe986d8d4c09a28d') in 0.005887 seconds 
+  Import took 0.013465 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.268266 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001CBAB9AA290 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\sc.fae.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBACC36660 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\AmplifyShaderEditor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CB77F2AC40 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CB9E4FC010 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBA5721400 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CB9FCB09F0 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBA31BD760 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBAC5E57F0 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBA53B80A0 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Burst.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CB9CB2F020 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBA2DEE030 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBA5721400 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CB9CA30020 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CB9C8F3020 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBA6561180 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CB77DD1020 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Animation.Rigging.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBAC426760 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBF5CF66E0 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.TerrainTools.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBA6D5E290 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBA66C90A0 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBA50D3210 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Burst.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBA657AF80 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBA99A8C90 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBA9774030 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.TerrainTools.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CB9CF5C020 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBA99A8C90 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBF5AC9520 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBA2877710 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\sc.fae.runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBA5646DF0 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Animation.Rigging.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.24 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.721 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1723ms)
+		BeginReloadAssembly (204ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (92ms)
+		EndReloadAssembly (1459ms)
+			LoadAssemblies (124ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (375ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (84ms)
+			SetupLoadedEditorAssemblies (753ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (99ms)
+				ProcessInitializeOnLoadAttributes (631ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.72 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2807 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 293.4 MB.
+System memory in use after: 293.0 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3634.
+Total: 3.998700 ms (FindLiveObjects: 0.265200 ms CreateObjectMapping: 0.126300 ms MarkObjects: 3.315800 ms  DeleteObjects: 0.290600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 25.656111 seconds.
+  path: Assets/Scripts/Ale/Puzzles/GraveyardPuzzle/PuzzleButton.cs
+  artifactKey: Guid(272df6e3a85a9494ba46b97115338b4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Ale/Puzzles/GraveyardPuzzle/PuzzleButton.cs using Guid(272df6e3a85a9494ba46b97115338b4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd80780e75795509739fe74441cbeea90') in 0.011490 seconds 
+  Import took 0.022767 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.015298 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001CBA6B36020 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\sc.fae.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CB9D47A010 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\AmplifyShaderEditor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBA6B36020 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBAE8B9030 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBAA238250 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBA5CC2560 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBA584B150 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBA5C92690 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CB9C94E020 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Burst.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBA56B0C90 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBA2F96E50 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBAA238250 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CB9CD27020 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CB9C8F3020 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBAE1D7010 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBADEEA010 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Animation.Rigging.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBA316CF20 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBA6018B60 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.TerrainTools.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBAC5E0010 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBA669D060 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBAB982F70 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Burst.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBA657AF80 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBA5CC2560 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CB9C9FC450 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.TerrainTools.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBA5858970 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBA5CC2560 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBF5AC5AE0 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBA5E68640 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\sc.fae.runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBADEEA010 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Animation.Rigging.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.665 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1665ms)
+		BeginReloadAssembly (121ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (37ms)
+		EndReloadAssembly (1483ms)
+			LoadAssemblies (100ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (451ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (92ms)
+			SetupLoadedEditorAssemblies (708ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (88ms)
+				ProcessInitializeOnLoadAttributes (598ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.76 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2807 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 293.4 MB.
+System memory in use after: 293.1 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3636.
+Total: 4.121400 ms (FindLiveObjects: 0.314400 ms CreateObjectMapping: 0.119900 ms MarkObjects: 3.295000 ms  DeleteObjects: 0.390700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 10.210115 seconds.
+  path: Assets/Scripts/Ale/Puzzles/GraveyardPuzzle/PuzzleButton.cs
+  artifactKey: Guid(272df6e3a85a9494ba46b97115338b4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Ale/Puzzles/GraveyardPuzzle/PuzzleButton.cs using Guid(272df6e3a85a9494ba46b97115338b4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2554bcc7a108f112a852776457e73f0f') in 0.008376 seconds 
+  Import took 0.014939 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005746 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001CBA6B36020 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\sc.fae.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CB9D47A010 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\AmplifyShaderEditor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBA6B36020 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBA2F9FA70 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBFE40F090 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBA584B150 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBA2F9FA70 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBA5C92690 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBA5439580 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Burst.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBA5E493D0 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBFEA10050 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBFE40F090 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CB9CD27020 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CB9C8F3020 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBAE1D7010 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBA992A020 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Animation.Rigging.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBAA922E50 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBFD5AC540 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.TerrainTools.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBAC5E0010 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CB77F05010 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBAB5EC010 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Burst.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBAE142860 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBA584B150 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBA4F3BA30 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.TerrainTools.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBA6A25F40 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBA584B150 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBF5ACDDF0 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBA2FADA80 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\sc.fae.runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBA992A020 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Animation.Rigging.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.503 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1504ms)
+		BeginReloadAssembly (137ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (52ms)
+		EndReloadAssembly (1299ms)
+			LoadAssemblies (97ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (321ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (67ms)
+			SetupLoadedEditorAssemblies (715ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (87ms)
+				ProcessInitializeOnLoadAttributes (599ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.72 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2807 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 293.5 MB.
+System memory in use after: 293.1 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3638.
+Total: 3.384700 ms (FindLiveObjects: 0.242500 ms CreateObjectMapping: 0.139900 ms MarkObjects: 2.683800 ms  DeleteObjects: 0.317700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 29.375363 seconds.
+  path: Assets/Scripts/Ale/Puzzles/GraveyardPuzzle/PuzzleButton.cs
+  artifactKey: Guid(272df6e3a85a9494ba46b97115338b4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Ale/Puzzles/GraveyardPuzzle/PuzzleButton.cs using Guid(272df6e3a85a9494ba46b97115338b4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b744b72075b1dd1a4a0f605823517f78') in 0.006888 seconds 
+  Import took 0.015099 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005248 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001CBA61EFE40 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\sc.fae.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CB9D47A010 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\AmplifyShaderEditor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBA61EFE40 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C9E51B4020 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBAA238250 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CB9FF02060 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CB9DE62010 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBA5C92690 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CB9E69C010 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Burst.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBA5E493D0 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBA9DEA810 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBA6842F30 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CB9CD27020 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CB9C8F3020 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBAE1D7010 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CB9C968020 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Animation.Rigging.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBAA922E50 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C9E36ABC60 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.TerrainTools.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBAC5E0010 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBA2AAD010 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CB9D08EA20 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Burst.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C9E51B4020 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CB9FF02060 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBA4F3BA30 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.TerrainTools.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CB78378010 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CB9FF02060 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBF5ACDDF0 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBFECAA020 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\sc.fae.runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CB9C968020 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Animation.Rigging.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.828 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1829ms)
+		BeginReloadAssembly (191ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (75ms)
+		EndReloadAssembly (1548ms)
+			LoadAssemblies (177ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (361ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (64ms)
+			SetupLoadedEditorAssemblies (860ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (88ms)
+				ProcessInitializeOnLoadAttributes (752ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.65 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2807 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 293.5 MB.
+System memory in use after: 293.1 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3640.
+Total: 6.718600 ms (FindLiveObjects: 0.798800 ms CreateObjectMapping: 0.335900 ms MarkObjects: 5.118100 ms  DeleteObjects: 0.464500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 15.106193 seconds.
+  path: Assets/Scripts/Ale/Puzzles/GraveyardPuzzle/PuzzleButton.cs
+  artifactKey: Guid(272df6e3a85a9494ba46b97115338b4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Ale/Puzzles/GraveyardPuzzle/PuzzleButton.cs using Guid(272df6e3a85a9494ba46b97115338b4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0582d1b71aac780599e10a9c2978535f') in 0.007464 seconds 
+  Import took 0.019187 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.015610 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001C9E5293E50 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\sc.fae.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CB9D47A010 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\AmplifyShaderEditor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C9E5293E50 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C9E51B4020 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBAA238250 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBAAE6B010 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBA2F9FA70 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBA5C92690 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBA992A020 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Burst.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBA5E493D0 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBADEEA010 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBAA238250 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CB9CD27020 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CB9C8F3020 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBAE1D7010 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBA61E6010 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Animation.Rigging.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBAA922E50 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CC0271DD70 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.TerrainTools.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBAC5E0010 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C9E53BF070 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBA695F900 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Burst.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C9E51B4020 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBAAE6B010 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBA4F3BA30 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.TerrainTools.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CB78378010 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBAAE6B010 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CB7875AD80 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBFE40D880 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\sc.fae.runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBA61E6010 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Animation.Rigging.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.73 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.540 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1540ms)
+		BeginReloadAssembly (113ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (1362ms)
+			LoadAssemblies (106ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (301ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (75ms)
+			SetupLoadedEditorAssemblies (771ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (88ms)
+				ProcessInitializeOnLoadAttributes (661ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.90 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2807 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 293.5 MB.
+System memory in use after: 293.1 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3642.
+Total: 3.964800 ms (FindLiveObjects: 0.255300 ms CreateObjectMapping: 0.150200 ms MarkObjects: 3.217900 ms  DeleteObjects: 0.340400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 12.446394 seconds.
+  path: Assets/Animaciones
+  artifactKey: Guid(cf7852e4e772e774e955c3246dc7e849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animaciones using Guid(cf7852e4e772e774e955c3246dc7e849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97b22855c9af5b593cfe88409c982fe6') in 0.019665 seconds 
+  Import took 0.027010 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.763596 seconds.
+  path: Assets/Animaciones/Palanca
+  artifactKey: Guid(2970a39ff435d9a498cdf97109daf2af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animaciones/Palanca using Guid(2970a39ff435d9a498cdf97109daf2af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24f8800a761869e9182730415d7aaf6b') in 0.006318 seconds 
+  Import took 0.014148 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.542803 seconds.
+  path: Assets/Animaciones/Palanca/Palanca.controller
+  artifactKey: Guid(87227831cef56444fa3b4905fa86babd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animaciones/Palanca/Palanca.controller using Guid(87227831cef56444fa3b4905fa86babd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50b00f3be3615f6bebfcfe5ca66583e4') in 1.713467 seconds 
+  Import took 1.723229 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.135458 seconds.
+  path: Assets/Animaciones/Palanca/On.anim
+  artifactKey: Guid(d9eb0df1a626e5f46aa36fc11c249c35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animaciones/Palanca/On.anim using Guid(d9eb0df1a626e5f46aa36fc11c249c35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ab5fd06db31aa708e11fe53dfdfebd9') in 0.017849 seconds 
+  Import took 0.026078 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.061308 seconds.
+  path: Assets/Animaciones/Palanca/Off.anim
+  artifactKey: Guid(bfa99969677dc5b4aae341882262a783) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animaciones/Palanca/Off.anim using Guid(bfa99969677dc5b4aae341882262a783) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60e4f67240e2d1f6edd583864a550582') in 0.008998 seconds 
+  Import took 0.019894 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 186.382843 seconds.
+  path: Assets/Animaciones/Palanca/Palanca.controller
+  artifactKey: Guid(87227831cef56444fa3b4905fa86babd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animaciones/Palanca/Palanca.controller using Guid(87227831cef56444fa3b4905fa86babd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50273ebec230491c23c0e1b796b40e69') in 0.010358 seconds 
+  Import took 0.040286 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.374004 seconds.
+  path: Assets/Animaciones/Palanca/Palanca.controller
+  artifactKey: Guid(87227831cef56444fa3b4905fa86babd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animaciones/Palanca/Palanca.controller using Guid(87227831cef56444fa3b4905fa86babd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a2d6c2a9a44f247f9235b5a9321c867') in 0.004724 seconds 
+  Import took 0.017742 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.367278 seconds.
+  path: Assets/Prefabs/Bookstore 1.prefab
+  artifactKey: Guid(f061e8fa21c5f2049a8aef8f28f6a9a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bookstore 1.prefab using Guid(f061e8fa21c5f2049a8aef8f28f6a9a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c54c8af56cea1cbfc0d41183a703635b') in 0.252995 seconds 
+  Import took 0.259979 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Prefabs/HookCollectable.prefab
+  artifactKey: Guid(520ca9a33c00c0b44b58d18a40d53ce7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/HookCollectable.prefab using Guid(520ca9a33c00c0b44b58d18a40d53ce7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8735fb0b64ebb35ee16656afbbc19b5') in 0.339754 seconds 
+  Import took 0.346194 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/Prefabs/Casita2.prefab
+  artifactKey: Guid(f384ef67aac474146b502e8b87e1abb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Casita2.prefab using Guid(f384ef67aac474146b502e8b87e1abb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3456f9da0078fbb16de5e08fb4fd20e6') in 0.047581 seconds 
+  Import took 0.053707 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Prefabs/GunCollectable.prefab
+  artifactKey: Guid(13994d8d7801d5f449a7f57f5817325f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/GunCollectable.prefab using Guid(13994d8d7801d5f449a7f57f5817325f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cadd4ce8e819f8812a209c9d36f72772') in 0.116564 seconds 
+  Import took 0.124044 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Prefabs/CanvasMenu.prefab
+  artifactKey: Guid(5d86e870e9811e24d9b945c404906136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CanvasMenu.prefab using Guid(5d86e870e9811e24d9b945c404906136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea894a0bb7740ade779f368bc4da5ab3') in 0.054182 seconds 
+  Import took 0.060488 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Prefabs/Generator .prefab
+  artifactKey: Guid(e0983739046dd4d4fbb739044dd57776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Generator .prefab using Guid(e0983739046dd4d4fbb739044dd57776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a115ec87aa0c13b9759923dcd5b512e9') in 0.023656 seconds 
+  Import took 0.031208 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/Prefabs/Porton.prefab
+  artifactKey: Guid(0a7f3fd12332af84b938a878d85eaa1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Porton.prefab using Guid(0a7f3fd12332af84b938a878d85eaa1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dfb4ff58b1f2a7acce0f68744fde949') in 0.059139 seconds 
+  Import took 0.064946 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Prefabs/Buildings.prefab
+  artifactKey: Guid(2e502fd6f92863e4e85fe67cbd31c9f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Buildings.prefab using Guid(2e502fd6f92863e4e85fe67cbd31c9f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f0779deb332507cf3022ce7c1b8583f') in 0.965171 seconds 
+  Import took 0.984063 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Prefabs/TNT.prefab
+  artifactKey: Guid(702ab4c0faefe244199c1a7c95365383) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TNT.prefab using Guid(702ab4c0faefe244199c1a7c95365383) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f3298143d7a321d785137285238bfb9') in 0.185191 seconds 
+  Import took 0.191926 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Prefabs/Rocks.prefab
+  artifactKey: Guid(9f3718afddc558b4d90033f32141e19e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Rocks.prefab using Guid(9f3718afddc558b4d90033f32141e19e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f468f9a523f534a4078cd2dba7fabd8') in 0.038168 seconds 
+  Import took 0.046371 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Prefabs/Spider2.0.prefab
+  artifactKey: Guid(8f2569e9b68ccac40a3ec62109ba8657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Spider2.0.prefab using Guid(8f2569e9b68ccac40a3ec62109ba8657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a81613c22a4d9fb1d1b9039662a87759') in 0.105461 seconds 
+  Import took 0.112704 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Prefabs/Player.prefab
+  artifactKey: Guid(5220d0277441e894dace346f30e250d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player.prefab using Guid(5220d0277441e894dace346f30e250d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb0df4c610ea0c1d1d0e17a612dbf750') in 0.354517 seconds 
+  Import took 0.368176 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Prefabs/N_Bush.prefab
+  artifactKey: Guid(2dffa50b24ebd3a4f9693f179fb42103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/N_Bush.prefab using Guid(2dffa50b24ebd3a4f9693f179fb42103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ee1854969c52472347657a0429bfbfa') in 0.130856 seconds 
+  Import took 0.137566 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Prefabs/PuzzleButton.prefab
+  artifactKey: Guid(907c8146ae15dc544875989cf7a8e6f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/PuzzleButton.prefab using Guid(907c8146ae15dc544875989cf7a8e6f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b0da90a174f5972f6a7813877ae71aa') in 0.016350 seconds 
+  Import took 0.021690 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Prefabs/HookPlace.prefab
+  artifactKey: Guid(599ca40124bcf824299b92b86e7ea258) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/HookPlace.prefab using Guid(599ca40124bcf824299b92b86e7ea258) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c6b2f859af9c01cc938de00622b9473') in 0.021382 seconds 
+  Import took 0.028793 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Prefabs/Main Character with Hat.prefab
+  artifactKey: Guid(ec4f934e47eeee240aae23b6db3f4026) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Main Character with Hat.prefab using Guid(ec4f934e47eeee240aae23b6db3f4026) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cf72ace05744b0b3f7b679ebf42ec74') in 0.394319 seconds 
+  Import took 0.403098 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/Prefabs/Estacion de Tren.prefab
+  artifactKey: Guid(1a19a23013a5a3a4280296f58135761a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Estacion de Tren.prefab using Guid(1a19a23013a5a3a4280296f58135761a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ce9b43509dfa10fc83536e73d05e8e1') in 0.052812 seconds 
+  Import took 0.060757 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/Prefabs/MineCartMove.prefab
+  artifactKey: Guid(baa52e16a30bdaa43b014de82e48cd3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/MineCartMove.prefab using Guid(baa52e16a30bdaa43b014de82e48cd3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7109c48d015eb35044cac9999ff01ab4') in 0.083843 seconds 
+  Import took 0.090122 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Prefabs/GreenHouse.prefab
+  artifactKey: Guid(41d4b5d8afaf82146b91ba3f532886ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/GreenHouse.prefab using Guid(41d4b5d8afaf82146b91ba3f532886ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcf41fa1789b6746554fcb6e66d448a7') in 0.018570 seconds 
+  Import took 0.027009 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Prefabs/PuzzleBridge.prefab
+  artifactKey: Guid(003772406f7009c4fb6cde6d1ddf3f4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/PuzzleBridge.prefab using Guid(003772406f7009c4fb6cde6d1ddf3f4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0060790c00033d047cdeb724ab3ec5d0') in 0.017370 seconds 
+  Import took 0.024759 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/Prefabs/Camera.prefab
+  artifactKey: Guid(6a61091d6b211db48b08c022bef96bb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Camera.prefab using Guid(6a61091d6b211db48b08c022bef96bb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '888a8c6349a9ef969c546036f9a512ae') in 0.016566 seconds 
+  Import took 0.025029 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Prefabs/SoundManager.prefab
+  artifactKey: Guid(900f27f3695cf3b4498b608eb85c7de9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/SoundManager.prefab using Guid(900f27f3695cf3b4498b608eb85c7de9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea7f19f474cc54733d1d4eab0f59d058') in 0.019717 seconds 
+  Import took 0.028001 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Prefabs/Casita3.prefab
+  artifactKey: Guid(bc862ac414941554aa28fdd9bf206fa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Casita3.prefab using Guid(bc862ac414941554aa28fdd9bf206fa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80663c644cf0b360137ed5b7a79e0dfd') in 0.038822 seconds 
+  Import took 0.046609 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/Prefabs/Canvas.prefab
+  artifactKey: Guid(736aa8655079e5a4da8e47b2af27ada3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Canvas.prefab using Guid(736aa8655079e5a4da8e47b2af27ada3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '500e9e3327be18612ef59841743d107a') in 0.157075 seconds 
+  Import took 0.164920 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/Prefabs/GameManager.prefab
+  artifactKey: Guid(8fbca3d612048fc46ae6f9c8175900c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/GameManager.prefab using Guid(8fbca3d612048fc46ae6f9c8175900c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30ec1185b1b287743de81a0e318ca968') in 0.011776 seconds 
+  Import took 0.018117 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/Prefabs/Fountain.prefab
+  artifactKey: Guid(f0ff6527a102af14da89094b22fa98f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Fountain.prefab using Guid(f0ff6527a102af14da89094b22fa98f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a33e483e5b9b7bcdcb28e94079ed1f2c') in 0.028126 seconds 
+  Import took 0.039979 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Prefabs/N_Tree2.prefab
+  artifactKey: Guid(75aed95f1da70a34c844545fa8bb5a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/N_Tree2.prefab using Guid(75aed95f1da70a34c844545fa8bb5a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc2c7382e198baca4e3ee17155297d47') in 0.114732 seconds 
+  Import took 0.121964 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Prefabs/Rock2.prefab
+  artifactKey: Guid(e221504f564bb264f9d5ff5ee5112a77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Rock2.prefab using Guid(e221504f564bb264f9d5ff5ee5112a77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd564e1f0a4ce3d8021aca9b24c739871') in 0.021593 seconds 
+  Import took 0.027982 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Prefabs/SpiderSpawner.prefab
+  artifactKey: Guid(86a1a995da37fca4bb7d43ba5e8cdc73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/SpiderSpawner.prefab using Guid(86a1a995da37fca4bb7d43ba5e8cdc73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47af872d94038a9088f585d915129b6a') in 0.025639 seconds 
+  Import took 0.034175 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Prefabs/Rock1.prefab
+  artifactKey: Guid(9c3ab17fbc64c694aaecc40518c63f4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Rock1.prefab using Guid(9c3ab17fbc64c694aaecc40518c63f4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'face11cca869fa8cf0737d0c6b472bae') in 0.018233 seconds 
+  Import took 0.031291 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Prefabs/Doors.prefab
+  artifactKey: Guid(b1a0b36f2803087449626331a2c1d2a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Doors.prefab using Guid(b1a0b36f2803087449626331a2c1d2a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff60d58b6a6b0a717843707bd3c24bfd') in 0.019694 seconds 
+  Import took 0.027386 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000387 seconds.
+  path: Assets/Prefabs/Box.prefab
+  artifactKey: Guid(c92b53554a7832f49929d915fe3592b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Box.prefab using Guid(c92b53554a7832f49929d915fe3592b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df00d2be792c1f5889f2b5be9e2366e3') in 0.015629 seconds 
+  Import took 0.023403 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/Prefabs/GraveyardAssets 1.prefab
+  artifactKey: Guid(9ce6264a39ddd4748b9e0d94c80cbfa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/GraveyardAssets 1.prefab using Guid(9ce6264a39ddd4748b9e0d94c80cbfa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82f3f04dba919f4416e2c065c2b9bf56') in 0.131042 seconds 
+  Import took 0.137851 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Prefabs/Hook.prefab
+  artifactKey: Guid(37458ce14a850c048b55c2e2320445d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Hook.prefab using Guid(37458ce14a850c048b55c2e2320445d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e6e5eb571d11b41cf41a85b795311ae') in 0.018353 seconds 
+  Import took 0.024486 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Prefabs/N_Tree.prefab
+  artifactKey: Guid(23470689f398ff34fab6dba207c65873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/N_Tree.prefab using Guid(23470689f398ff34fab6dba207c65873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65b2c155f1560d050f0eb9c0540c4fb0') in 0.203811 seconds 
+  Import took 0.212130 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000348 seconds.
+  path: Assets/Prefabs/Pause Panel.prefab
+  artifactKey: Guid(77a02444f44801242889eb63d00f3a32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pause Panel.prefab using Guid(77a02444f44801242889eb63d00f3a32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e757f03be51f850a24409848dd130fd4') in 0.036025 seconds 
+  Import took 0.043340 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Prefabs/CameraDriver.prefab
+  artifactKey: Guid(8f461c15e818639498a4cb2b28e3ef25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CameraDriver.prefab using Guid(8f461c15e818639498a4cb2b28e3ef25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '049f38d7de56ca85df8a1056fa4c19ff') in 0.026144 seconds 
+  Import took 0.033420 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Prefabs/Casita4.prefab
+  artifactKey: Guid(ad30692f40e46134f8208979c341b254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Casita4.prefab using Guid(ad30692f40e46134f8208979c341b254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8675ba1fd2cecfed15635079076618a3') in 0.035394 seconds 
+  Import took 0.043536 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Prefabs/Mini-Barrel.prefab
+  artifactKey: Guid(8a2762eb61dff544b994d01765e98eb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Mini-Barrel.prefab using Guid(8a2762eb61dff544b994d01765e98eb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3e3f7837e543ff6969310a01e3bcdfb') in 0.010633 seconds 
+  Import took 0.015887 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Prefabs/N_Tree3.prefab
+  artifactKey: Guid(7d0b3f0e62206584d8a92fd1915c9271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/N_Tree3.prefab using Guid(7d0b3f0e62206584d8a92fd1915c9271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb59b5a53714e936b829d40cb7031d72') in 0.127904 seconds 
+  Import took 0.134436 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/Prefabs/Casita.prefab
+  artifactKey: Guid(243941efe6969d24da7f4d42f435997e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Casita.prefab using Guid(243941efe6969d24da7f4d42f435997e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a542d3e9b6ad25f5dd471af8f5711d2') in 0.019416 seconds 
+  Import took 0.027184 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
   path: Assets/Prefabs/GraveyardAssets.prefab
   artifactKey: Guid(7e6e2e2dedf5eb44785f72e3cb58ddf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/GraveyardAssets.prefab using Guid(7e6e2e2dedf5eb44785f72e3cb58ddf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e30e18d912e5887d77e21ed9cbadb45f') in 0.066160 seconds 
-  Import took 0.072968 seconds .
+Start importing Assets/Prefabs/GraveyardAssets.prefab using Guid(7e6e2e2dedf5eb44785f72e3cb58ddf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3e22571262d8b6508b11a149153da8a') in 0.066473 seconds 
+  Import took 0.073208 seconds .
 
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/Prefabs/Puzzle.prefab
+  artifactKey: Guid(1ef18f9cd2bb49941995898a4d9603c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Puzzle.prefab using Guid(1ef18f9cd2bb49941995898a4d9603c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3c6ec53f5b959df72b36affd7a1abab') in 0.043379 seconds 
+  Import took 0.050470 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.948002 seconds.
+  path: Assets/Prefabs/Palanca.prefab
+  artifactKey: Guid(2334896e9522c9849a90a68c5b1245eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Palanca.prefab using Guid(2334896e9522c9849a90a68c5b1245eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4873f17cdbe333d8b29f3c9a16c606f') in 0.019360 seconds 
+  Import took 0.026265 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 102.027608 seconds.
+  path: Assets/Prefabs/Palanca.prefab
+  artifactKey: Guid(2334896e9522c9849a90a68c5b1245eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Palanca.prefab using Guid(2334896e9522c9849a90a68c5b1245eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8eaa7734cf1f20dda804a06465264cff') in 0.016889 seconds 
+  Import took 0.030759 seconds .
+

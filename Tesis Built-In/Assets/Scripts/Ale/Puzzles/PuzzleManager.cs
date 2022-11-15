@@ -9,7 +9,7 @@ public class PuzzleManager : MonoBehaviour
 {
     public PuzzleCircle[] circles = new PuzzleCircle[5];
     public GameObject[] buttons;
-    [SerializeField] private GameObject reward;
+    public Animator animatorDoor;
     
     private void Start()
     {
@@ -21,7 +21,7 @@ public class PuzzleManager : MonoBehaviour
 
     private void Update()
     {
-        if(Input.GetKeyDown(KeyCode.O))reward.SetActive(true);
+        if(Input.GetKeyDown(KeyCode.O))CompletePuzzle();
     }
 
     public void Check()
@@ -45,8 +45,6 @@ public class PuzzleManager : MonoBehaviour
             }
             if (cont == circles.Length)
             {
-                reward.SetActive(true);
-
                 foreach (var circle in circles)
                 {
                     circle._onUpdate += circle.RotateToFinal;
@@ -56,7 +54,15 @@ public class PuzzleManager : MonoBehaviour
                 {
                     button.SetActive(false);
                 }
+
+                Invoke(nameof(CompletePuzzle), 1);
             }
         }
+    }
+
+    public void CompletePuzzle()
+    {
+        animatorDoor.SetBool("Open", true);
+        
     }
 }

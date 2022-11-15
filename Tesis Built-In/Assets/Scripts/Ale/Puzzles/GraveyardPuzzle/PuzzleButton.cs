@@ -6,28 +6,23 @@ using UnityEngine;
 public class PuzzleButton : Interactuables
 {
     public List<PuzzleCircle> circles;
-    private Renderer _renderer;
+    private bool active;
+    private Animator _anim;
 
     protected override void Start()
     {
         base.Start();
-        _renderer = GetComponent<Renderer>();
-        _renderer.material.color = Color.white;
+        _anim = GetComponent<Animator>();
+        active = false;
     }
 
     protected override void Action()
     {
-        StartCoroutine(ChangeColor());
+        active = !active;
+        _anim.SetBool("Active", active);
         foreach (var circle  in circles)
         {
             circle.ChangeState();
         }
-    }
-
-    IEnumerator ChangeColor()
-    {
-        _renderer.material.color = Color.red;
-        yield return new WaitForSeconds(0.2f);
-        _renderer.material.color = Color.white;
     }
 }

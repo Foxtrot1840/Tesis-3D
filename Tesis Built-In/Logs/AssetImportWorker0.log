@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.25f1 (9b9180224418) revision 10195328'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'es' Physical Memory: 16326 MB
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'es' Physical Memory: 8116 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
 COMMAND LINE ARGUMENTS:
@@ -11,23 +11,23 @@ C:\Program Files\Unity\Hub\Editor\2020.3.25f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/Usuario/Desktop/Tesis-3D/Tesis Built-In
+C:/Users/Alejandro/Desktop/Tesis3d/Tesis-3D/Tesis Built-In
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-59052
-Successfully changed project path to: C:/Users/Usuario/Desktop/Tesis-3D/Tesis Built-In
-C:/Users/Usuario/Desktop/Tesis-3D/Tesis Built-In
+63505
+Successfully changed project path to: C:/Users/Alejandro/Desktop/Tesis3d/Tesis-3D/Tesis Built-In
+C:/Users/Alejandro/Desktop/Tesis3d/Tesis-3D/Tesis Built-In
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 67.70 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 93.44 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.25f1 (9b9180224418)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/Usuario/Desktop/Tesis-3D/Tesis Built-In/Assets
+[Subsystems] Discovering subsystems at path C:/Users/Alejandro/Desktop/Tesis3d/Tesis-3D/Tesis Built-In/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1660 SUPER (ID=0x21c4)
+    Renderer: NVIDIA GeForce GTX 1660 Ti (ID=0x2182)
     Vendor:   
     VRAM:     5991 MB
     Driver:   30.0.15.1215
@@ -35,89 +35,156 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56520
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56968
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001519 seconds.
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Registered in 0.003059 seconds.
+Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 96.38 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 83.30 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.538 seconds
+- Completed reload, in  0.700 seconds
 Domain Reload Profiling:
-	ReloadAssembly (538ms)
-		BeginReloadAssembly (43ms)
+	ReloadAssembly (700ms)
+		BeginReloadAssembly (57ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (437ms)
-			LoadAssemblies (41ms)
+		EndReloadAssembly (542ms)
+			LoadAssemblies (55ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (125ms)
+			SetupTypeCache (162ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (25ms)
-			SetupLoadedEditorAssemblies (204ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (218ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
+				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (96ms)
-				BeforeProcessingInitializeOnLoad (14ms)
-				ProcessInitializeOnLoadAttributes (67ms)
-				ProcessInitializeOnLoadMethodAttributes (23ms)
+				RefreshPlugins (83ms)
+				BeforeProcessingInitializeOnLoad (11ms)
+				ProcessInitializeOnLoadAttributes (84ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004356 seconds.
+Registered in 0.010339 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file data-0000020EA2BFA1B0 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\sc.fae.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020C84E2B010 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\AmplifyShaderEditor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020C846A2860 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020EA3069A50 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020C8454E230 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020C8486F820 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020EA3069A50 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020C849288A0 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020C849EE760 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Burst.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020EA3069A50 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020C849EE760 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020C849EE760 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020EA1F77020 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020EA2384C30 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020EA1FE3C30 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020C8486F820 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Animation.Rigging.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020EA14F6010 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020EA2831050 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.TerrainTools.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020EA2384C30 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020EA194A010 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020EA1970C20 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Burst.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020EA2248620 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020EA1E7C820 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020EA1684010 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.TerrainTools.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020EA1684010 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020EA1E7C820 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020C843FBEE0 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020C84841AE0 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\sc.fae.runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020C8486F820 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Animation.Rigging.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 85.16 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 92.19 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.748 seconds
+- Completed reload, in  2.513 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1749ms)
-		BeginReloadAssembly (115ms)
+	ReloadAssembly (2513ms)
+		BeginReloadAssembly (146ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (15ms)
-		EndReloadAssembly (1584ms)
-			LoadAssemblies (73ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (2307ms)
+			LoadAssemblies (167ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (259ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (64ms)
-			SetupLoadedEditorAssemblies (1083ms)
+			SetupTypeCache (346ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (84ms)
+			SetupLoadedEditorAssemblies (1565ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
+				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (85ms)
-				BeforeProcessingInitializeOnLoad (71ms)
-				ProcessInitializeOnLoadAttributes (911ms)
-				ProcessInitializeOnLoadMethodAttributes (7ms)
-				AfterProcessingInitializeOnLoad (5ms)
+				RefreshPlugins (92ms)
+				BeforeProcessingInitializeOnLoad (88ms)
+				ProcessInitializeOnLoadAttributes (1357ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (8ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.67 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.24 seconds
+Refreshing native plugins compatible for Editor in 5.62 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3114 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 306.6 MB.
-System memory in use after: 306.1 MB.
+System memory in use before: 306.4 MB.
+System memory in use after: 306.0 MB.
 
 Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 3579.
-Total: 2.985200 ms (FindLiveObjects: 0.191000 ms CreateObjectMapping: 0.110000 ms MarkObjects: 2.361300 ms  DeleteObjects: 0.322400 ms)
+Total: 14.454900 ms (FindLiveObjects: 0.867100 ms CreateObjectMapping: 0.388200 ms MarkObjects: 12.274400 ms  DeleteObjects: 0.921300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -131,72 +198,250 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Building/Cartel pista.png
-  artifactKey: Guid(94658ccd6540b694aa01ce764cf19a24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Building/Cartel pista.png using Guid(94658ccd6540b694aa01ce764cf19a24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dfb068260a5f397707041a8de09dbb6') in 0.070719 seconds 
-  Import took 0.074612 seconds .
+  path: Assets/Animaciones/GraveyardDoor
+  artifactKey: Guid(35047f2a5e246c64680e922261b52687) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animaciones/GraveyardDoor using Guid(35047f2a5e246c64680e922261b52687) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1388c74fdd1b803e0d5a5011a3c99c80') in 0.017298 seconds 
+  Import took 0.030480 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 10.364508 seconds.
-  path: Assets/Building/Cartel pista.png
-  artifactKey: Guid(94658ccd6540b694aa01ce764cf19a24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Building/Cartel pista.png using Guid(94658ccd6540b694aa01ce764cf19a24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4d7e36042ceccb2947a891e34a0aef0') in 0.066681 seconds 
-  Import took 0.071428 seconds .
+  Time since last request: 11.993203 seconds.
+  path: Assets/Animaciones/GraveyardDoor/GraveyardDoor.controller
+  artifactKey: Guid(72ff92401125dcb4cbc3cba2c9f5bc14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animaciones/GraveyardDoor/GraveyardDoor.controller using Guid(72ff92401125dcb4cbc3cba2c9f5bc14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd06dc1157ddaff298da38b89da9d01db') in 0.087965 seconds 
+  Import took 0.094589 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 429.821864 seconds.
-  path: Assets/Building/Cartel pista.png
-  artifactKey: Guid(94658ccd6540b694aa01ce764cf19a24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Building/Cartel pista.png using Guid(94658ccd6540b694aa01ce764cf19a24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9669a5eaac84457cd9596960acecf70d') in 0.045987 seconds 
-  Import took 0.051110 seconds .
+  Time since last request: 6.145345 seconds.
+  path: Assets/Animaciones/GraveyardDoor/Open.anim
+  artifactKey: Guid(e5953ab05a484ea49aa472a35f66dd23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animaciones/GraveyardDoor/Open.anim using Guid(e5953ab05a484ea49aa472a35f66dd23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37c79c78a1dc151e4eba45649c8ee77c') in 0.009852 seconds 
+  Import took 0.016561 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003590 seconds.
+Registered in 0.014894 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file data-0000020EA147F820 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\sc.fae.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020C84E2B010 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\AmplifyShaderEditor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020EA147F820 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020EA3231020 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020C846555C0 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020EA3231020 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020EA3231020 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020EA2218010 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020EA2822010 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Burst.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020EA4FBC020 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020EA2829EF0 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020C846555C0 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020C849288A0 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020EA2F39C20 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020EA2BBF010 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020EA3231020 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Animation.Rigging.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020EA31CD030 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020EAA013650 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.TerrainTools.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020EA2F39C20 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020EA1596020 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020EA4C3A010 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Burst.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020EA8255010 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020EA8255010 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020EA1EB1020 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.TerrainTools.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020EA1684010 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020EA8255010 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020E7ECB4F00 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020EA9BAD820 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\sc.fae.runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020EA23F8060 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Animation.Rigging.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.86 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.90 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.367 seconds
+- Completed reload, in  1.500 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1367ms)
-		BeginReloadAssembly (106ms)
+	ReloadAssembly (1501ms)
+		BeginReloadAssembly (136ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (31ms)
-		EndReloadAssembly (1212ms)
-			LoadAssemblies (72ms)
+			CreateAndSetChildDomain (52ms)
+		EndReloadAssembly (1306ms)
+			LoadAssemblies (104ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (250ms)
+			SetupTypeCache (357ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (128ms)
-			SetupLoadedEditorAssemblies (660ms)
+			RebuildScriptCaches (61ms)
+			SetupLoadedEditorAssemblies (693ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (75ms)
-				ProcessInitializeOnLoadAttributes (566ms)
-				ProcessInitializeOnLoadMethodAttributes (8ms)
+				BeforeProcessingInitializeOnLoad (83ms)
+				ProcessInitializeOnLoadAttributes (588ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
 				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.93 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2807 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 279.3 MB.
-System memory in use after: 278.9 MB.
+System memory in use before: 276.2 MB.
+System memory in use after: 275.8 MB.
 
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3588.
-Total: 2.945000 ms (FindLiveObjects: 0.202100 ms CreateObjectMapping: 0.111000 ms MarkObjects: 2.386500 ms  DeleteObjects: 0.244700 ms)
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3581.
+Total: 5.816800 ms (FindLiveObjects: 0.595600 ms CreateObjectMapping: 0.264900 ms MarkObjects: 4.457500 ms  DeleteObjects: 0.496700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005033 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000020C84877830 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\sc.fae.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020C84E2B010 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\AmplifyShaderEditor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020C84877830 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020EA1472010 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020C846555C0 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020EA5B01160 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020EA1472010 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020C849288A0 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020EA377A050 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Burst.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020EA33006A0 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020C84C22C70 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020C846555C0 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020EA2E29030 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020EA377A050 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020EA2BBF010 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020EA5B01160 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Animation.Rigging.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020EA1D5B010 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020EF7421BD0 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.TerrainTools.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020EA377A050 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020C84A51030 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020EA33006A0 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Burst.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020EA2F2F010 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020EA5B01160 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020EA30EB030 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.TerrainTools.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020C84961660 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020EA5B01160 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020EA625AD80 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020EA4FFEA20 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\sc.fae.runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020EA351C640 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Animation.Rigging.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.11 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.910 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1911ms)
+		BeginReloadAssembly (116ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (38ms)
+		EndReloadAssembly (1728ms)
+			LoadAssemblies (101ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (413ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (94ms)
+			SetupLoadedEditorAssemblies (978ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (114ms)
+				ProcessInitializeOnLoadAttributes (834ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.80 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2807 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 276.3 MB.
+System memory in use after: 275.9 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3583.
+Total: 4.025700 ms (FindLiveObjects: 0.331400 ms CreateObjectMapping: 0.232100 ms MarkObjects: 3.104400 ms  DeleteObjects: 0.356700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
