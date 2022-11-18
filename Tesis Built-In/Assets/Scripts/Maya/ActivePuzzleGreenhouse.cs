@@ -2,14 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ActivePuzzleGreenhouse : MonoBehaviour
+public class ActivePuzzleGreenhouse : Interactuables
 {
-    private void OnTriggerEnter(Collider other)
+    protected override void Action()
     {
-        if (other.gameObject == GameManager.instance.player)
-        {
-            CanvasManager.instance.ActivePuzzle(true);
-            Destroy(gameObject);
-        }
+        CanvasManager.instance.ActivePuzzle(true);
+        GetComponent<Animator>().SetBool("Active",true);
+        Destroy(this);
     }
 }

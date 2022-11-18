@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.25f1 (9b9180224418) revision 10195328'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'es' Physical Memory: 16326 MB
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'es' Physical Memory: 8116 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
 COMMAND LINE ARGUMENTS:
@@ -11,113 +11,180 @@ C:\Program Files\Unity\Hub\Editor\2020.3.25f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/Usuario/Desktop/Tesis-3D/Tesis Built-In
+C:/Users/Alejandro/Desktop/Tesis3d/Tesis-3D/Tesis Built-In
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-53661
-Successfully changed project path to: C:/Users/Usuario/Desktop/Tesis-3D/Tesis Built-In
-C:/Users/Usuario/Desktop/Tesis-3D/Tesis Built-In
+58144
+Successfully changed project path to: C:/Users/Alejandro/Desktop/Tesis3d/Tesis-3D/Tesis Built-In
+C:/Users/Alejandro/Desktop/Tesis3d/Tesis-3D/Tesis Built-In
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 75.81 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 553.11 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.25f1 (9b9180224418)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/Usuario/Desktop/Tesis-3D/Tesis Built-In/Assets
+[Subsystems] Discovering subsystems at path C:/Users/Alejandro/Desktop/Tesis3d/Tesis-3D/Tesis Built-In/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1660 SUPER (ID=0x21c4)
+    Renderer: NVIDIA GeForce GTX 1660 Ti (ID=0x2182)
     Vendor:   
     VRAM:     5991 MB
-    Driver:   30.0.15.1215
+    Driver:   31.0.15.1694
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56904
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56864
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001399 seconds.
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Registered in 0.006948 seconds.
+Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 71.26 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 164.71 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.509 seconds
+- Completed reload, in  1.117 seconds
 Domain Reload Profiling:
-	ReloadAssembly (509ms)
-		BeginReloadAssembly (43ms)
+	ReloadAssembly (1118ms)
+		BeginReloadAssembly (131ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (409ms)
-			LoadAssemblies (40ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (123ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (859ms)
+			LoadAssemblies (130ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (248ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (26ms)
-			SetupLoadedEditorAssemblies (177ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (383ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
+				InitializePlatformSupportModulesInManaged (12ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (71ms)
-				BeforeProcessingInitializeOnLoad (13ms)
-				ProcessInitializeOnLoadAttributes (65ms)
-				ProcessInitializeOnLoadMethodAttributes (23ms)
+				RefreshPlugins (165ms)
+				BeforeProcessingInitializeOnLoad (17ms)
+				ProcessInitializeOnLoadAttributes (149ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.013812 seconds.
+Registered in 0.017725 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file data-000001C7227D9020 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\sc.fae.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C72197C020 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\AmplifyShaderEditor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C6FEE21E30 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C72299A020 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C6FEB89030 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C72209C230 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C6FF3F7640 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C72182C020 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C6FE9D8010 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Burst.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C72185A230 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C6FEB89030 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C6FEB89030 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C721784020 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C6FE9D8010 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7218D4020 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C72209C230 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Animation.Rigging.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C721395010 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C6FEAB2E90 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.TerrainTools.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C6FE9D8010 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7218FC040 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7218FC040 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Burst.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C721A2D430 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C6FF26D140 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C721B8D010 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.TerrainTools.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C721B8D010 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C6FF26D140 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C722B17020 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C6FE8432D0 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\sc.fae.runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C72209C230 doesn't match image C:\Users\Alejandro\Desktop\Tesis3d\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Animation.Rigging.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 68.95 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 92.58 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.837 seconds
+- Completed reload, in  2.882 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1838ms)
-		BeginReloadAssembly (115ms)
+	ReloadAssembly (2888ms)
+		BeginReloadAssembly (217ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (15ms)
-		EndReloadAssembly (1672ms)
-			LoadAssemblies (72ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (2588ms)
+			LoadAssemblies (204ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (261ms)
+			SetupTypeCache (439ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (66ms)
-			SetupLoadedEditorAssemblies (1172ms)
+			RebuildScriptCaches (108ms)
+			SetupLoadedEditorAssemblies (1700ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
+				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (69ms)
-				BeforeProcessingInitializeOnLoad (70ms)
-				ProcessInitializeOnLoadAttributes (1017ms)
-				ProcessInitializeOnLoadMethodAttributes (7ms)
-				AfterProcessingInitializeOnLoad (5ms)
+				RefreshPlugins (93ms)
+				BeforeProcessingInitializeOnLoad (113ms)
+				ProcessInitializeOnLoadAttributes (1463ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.71 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.88 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3114 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 306.5 MB.
-System memory in use after: 306.0 MB.
+Unloading 3116 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 308.2 MB.
+System memory in use after: 307.8 MB.
 
-Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 3579.
-Total: 3.101300 ms (FindLiveObjects: 0.223000 ms CreateObjectMapping: 0.131600 ms MarkObjects: 2.469600 ms  DeleteObjects: 0.276300 ms)
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 3583.
+Total: 4.007200 ms (FindLiveObjects: 0.326500 ms CreateObjectMapping: 0.187200 ms MarkObjects: 3.119400 ms  DeleteObjects: 0.373200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -131,249 +198,225 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Building/Cartel
-  artifactKey: Guid(57bd95250f8df034cbbfd428801b79d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Building/Cartel using Guid(57bd95250f8df034cbbfd428801b79d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f23d22ac90c263c87d6deac9477e7547') in 0.008784 seconds 
-  Import took 0.013306 seconds .
+  path: Assets/Materials/HokkGrua2.mat
+  artifactKey: Guid(b8a7d8040868d0746bfb20e5c240c4d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/HokkGrua2.mat using Guid(b8a7d8040868d0746bfb20e5c240c4d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9097b40d35f2a3571e81860196391186') in 0.223158 seconds 
+  Import took 0.232089 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000172 seconds.
-  path: Assets/Building/Cartel/Cartel.mat
-  artifactKey: Guid(21c0fe7a7a343404a9df03e247b6fb45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Building/Cartel/Cartel.mat using Guid(21c0fe7a7a343404a9df03e247b6fb45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97669af5fbb8a7593caecaf8734b5821') in 0.113604 seconds 
-  Import took 0.117282 seconds .
+  Time since last request: 0.000571 seconds.
+  path: Assets/Materials/HookGrua.mat
+  artifactKey: Guid(978f51958a4f01145a988bc0f058d006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/HookGrua.mat using Guid(978f51958a4f01145a988bc0f058d006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b394d6b8a06d3984fa5d2f25694f4a1') in 0.047780 seconds 
+  Import took 0.054329 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000164 seconds.
-  path: Assets/Building/Cartel/Cartel_lambert1_AlbedoTransparency.png
-  artifactKey: Guid(152b090c93ffbdd42b3053783dd61c5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Building/Cartel/Cartel_lambert1_AlbedoTransparency.png using Guid(152b090c93ffbdd42b3053783dd61c5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0c6d1c435830ecf12ae5cab6d773cf3') in 0.040736 seconds 
-  Import took 0.044436 seconds .
+  Time since last request: 51.900773 seconds.
+  path: Assets/Building/Graveyard/rejas/rejas_Pilares_BaseColor.png
+  artifactKey: Guid(2650a62ef68c14f49b5c9d7dd15d178e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building/Graveyard/rejas/rejas_Pilares_BaseColor.png using Guid(2650a62ef68c14f49b5c9d7dd15d178e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbb4ff31afe0c8d7affbf569b7f52064') in 0.084619 seconds 
+  Import took 0.091071 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000166 seconds.
-  path: Assets/Building/Cartel/Ambient Occlusion Map from Mesh lambert1.png
-  artifactKey: Guid(ce9ffa68839ed5c419f41fb0b9da710b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Building/Cartel/Ambient Occlusion Map from Mesh lambert1.png using Guid(ce9ffa68839ed5c419f41fb0b9da710b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2bdce619b8a171d8f82dba54bfc1d4b') in 0.017088 seconds 
-  Import took 0.020984 seconds .
+  Time since last request: 36.703569 seconds.
+  path: Assets/Models/RejasCementerio.fbx
+  artifactKey: Guid(fff3bf845c68d16449333d8c4448fb59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/RejasCementerio.fbx using Guid(fff3bf845c68d16449333d8c4448fb59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfb082bbdc9244b20147fd2bd957c3aa') in 0.277903 seconds 
+  Import took 0.285919 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.420942 seconds.
-  path: Assets/Building/Cartel/Cartel_lambert1_AlbedoTransparency 1.png
-  artifactKey: Guid(1b31c04d96f74ad4d9a1f9bc0cfaed48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Building/Cartel/Cartel_lambert1_AlbedoTransparency 1.png using Guid(1b31c04d96f74ad4d9a1f9bc0cfaed48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e58adcd9a9d267b0dcf5f9e164579504') in 0.009741 seconds 
-  Import took 0.014783 seconds .
+  Time since last request: 72.597777 seconds.
+  path: Assets/Building/Graveyard/rejas/Ambient Occlusion Map from Mesh Pilares.png
+  artifactKey: Guid(9d122719b9939e947808522bb0a71820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building/Graveyard/rejas/Ambient Occlusion Map from Mesh Pilares.png using Guid(9d122719b9939e947808522bb0a71820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f29c4a0f497d58d517efa2c366fb4a4a') in 0.025638 seconds 
+  Import took 0.033203 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 14.335219 seconds.
-  path: Assets/Building/Cartel/Cartel.mat
-  artifactKey: Guid(21c0fe7a7a343404a9df03e247b6fb45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Building/Cartel/Cartel.mat using Guid(21c0fe7a7a343404a9df03e247b6fb45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fc8ae33692a1f87785856a55d9114f3') in 0.011210 seconds 
-  Import took 0.015951 seconds .
+  Time since last request: 0.000310 seconds.
+  path: Assets/Building/Graveyard/rejas/rejas_Puerta_BaseColor.png
+  artifactKey: Guid(cb8bf528b6fbc6a41831b458b5c48aaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building/Graveyard/rejas/rejas_Puerta_BaseColor.png using Guid(cb8bf528b6fbc6a41831b458b5c48aaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33cb848c74f1b34c1fb2189f09e6ccf6') in 0.037990 seconds 
+  Import took 0.045861 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 68.874004 seconds.
-  path: Assets/Prefabs/Canvas 1.prefab
-  artifactKey: Guid(63a41854c0e1b2d4c87038e8426cef41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Canvas 1.prefab using Guid(63a41854c0e1b2d4c87038e8426cef41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b7ae26a3612ff778c42c0540e385b40') in 0.069429 seconds 
-  Import took 0.074291 seconds .
+  Time since last request: 0.000330 seconds.
+  path: Assets/Building/Graveyard/rejas/PruebaDeFlor.fbx
+  artifactKey: Guid(a45113ee5ba6ead4a8372ee875cc95ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building/Graveyard/rejas/PruebaDeFlor.fbx using Guid(a45113ee5ba6ead4a8372ee875cc95ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b571ff02c2ca86808f264d27d1d64455') in 0.079763 seconds 
+  Import took 0.087992 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000146 seconds.
-  path: Assets/Prefabs/Canvas.prefab
-  artifactKey: Guid(736aa8655079e5a4da8e47b2af27ada3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Canvas.prefab using Guid(736aa8655079e5a4da8e47b2af27ada3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba58c90545d59048885b7a45f8487a9f') in 0.033738 seconds 
-  Import took 0.038470 seconds .
+  Time since last request: 0.000285 seconds.
+  path: Assets/Building/Graveyard/rejas/Ambient Occlusion Map from Mesh Puerta.png
+  artifactKey: Guid(0a962482cd11d544797bc03f9c1793d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building/Graveyard/rejas/Ambient Occlusion Map from Mesh Puerta.png using Guid(0a962482cd11d544797bc03f9c1793d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7771d63271073e5e5cd5dd8ecb68bf3') in 0.022601 seconds 
+  Import took 0.031501 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000169 seconds.
-  path: Assets/Prefabs/Estacion de Tren 2.prefab
-  artifactKey: Guid(4f427c49944ea944ea17144c48d666e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Estacion de Tren 2.prefab using Guid(4f427c49944ea944ea17144c48d666e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7eb2885bf9a053f5f7b60d13955c2d88') in 0.038742 seconds 
-  Import took 0.042983 seconds .
+  Time since last request: 0.000378 seconds.
+  path: Assets/Building/Graveyard/rejas/Puerta.mat
+  artifactKey: Guid(9675f0a0d983b8845af8d511854d5c57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building/Graveyard/rejas/Puerta.mat using Guid(9675f0a0d983b8845af8d511854d5c57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cb866340e13554ad37e54941041d6cc') in 0.018353 seconds 
+  Import took 0.025049 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 44.602203 seconds.
-  path: Assets/Prefabs/Canvas.prefab
-  artifactKey: Guid(63a41854c0e1b2d4c87038e8426cef41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Canvas.prefab using Guid(63a41854c0e1b2d4c87038e8426cef41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f814b77af1a1eaa34c49cdffb6e63e2f') in 0.021741 seconds 
-  Import took 0.026492 seconds .
+  Time since last request: 0.000266 seconds.
+  path: Assets/Building/Graveyard/rejas/rejas.fbx
+  artifactKey: Guid(3a626c592b1edf04f924d8d09f1676ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building/Graveyard/rejas/rejas.fbx using Guid(3a626c592b1edf04f924d8d09f1676ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbf4419fdf07693472cd385f7b5135e3') in 0.074648 seconds 
+  Import took 0.083387 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 423.933966 seconds.
-  path: Assets/Building/Generador/Ambient Occlusion Map from Mesh lambert1.png
-  artifactKey: Guid(1069ad47cb6c032478667697a0e4900f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Building/Generador/Ambient Occlusion Map from Mesh lambert1.png using Guid(1069ad47cb6c032478667697a0e4900f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b64d632b4fdaa703ccf1f52858f460b') in 0.022291 seconds 
-  Import took 0.027218 seconds .
+  Time since last request: 0.000240 seconds.
+  path: Assets/Building/Graveyard/rejas/rejas_Reja_BaseColor.png
+  artifactKey: Guid(752d29b9d18e0fb409c8d4edd46eb686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building/Graveyard/rejas/rejas_Reja_BaseColor.png using Guid(752d29b9d18e0fb409c8d4edd46eb686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58aafc3080b5f6cd55546d493ff1058e') in 0.023638 seconds 
+  Import took 0.032388 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000237 seconds.
-  path: Assets/Building/Generador/Generator.prefab
-  artifactKey: Guid(bb677491705e7684f9bf43ae75327cb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Building/Generador/Generator.prefab using Guid(bb677491705e7684f9bf43ae75327cb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b99d399a19eb24dcbdcee6048f6e3f84') in 0.024489 seconds 
-  Import took 0.028621 seconds .
+  Time since last request: 0.000274 seconds.
+  path: Assets/Building/Graveyard/rejas/Reja.mat
+  artifactKey: Guid(b3160a9300d70434b86a8a5cc2aa6aad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building/Graveyard/rejas/Reja.mat using Guid(b3160a9300d70434b86a8a5cc2aa6aad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48257b4c4a3d1bd02652aa1e5e9ef65c') in 0.020158 seconds 
+  Import took 0.028800 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000228 seconds.
-  path: Assets/Building/Generador/Generator.mat
-  artifactKey: Guid(e92a78b1fbed149449555a670f7d79bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Building/Generador/Generator.mat using Guid(e92a78b1fbed149449555a670f7d79bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1eff607e351bf164dd1e29ab49614a2d') in 0.019928 seconds 
-  Import took 0.024420 seconds .
+  Time since last request: 0.000316 seconds.
+  path: Assets/Building/Graveyard/rejas/Ambient Occlusion Map from Mesh Reja.png
+  artifactKey: Guid(8f942fddda88a194990027613648dd5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building/Graveyard/rejas/Ambient Occlusion Map from Mesh Reja.png using Guid(8f942fddda88a194990027613648dd5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67320af41d16771d6f45f1426cafacd9') in 0.030556 seconds 
+  Import took 0.037784 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000154 seconds.
-  path: Assets/Building/Generador/Generator_lambert1_BaseColor.png
-  artifactKey: Guid(e95613d4d9078ac4db7d7edd4fb57f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Building/Generador/Generator_lambert1_BaseColor.png using Guid(e95613d4d9078ac4db7d7edd4fb57f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ddde2a260be22ac6773eb7cd68d82da') in 0.009729 seconds 
-  Import took 0.014207 seconds .
+  Time since last request: 0.000239 seconds.
+  path: Assets/Building/Graveyard/rejas/Pilares.mat
+  artifactKey: Guid(d7000b462148deb4dba231d516282b15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building/Graveyard/rejas/Pilares.mat using Guid(d7000b462148deb4dba231d516282b15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f0f229ed9bcb3fd78e8afde15f4f225') in 0.020307 seconds 
+  Import took 0.028069 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.823149 seconds.
-  path: Assets/Building/Generator/Generator 1.fbx
-  artifactKey: Guid(ca84e95cc176cd649969fed7c0383ac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Building/Generator/Generator 1.fbx using Guid(ca84e95cc176cd649969fed7c0383ac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd22413738a8783a421d7f74ab2aedaef') in 0.063436 seconds 
-  Import took 0.067522 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000231 seconds.
-  path: Assets/Building/Generator/Generator.fbx
-  artifactKey: Guid(cd753346cb23ece4a821c022cc6f2a32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Building/Generator/Generator.fbx using Guid(cd753346cb23ece4a821c022cc6f2a32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0644ddeb281adb2e2d40dde5051a6d33') in 0.036343 seconds 
-  Import took 0.040085 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000175 seconds.
-  path: Assets/Building/Generator/Generator.mat
-  artifactKey: Guid(82eca0d5a6c0dab4d873bf2f50d14454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Building/Generator/Generator.mat using Guid(82eca0d5a6c0dab4d873bf2f50d14454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd73238aa6ac2968785d6935703fad69') in 0.009008 seconds 
-  Import took 0.013452 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.622429 seconds.
-  path: Assets/Building/Generator/Generator 1.fbx
-  artifactKey: Guid(ca84e95cc176cd649969fed7c0383ac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Building/Generator/Generator 1.fbx using Guid(ca84e95cc176cd649969fed7c0383ac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1645a24ea34e3e9cb17909cd3a1a5d2') in 0.039218 seconds 
-  Import took 0.043543 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 86.060792 seconds.
+  Time since last request: 15.438939 seconds.
   path: Assets/Building/Cartel pista.png
   artifactKey: Guid(94658ccd6540b694aa01ce764cf19a24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Building/Cartel pista.png using Guid(94658ccd6540b694aa01ce764cf19a24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9669a5eaac84457cd9596960acecf70d') in 0.027421 seconds 
-  Import took 0.031635 seconds .
+Start importing Assets/Building/Cartel pista.png using Guid(94658ccd6540b694aa01ce764cf19a24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '060876771e8216291125911262545988') in 0.041740 seconds 
+  Import took 0.050879 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.784771 seconds.
-  path: Assets/Building/Fountain/Fountain.mat
-  artifactKey: Guid(72833eecf4ed82940864c6f2780d4114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Building/Fountain/Fountain.mat using Guid(72833eecf4ed82940864c6f2780d4114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc74240fc81370bad108b286d3d92968') in 0.022208 seconds 
-  Import took 0.027293 seconds .
+  Time since last request: 0.000264 seconds.
+  path: Assets/Building/flor.mat
+  artifactKey: Guid(0cbac96f5e3f5c949b5d11e3919f413e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building/flor.mat using Guid(0cbac96f5e3f5c949b5d11e3919f413e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eef58046874a0c4ca4abc670f9e24609') in 0.015586 seconds 
+  Import took 0.023771 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000204 seconds.
-  path: Assets/Building/Fountain/Fountain_Base.mat
-  artifactKey: Guid(60116a8a44461b847903b23e45856c03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Building/Fountain/Fountain_Base.mat using Guid(60116a8a44461b847903b23e45856c03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59a857d204591f3cebdc00227cb9c3a5') in 0.017764 seconds 
-  Import took 0.021775 seconds .
+  Time since last request: 17.718739 seconds.
+  path: Assets/Models/RejasCementerio.fbx
+  artifactKey: Guid(fff3bf845c68d16449333d8c4448fb59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/RejasCementerio.fbx using Guid(fff3bf845c68d16449333d8c4448fb59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f4828538aa0f1466607174e2916c38e') in 0.052298 seconds 
+  Import took 0.064008 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.941708 seconds.
-  path: Assets/Building/Generador/Generator.fbx
-  artifactKey: Guid(ca84e95cc176cd649969fed7c0383ac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Building/Generador/Generator.fbx using Guid(ca84e95cc176cd649969fed7c0383ac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36949339867c0a5bd0851103adb030cd') in 0.034935 seconds 
-  Import took 0.039147 seconds .
+  Time since last request: 5.672976 seconds.
+  path: Assets/Building/Lamp/Metallic.mat
+  artifactKey: Guid(91d9d5c619857fe45b550a603b4c4ffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building/Lamp/Metallic.mat using Guid(91d9d5c619857fe45b550a603b4c4ffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c10b47c23a6655056bee43e8db2d36e') in 0.036545 seconds 
+  Import took 0.045178 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 428.722061 seconds.
-  path: Assets/Scripts/Maya
-  artifactKey: Guid(9ceab293035416f4692b0944e8c36eda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Maya using Guid(9ceab293035416f4692b0944e8c36eda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96f2e96c9f7629698957de132e63d81d') in 0.007649 seconds 
-  Import took 0.012748 seconds .
+  Time since last request: 0.000305 seconds.
+  path: Assets/Building/Lamp/Window.mat
+  artifactKey: Guid(0e036b137d74155458c5faf45e25b028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building/Lamp/Window.mat using Guid(0e036b137d74155458c5faf45e25b028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55146e206e22b8a9a4f877a6a5b88099') in 0.032282 seconds 
+  Import took 0.039453 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 34.611569 seconds.
-  path: Assets/Prefabs/Generator .prefab
-  artifactKey: Guid(e0983739046dd4d4fbb739044dd57776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Generator .prefab using Guid(e0983739046dd4d4fbb739044dd57776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f31d201658bf4e445ca26931c17dc3ec') in 0.007654 seconds 
-  Import took 0.011802 seconds .
+  Time since last request: 3.646741 seconds.
+  path: Assets/Building/Graveyard/rejas
+  artifactKey: Guid(a3d67964227c6364789615834b3e8a67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building/Graveyard/rejas using Guid(a3d67964227c6364789615834b3e8a67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b7c8d4455fcc208047cfc6eb2387510') in 0.002203 seconds 
+  Import took 0.008476 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000156 seconds.
-  path: Assets/Prefabs/Generator 1.prefab
-  artifactKey: Guid(3f788e751ba31674eb0cffa1f82e4368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Generator 1.prefab using Guid(3f788e751ba31674eb0cffa1f82e4368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4687c41f23dcecd795549819da7f139') in 0.017841 seconds 
-  Import took 0.022332 seconds .
+  Time since last request: 4.187214 seconds.
+  path: Assets/Building/Pipes/fondo.png
+  artifactKey: Guid(353b406da653504489bf1e3dee248dab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building/Pipes/fondo.png using Guid(353b406da653504489bf1e3dee248dab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a17c6d281c608cdbc61b689947e0678') in 0.036553 seconds 
+  Import took 0.042952 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000175 seconds.
-  path: Assets/Prefabs/GreenHouse.prefab
-  artifactKey: Guid(41d4b5d8afaf82146b91ba3f532886ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/GreenHouse.prefab using Guid(41d4b5d8afaf82146b91ba3f532886ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3677966ffe484ff2c98cfaa89c8a49b1') in 0.026957 seconds 
-  Import took 0.031585 seconds .
+  Time since last request: 0.000264 seconds.
+  path: Assets/Building/Pipes/punta.png
+  artifactKey: Guid(ce2200d185d6e3a478c6d6a1f863704b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building/Pipes/punta.png using Guid(ce2200d185d6e3a478c6d6a1f863704b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '784904c2ce503e3b3d5abb99aea874cb') in 0.022842 seconds 
+  Import took 0.030650 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000145 seconds.
-  path: Assets/Prefabs/GraveyardAssets 1.prefab
-  artifactKey: Guid(9ce6264a39ddd4748b9e0d94c80cbfa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/GraveyardAssets 1.prefab using Guid(9ce6264a39ddd4748b9e0d94c80cbfa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb36660ed45f48e9f69a4e47ff51312a') in 0.018439 seconds 
-  Import took 0.023249 seconds .
+  Time since last request: 0.000318 seconds.
+  path: Assets/Building/Pipes/pipeGrey_08 1.png
+  artifactKey: Guid(c993491bb54eb774090474345a307e46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building/Pipes/pipeGrey_08 1.png using Guid(c993491bb54eb774090474345a307e46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79c8fee6a989789b639724ffb20936cb') in 0.022161 seconds 
+  Import took 0.029347 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000171 seconds.
-  path: Assets/Prefabs/Grass.prefab
-  artifactKey: Guid(8a0b8271d3aafed4596d5fbdbd104f5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Grass.prefab using Guid(8a0b8271d3aafed4596d5fbdbd104f5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '488c8dc35b8f600554e1f015d9075fb8') in 0.016674 seconds 
-  Import took 0.020956 seconds .
+  Time since last request: 0.000280 seconds.
+  path: Assets/Building/Pipes/pipeGrey_11 1.png
+  artifactKey: Guid(716372c56f1cda340a429b25f39bf78e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building/Pipes/pipeGrey_11 1.png using Guid(716372c56f1cda340a429b25f39bf78e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f36f1c35a68c2dfcf950abf954442f26') in 0.025520 seconds 
+  Import took 0.032335 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000169 seconds.
-  path: Assets/Prefabs/GraveyardAssets.prefab
-  artifactKey: Guid(7e6e2e2dedf5eb44785f72e3cb58ddf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/GraveyardAssets.prefab using Guid(7e6e2e2dedf5eb44785f72e3cb58ddf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef9fbf95cb32712ddb5a8b170a3380dc') in 0.029107 seconds 
-  Import took 0.033510 seconds .
+  Time since last request: 0.000441 seconds.
+  path: Assets/Building/Pipes/Pipes (1).png
+  artifactKey: Guid(0c390059b4762ad41b16e5f1b9e7247e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building/Pipes/Pipes (1).png using Guid(0c390059b4762ad41b16e5f1b9e7247e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '827cee0e61e7dd0cdf9bcc33b671cf79') in 0.022470 seconds 
+  Import took 0.031003 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 17.637005 seconds.
-  path: Assets/Prefabs/PuzzleButton.prefab
-  artifactKey: Guid(907c8146ae15dc544875989cf7a8e6f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/PuzzleButton.prefab using Guid(907c8146ae15dc544875989cf7a8e6f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da430592713e7771d6c18a67d60a34ea') in 0.010818 seconds 
-  Import took 0.015678 seconds .
+  Time since last request: 0.000348 seconds.
+  path: Assets/Building/Pipes/pipeGrey_12 1.png
+  artifactKey: Guid(529567b010eab5747acae4331d14f741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building/Pipes/pipeGrey_12 1.png using Guid(529567b010eab5747acae4331d14f741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbac608ef1abff5190cc4d3d11154908') in 0.022232 seconds 
+  Import took 0.029670 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.806914 seconds.
-  path: Assets/Prefabs/TNT.prefab
-  artifactKey: Guid(702ab4c0faefe244199c1a7c95365383) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TNT.prefab using Guid(702ab4c0faefe244199c1a7c95365383) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95bc1c95509e1a954cf2126060032b0f') in 0.044322 seconds 
-  Import took 0.050179 seconds .
+  Time since last request: 0.000305 seconds.
+  path: Assets/Building/Pipes/pipeGrey_09 1.png
+  artifactKey: Guid(a7c036d53b0647b4090118d35236c674) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building/Pipes/pipeGrey_09 1.png using Guid(a7c036d53b0647b4090118d35236c674) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ec5a4f28c768442347143c33d040e46') in 0.020819 seconds 
+  Import took 0.028815 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.947516 seconds.
+  path: Assets/Models/RejasCementerio.fbx
+  artifactKey: Guid(fff3bf845c68d16449333d8c4448fb59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/RejasCementerio.fbx using Guid(fff3bf845c68d16449333d8c4448fb59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b4a9bad8b9a6e022cc586c1854806de') in 0.052851 seconds 
+  Import took 0.065293 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

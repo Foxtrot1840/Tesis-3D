@@ -3,15 +3,14 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 using Cinemachine;
-using UnityEngine;
+    using Unity.Mathematics;
+    using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.Serialization;
 
 public class Controller : Entity
 {
     [SerializeField] private int _maxHealth;
-    [SerializeField] private CinemachineVirtualCamera _normalCamera;
-    [SerializeField] private CinemachineVirtualCamera _zoomCamera;
     [SerializeField] private float _speedAimRotation;
     [SerializeField] private float _speed = 5;
     [SerializeField] private float _sprint = 10;
@@ -26,18 +25,19 @@ public class Controller : Entity
     [SerializeField] private float viewAngle;
     [SerializeField] public LayerMask stopWalking;
     [SerializeField] private ParticleSystem shootWall;
+    [SerializeField] private CameraFollow tracker;
     public GameObject hookObj, gunObj;
     public bool hook, gun;
     public GameObject mira;
+    
 
-    private CinemachineTransposer _normalCameraAim;
-    private CinemachineTransposer _zoomCameraAim;
     private Rigidbody _rb;
     private Animator _anim;
     private Model _model;
     public View _view;
 
-    private bool _isZoom = false;
+    private bool _isZoom;
+    private float zoomLerp;
 
     public List<Enum> gearInventary = new List<Enum>();
     public Vector3 lastSavePoint;
@@ -48,12 +48,9 @@ public class Controller : Entity
 
     private void Awake()
     {
-        _normalCameraAim = _normalCamera.GetCinemachineComponent<CinemachineTransposer>();
-        _zoomCameraAim = _zoomCamera.GetCinemachineComponent<CinemachineTransposer>();
         _rb = GetComponent<Rigidbody>();
         _anim = GetComponent<Animator>();
-        _model = new Model(this, _rb, this.transform, _speedRotation, _speedAimRotation, _jumpForce, _normalCameraAim,
-                           _zoomCameraAim, _hand, _hook, _line);
+        _model = new Model(this, _rb, transform, _speedRotation, _speedAimRotation, _jumpForce, _hand, _hook, _line);
         _view = new View(_anim);
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
@@ -69,12 +66,12 @@ public class Controller : Entity
     private void Update()
     {
         _model.Rotate();
-        _model.CameraAim();
 
         _isZoom = Input.GetMouseButton(1);
-        _anim.SetBool("Zoom", _isZoom);
         mira.SetActive(_isZoom);
-        
+        zoomLerp += _isZoom ? 2.5f * Time.deltaTime : -2.5f * Time.deltaTime;
+        zoomLerp = Mathf.Clamp(zoomLerp, 0, 1);
+        tracker.distance = Mathf.Lerp(3, 2, zoomLerp);
 
         //El click izquierdo se realiza la animacion de ataque
         ////(el animator pregunta si se apunta se hace un disparo, sino se usa la espada) 
@@ -90,15 +87,16 @@ public class Controller : Entity
             _model.Jump();
         }
 
+        
+        if(hook)_model.hookPoint = FieldOfView();
+        
+        CanvasManager.instance.ShowKeyE(interactables != null || _model.hookPoint != null);
+
         if (Input.GetKeyDown(KeyCode.E))
         {
             interactables?.Invoke();
-        }
 
-        if (Input.GetKeyDown(KeyCode.Q) && !_model.isHooking && hook)
-        {
-            _model.hookPoint = FieldOfView();
-            if(_model.hookPoint != null)
+            if (_model.hookPoint != null && !_model.isHooking)
             {
                 _model.StartHooking();
                 _line.enabled = true;
@@ -107,11 +105,11 @@ public class Controller : Entity
             }
         }
 
-        if (Input.GetKeyUp(KeyCode.Q) && _model.isHooking)
+        if (Input.GetKeyUp(KeyCode.E) && _model.isHooking)
         {
             _model.StopHooking();
         }
-
+        
         if (Input.GetKeyDown(KeyCode.LeftShift))Sprint(true);
 
         if (Input.GetKeyUp(KeyCode.LeftShift)) Sprint(false); 
@@ -140,7 +138,6 @@ public class Controller : Entity
                 a.transform.forward = (transform.position - hit.point).normalized;
             }
         }
-    
     }
 
     public void Sprint(bool active)

@@ -88,7 +88,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 40912821490631614}
-  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 50, y: 0, z: 65.96}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -191,8 +191,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damageParticles: {fileID: 0}
   _maxHealth: 5
-  _normalCamera: {fileID: 0}
-  _zoomCamera: {fileID: 0}
   _speedAimRotation: 5
   _speed: 4
   _sprint: 6
@@ -202,19 +200,21 @@ MonoBehaviour:
   _shootPoint: {fileID: 887262106681617532}
   _layerShoot:
     serializedVersion: 2
-    m_Bits: 1
+    m_Bits: 129
   _hook: {fileID: 7519827179925257783}
   _hand: {fileID: 6227445812626647852}
-  _line: {fileID: 0}
+  _line: {fileID: 7138234370035672307}
   viewAngle: 90
   stopWalking:
     serializedVersion: 2
     m_Bits: 128
   shootWall: {fileID: 5852245646384900766, guid: 0858ea7d52b73f04eb250849fde8ad79, type: 3}
+  tracker: {fileID: 0}
   hookObj: {fileID: 7138234370035672205}
   gunObj: {fileID: 887262106782415558}
   hook: 0
   gun: 0
+  mira: {fileID: 0}
   lastSavePoint: {x: 0, y: 0, z: 0}
   hookSwingPoint: []
 --- !u!1 &64435316969025154
@@ -12576,13 +12576,18 @@ PrefabInstance:
     m_RemovedComponents:
     - {fileID: 8016454038226624253, guid: 37458ce14a850c048b55c2e2320445d0, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 37458ce14a850c048b55c2e2320445d0, type: 3}
+--- !u!1 &7138234370035672205 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8016454038226624252, guid: 37458ce14a850c048b55c2e2320445d0, type: 3}
+  m_PrefabInstance: {fileID: 887262106754988657}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &7519827179925257783 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7209131421540942918, guid: 37458ce14a850c048b55c2e2320445d0, type: 3}
   m_PrefabInstance: {fileID: 887262106754988657}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &7138234370035672205 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8016454038226624252, guid: 37458ce14a850c048b55c2e2320445d0, type: 3}
+--- !u!120 &7138234370035672307 stripped
+LineRenderer:
+  m_CorrespondingSourceObject: {fileID: 8016454038226624130, guid: 37458ce14a850c048b55c2e2320445d0, type: 3}
   m_PrefabInstance: {fileID: 887262106754988657}
   m_PrefabAsset: {fileID: 0}

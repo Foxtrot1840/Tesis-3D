@@ -1981,7 +1981,7 @@ GameObject:
   m_Layer: 8
   m_Name: LookAt Zoom
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 8418204508859773708, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -1993,7 +1993,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2422390769836775703}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.63, y: 1.513, z: 0.85}
+  m_LocalPosition: {x: 0.325, y: 1.513, z: -0.012}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2744019210696555053}
@@ -2306,8 +2306,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damageParticles: {fileID: 0}
   _maxHealth: 5
-  _normalCamera: {fileID: 0}
-  _zoomCamera: {fileID: 0}
   _speedAimRotation: 5
   _speed: 4
   _sprint: 6
@@ -2320,15 +2318,17 @@ MonoBehaviour:
     m_Bits: 7935
   _hook: {fileID: 5014183446012804516}
   _hand: {fileID: 8908800960427821061}
-  _hookDistance: 20
   _line: {fileID: 5683021474131928928}
   viewAngle: 90
   stopWalking:
     serializedVersion: 2
     m_Bits: 2048
-  hookLayers:
-    serializedVersion: 2
-    m_Bits: 8183
+  shootWall: {fileID: 0}
+  hookObj: {fileID: 0}
+  gunObj: {fileID: 0}
+  hook: 0
+  gun: 0
+  mira: {fileID: 0}
   lastSavePoint: {x: 0, y: 0, z: 0}
   hookSwingPoint: []
 --- !u!114 &2422390770524411334

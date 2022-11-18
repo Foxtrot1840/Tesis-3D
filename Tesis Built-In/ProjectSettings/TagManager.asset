@@ -8,12 +8,12 @@ TagManager:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - PostProcess
   - Water
   - UI
   - Interactables
   - Buildings
-  - 
+  - CollidersBorde
   - 
   - 
   - 

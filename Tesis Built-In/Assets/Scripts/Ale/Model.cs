@@ -1,11 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using System.Runtime.CompilerServices;
 using UnityEngine;
-using UnityEngine.EventSystems;
-using Cinemachine;
-using TMPro;
 using Unity.Mathematics;
 
 public class Model
@@ -15,8 +11,6 @@ public class Model
     private float _speedRotation;
     private float _speedAim;
     private float _jumpForce;
-    private CinemachineTransposer _normalCameraOffset;
-    private CinemachineTransposer _zoomCameraOffset;
     private Transform _hand;
     private Transform _hook;
     private Controller _controller;
@@ -26,6 +20,7 @@ public class Model
     public bool isHooking;
     private bool _going;
     public Transform hookPoint;
+    private HookPoint lastHookPoint;
     private Vector3 _hookOffset;
     private quaternion _hookRotation;
 
@@ -33,7 +28,7 @@ public class Model
     private float lerp;
 
     public Model(Controller controller, Rigidbody rb, Transform player, float speedRotation,
-        float speedAim, float jumpForce, CinemachineTransposer normal, CinemachineTransposer zoom, Transform hand,
+        float speedAim, float jumpForce, Transform hand,
         Transform hook, LineRenderer line)
     {
         _controller = controller;
@@ -41,8 +36,6 @@ public class Model
         _player = player;
         _speedRotation = speedRotation;
         _speedAim = speedAim;
-        _normalCameraOffset = normal;
-        _zoomCameraOffset = zoom;
         _jumpForce = jumpForce;
         _hand = hand;
         _hook = hook;
@@ -67,19 +60,8 @@ public class Model
     //Rotacion del personaje en el eje Y
     public void Rotate()
     {
-        _rb.MoveRotation(_rb.rotation * Quaternion.Euler(Vector3.up * Input.GetAxis("Mouse X") * _speedRotation * Time.deltaTime));
-    }
-
-    //Movimiento vertical de la camara
-    public void CameraAim()
-    {
-        Vector3  rotation = Vector3.up * -Input.GetAxis("Mouse Y") * Time.deltaTime * _speedAim;
-
-        _normalCameraOffset.m_FollowOffset += rotation;
-        _zoomCameraOffset.m_FollowOffset += rotation;
-
-        _normalCameraOffset.m_FollowOffset.y =
-            _zoomCameraOffset.m_FollowOffset.y = Mathf.Clamp(_normalCameraOffset.m_FollowOffset.y, -1f, 6f);
+        _rb.MoveRotation(Quaternion.Euler(0,Camera.main.transform.rotation.eulerAngles.y,0));
+        //_rb.MoveRotation(_rb.rotation * Quaternion.Euler(Vector3.up * Input.GetAxis("Mouse X") * _speedRotation * Time.deltaTime));
     }
 
     public void Jump()
@@ -91,34 +73,6 @@ public class Model
     {
         return Physics.Raycast(_player.position + _player.up * 0.5f, _player.up * -1, 0.6f);
     }
-
-    //Calcula hacia donde va el gancho y deactiva funciones del Player
-    /*public void ShootHook()
-    {
-        if (_isGrapping) return;
-
-        if (Physics.Raycast(Camera.main.transform.position + 0.5f * Camera.main.transform.forward, Camera.main.transform.forward, out RaycastHit hit, _maxDistanceHook, _controller.hookLayers))
-        {
-            //Si se agarra a algo
-            hookPoint.transform.position = hit.point;
-
-            if(hit.collider.gameObject.layer == 12)
-            {
-                nextActionHook = SwingHook;
-            }
-            else
-            {
-                nextActionHook = Grapping;
-            }
-        }
-        else
-        {
-            //No se agarra a nada
-            hookPoint = Camera.main.transform.position + Camera.main.transform.forward * _maxDistanceHook;
-            nextActionHook = FailHook;
-        }
-        StartHooking();
-    }*/
 
     //Mueve el Gancho y cuando llega mueve al Player
     public void MoveHook()
@@ -163,8 +117,8 @@ public class Model
             _going = !_going;
         }
         
-        Debug.DrawLine(_startPos, _finalPos, Color.green);
-        Debug.DrawLine(position, hookPoint.transform.position, Color.red);
+        //Debug.DrawLine(_startPos, _finalPos, Color.green);
+        //Debug.DrawLine(position, hookPoint.transform.position, Color.red);
         
         _line.SetPosition(0, _hand.position);
         _line.SetPosition(1, _hook.position);
@@ -184,6 +138,7 @@ public class Model
     public void StartHooking()
     {
         Debug.Log("Start");
+        lastHookPoint = hookPoint.GetComponent<HookPoint>();
         _hook.parent = null;
         _hook.LookAt(hookPoint.position);
         _line.enabled = true;
@@ -236,21 +191,23 @@ public class Model
         _controller._view.ActiveAnimator(true);
         
         //Fuerza Adicional despues de columpiarse:
-        if (hookPoint.GetComponent<HookPoint>().movement == HookPoint.HookMovements.Swing)
+        if (lastHookPoint.movement == HookPoint.HookMovements.Swing)
         {
-            Debug.DrawLine(hookPoint.transform.position, _player.position, Color.green, 5);
-            Vector3 dir = hookPoint.position - _player.position;
-            Vector2 offset = new Vector2(hookPoint.position.x - _player.position.x, hookPoint.position.z - _player.position.z);
+            //Debug.DrawLine(hookPoint.transform.position, _player.position, Color.green, 5);
+            Vector3 dir = lastHookPoint.transform.position - _player.position;
+            Vector2 offset = new Vector2(lastHookPoint.transform.position.x - _player.position.x, lastHookPoint.transform.position.z - _player.position.z);
             
             var a  = Quaternion.AngleAxis(180, Vector3.up) * dir;
             dir = Quaternion.AngleAxis(90, Vector3.Cross(dir, a)) * dir;
             
-            Debug.Log(_going + " " + lerp);
-            if((_going && lerp<0.5f)||(!_going&&lerp>0.5f)) dir = Vector3.zero;
-            Debug.Log(dir);
+            //Debug.Log(_going + " " + lerp);
+            if ((_going && lerp < 0.5f) || (!_going && lerp > 0.5f)) dir = Vector3.zero;
+            //Debug.Log(dir);
             
             _rb.AddForce(dir.normalized * offset.magnitude * 0.5f, ForceMode.Impulse);
-            Debug.DrawLine(_player.position, _player.position + dir.normalized * offset.magnitude * 0.5f, Color.red, 5); //Aumentar el 0.5 para darle mas fuerza
+            //Debug.DrawLine(_player.position, _player.position + dir.normalized * offset.magnitude * 0.5f, Color.red, 5); //Aumentar el 0.5 para darle mas fuerza
         }
+
+        lastHookPoint = null;
     }
 }

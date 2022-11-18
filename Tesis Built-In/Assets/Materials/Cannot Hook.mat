@@ -120,6 +120,7 @@ Material:
     - _FalloffAmount: 0.05
     - _Float2: 0.52
     - _Float3: 1.23
+    - _Float4: 0
     - _FresnelSize: 0.1
     - _GlossMapScale: 1
     - _Glossiness: 0.5
@@ -135,7 +136,7 @@ Material:
     - _Steps: 10
     - _UVSec: 0
     - _ZWrite: 1
-    - __dirty: 1
+    - __dirty: 0
     m_Colors:
     - Color_d149292f3a7d4b33890aa4469a0c0268: {r: 0, g: 0, b: 0, a: 0}
     - Color_fa295c28b8734a3795f6d48207cbe68a: {r: 1, g: 1, b: 1, a: 0}

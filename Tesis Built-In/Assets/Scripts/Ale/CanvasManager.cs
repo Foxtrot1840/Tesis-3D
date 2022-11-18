@@ -8,8 +8,8 @@ public class CanvasManager : MonoBehaviour
 {
     [SerializeField] private GameObject _victoryScreen;
     [SerializeField] private GameObject _defeatScreen;
-    [SerializeField] private GameObject _pipePuzzle;
     [SerializeField] private GameObject _pausePanel;
+    [SerializeField] private GameObject KeyE;
 
     private bool _pauseActive;
 
@@ -26,7 +26,6 @@ public class CanvasManager : MonoBehaviour
     {
         _victoryScreen.SetActive(false);
         _defeatScreen.SetActive(false);
-        _pipePuzzle.SetActive(false);
         _pausePanel.SetActive(false);
         _pauseActive = false;
     }
@@ -36,7 +35,8 @@ public class CanvasManager : MonoBehaviour
         Time.timeScale = active ? 0 : 1;
         Cursor.lockState = active ? CursorLockMode.None : CursorLockMode.Locked;
         Cursor.visible = active;
-        _pipePuzzle.SetActive(active);
+        //_pipePuzzle.SetActive(active);
+        Debug.Log("Funcion descontinuada");
     }
     void Update()
     {
@@ -65,5 +65,10 @@ public class CanvasManager : MonoBehaviour
     public void LoadLevel(int level)
     {
         UnityEngine.SceneManagement.SceneManager.LoadScene(level);
+    }
+
+    public void ShowKeyE(bool active)
+    {
+        KeyE.SetActive(active);
     }
 }
