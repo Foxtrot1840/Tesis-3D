@@ -86,7 +86,6 @@ public class Controller : Entity
             _view.Jump();
             _model.Jump();
         }
-
         
         if(hook)_model.hookPoint = FieldOfView();
         

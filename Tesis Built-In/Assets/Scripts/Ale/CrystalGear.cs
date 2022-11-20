@@ -14,11 +14,6 @@ public class CrystalGear : Entity
         currentHealth = life;
     }
 
-    private void Update()
-    {
-        Debug.Log(currentHealth);
-    }
-
     public override void GetDamage(int damage)
     {
         transform.position -= Vector3.zero - Vector3.down * 0.4f;
