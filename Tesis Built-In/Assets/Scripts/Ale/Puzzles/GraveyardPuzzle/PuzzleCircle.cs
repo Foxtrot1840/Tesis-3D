@@ -72,6 +72,6 @@ public class PuzzleCircle : MonoBehaviour
     public void RotateToFinal()
     {
         posA = 145;
-        transform.localRotation = Quaternion.Euler(Vector3.Lerp(transform.localRotation.eulerAngles, new Vector3(0, 0, 145), speed * Time.deltaTime));
+        transform.localRotation = Quaternion.Euler(Vector3.Lerp(transform.localRotation.eulerAngles, new Vector3(0, 0, 0), speed * Time.deltaTime));
     }
 }

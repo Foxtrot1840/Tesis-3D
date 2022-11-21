@@ -10,7 +10,7 @@ public class Porton : MonoBehaviour, IDamagable
    private Animator _anim;
    [SerializeField] private Transform[] points = new Transform[2];
 
-   private void Start()
+   private void Awake()
    {
       _line = GetComponent<LineRenderer>();
       _anim = GetComponent<Animator>();

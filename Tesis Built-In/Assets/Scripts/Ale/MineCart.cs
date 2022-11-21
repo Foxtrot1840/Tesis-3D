@@ -1,52 +1,35 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
-using System;
 
-public class MineCart : Interactuables
+public class MineCart : MonoBehaviour
 {
-    private bool active;
-    //private Action movement = delegate { };
-    private Vector3 playerInitialPos, cartInitialPos;
-    private float offset;
     private Animator _anim;
-    [SerializeField] private float posX;
-    [SerializeField] private GameObject wall;
+    private Rigidbody _rb;
+    public int id;
+    private Transform parent;
 
-    protected override void Start()
+    private void Start()
     {
-        base.Start();
         _anim = GetComponent<Animator>();
+        _rb = GetComponent<Rigidbody>();
+        parent = transform.parent;
     }
 
     private void Update()
     {
-        if (transform.position.x < posX)
+        if (id == 1 && transform.localPosition.x >= 4)
         {
+            transform.parent = parent;
             _anim.enabled = true;
-            _anim.SetTrigger("Movement");
+            _anim.SetBool("1", true);
         }
-        //movement();
     }
 
-    protected override void Action()
+    public void FinishAnimation()
     {
-        /*active = !active;
-        bColl.enabled = !active;
-        playerInitialPos = active ? player.transform.position : Vector3.zero;
-        cartInitialPos = active ? transform.position : Vector3.zero;
-        movement = active ? (Action)FollowPlayer : delegate { };*/
+        Destroy(gameObject);
     }
-
-    private void FollowPlayer()
-    {
-        offset = playerInitialPos.x - player.transform.position.x;
-        transform.position = cartInitialPos - Vector3.right * offset;
-    }
-
-    public void DestroyWall()
-    {
-        Destroy(wall);
-    }
-    
 }

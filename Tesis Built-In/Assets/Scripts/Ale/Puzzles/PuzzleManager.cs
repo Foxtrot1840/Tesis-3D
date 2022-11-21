@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using System.Linq;
 using System.Runtime.CompilerServices;
+using TMPro.EditorUtilities;
 
 public class PuzzleManager : MonoBehaviour
 {
@@ -11,7 +12,7 @@ public class PuzzleManager : MonoBehaviour
     public GameObject[] buttons;
     public Animator animatorDoor;
     
-    private void Start()
+    private void Awake()
     {
         foreach (var circle in circles)
         {
@@ -21,19 +22,19 @@ public class PuzzleManager : MonoBehaviour
 
     private void Update()
     {
-        if(Input.GetKeyDown(KeyCode.O))CompletePuzzle();
+        if(Input.GetKeyDown(KeyCode.O))OpenDoor();
     }
 
     public void Check()
     {
         if (circles.All(x => x._activate == false))
         {
-            var angle = circles[0].transform.forward;
+            float angle = circles[0].transform.localRotation.eulerAngles.z;
             var cont = 0;
             foreach (var circle in circles)
             {
-                Debug.Log(circle.transform.forward);
-                if (circle.transform.forward == angle)
+                Debug.Log((int)circle.transform.localRotation.eulerAngles.z + "  " + angle);
+                if (Mathf.Approximately(circle.transform.localRotation.eulerAngles.z, angle)) 
                 {
                     Debug.Log("uno bien");
                     cont++;
@@ -63,6 +64,19 @@ public class PuzzleManager : MonoBehaviour
     public void CompletePuzzle()
     {
         animatorDoor.SetBool("Open", true);
-        
+    }
+
+    public void OpenDoor()
+    {
+        foreach (var circle in circles)
+        {
+            circle._onUpdate = circle.RotateToFinal;
+        }
+
+        foreach (var button in buttons)
+        {
+            button.SetActive(false);
+        }
+        animatorDoor.SetBool("Open", true);
     }
 }
