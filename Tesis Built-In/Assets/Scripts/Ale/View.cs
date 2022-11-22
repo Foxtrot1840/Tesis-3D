@@ -23,7 +23,12 @@ public class View
 
     public void Jump()
     {
-        _anim.SetTrigger("Jump");
+        _anim.SetBool("canJump",true);
+    }
+
+    public void ResetJump()
+    {
+        _anim.SetBool("canJump", false);
     }
 
     public void Attack()
@@ -41,6 +46,7 @@ public class View
         _anim.SetTrigger("GetDamage");
     }
 
+ 
     public void ActiveAnimator(bool active)
     {
         _anim.enabled = active;

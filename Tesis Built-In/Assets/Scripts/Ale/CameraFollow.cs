@@ -7,13 +7,14 @@ using UnityEngine.Experimental.TerrainAPI;
 
 public class CameraFollow : MonoBehaviour
 {
-   public float distance;
+   public float distance, lerpZoom;
    [SerializeField] private float mouseSensitivity;
    [SerializeField] private float hitOffset;
    [SerializeField] private Transform target;
+   [SerializeField] private Transform targetZoom;
    [SerializeField] private LayerMask cameraCollision;
 
-   private float _mouseX, _mouseY;
+    private float _mouseX, _mouseY;
    private Vector3 _camPos, _direction;
 
    private RaycastHit _raycastHit;
@@ -27,7 +28,7 @@ public class CameraFollow : MonoBehaviour
 
    private void Update()
    {
-      transform.position = target.position;
+      transform.position = Vector3.Lerp(target.position, targetZoom.position, lerpZoom);
 
       _mouseX += Input.GetAxisRaw("Mouse X") * mouseSensitivity * Time.deltaTime;
       _mouseY += Input.GetAxisRaw("Mouse Y") * mouseSensitivity * Time.deltaTime;

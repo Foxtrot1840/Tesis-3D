@@ -71,6 +71,7 @@ public class Controller : Entity
         mira.SetActive(_isZoom);
         zoomLerp += _isZoom ? 2.5f * Time.deltaTime : -2.5f * Time.deltaTime;
         zoomLerp = Mathf.Clamp(zoomLerp, 0, 1);
+        tracker.lerpZoom = zoomLerp;
         tracker.distance = Mathf.Lerp(3, 2, zoomLerp);
 
         //El click izquierdo se realiza la animacion de ataque
@@ -154,7 +155,7 @@ public class Controller : Entity
     
     public void ResetJump()
     {
-        _anim.ResetTrigger("Jump");
+        _view.ResetJump();
     }
 
     public void ResetShoot()

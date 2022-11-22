@@ -13,7 +13,11 @@ public class ElevatorBase : RotateBase
    public bool ChangeFloor()
    {
       if (rotation || elevation) return false;
-      StartCoroutine(Translate(isFloorOne ? floor1 : floor2, isFloorOne ? floor2 : floor1));
+        if (Vector3.Distance(MineCart.position, transform.position) < range)
+        {
+            MineCart.parent = transform;
+        }
+        StartCoroutine(Translate(isFloorOne ? floor1 : floor2, isFloorOne ? floor2 : floor1));
       elevation = true;
       return true;
    }
@@ -27,28 +31,33 @@ public class ElevatorBase : RotateBase
 
    public override void ChangeState(bool active)
    {
-      if(elevation) return;
+      if (elevation || isFloorOne) return;
       base.ChangeState(active);
       rotation = active;
    }
 
    IEnumerator Translate(float origin, float destiny)
    {
+      GameManager.instance.player.transform.parent = transform;
+
       l = 0;
       float startRotation = transform.localRotation.eulerAngles.y;
-      while ((l<=1))
+      while (l<=1)
       {
          l += Time.deltaTime * speedElevator;
          transform.localPosition = new Vector3(transform.localPosition.x, Mathf.Lerp(origin, destiny, l),
             transform.localPosition.z);
-         transform.localRotation = Quaternion.Euler(Vector3.up * Mathf.Lerp(startRotation, startRotation + 90, l));
+         transform.localRotation = Quaternion.Euler(Vector3.up *
+                                                    Mathf.Lerp(startRotation,
+                                                       isFloorOne ? startRotation + 90 : startRotation - 90, l));
          yield return new WaitForEndOfFrame();
       }
 
       isFloorOne = !isFloorOne;
-      posA = startRotation + 90;
+      posA = transform.localRotation.eulerAngles.y;
       posB = posA + steps; 
       elevation = false;
+      GameManager.instance.player.transform.parent = null;
    }
    
 }

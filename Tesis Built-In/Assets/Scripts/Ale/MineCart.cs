@@ -10,6 +10,7 @@ public class MineCart : MonoBehaviour
     private Rigidbody _rb;
     public int id;
     private Transform parent;
+    [SerializeField] private MineExit exit;
 
     private void Start()
     {
@@ -20,16 +21,23 @@ public class MineCart : MonoBehaviour
 
     private void Update()
     {
-        if (id == 1 && transform.localPosition.x >= 4)
+        if (id == 1 && (transform.localPosition.x >= 4 || transform.localPosition.x <= -4))
         {
             transform.parent = parent;
             _anim.enabled = true;
             _anim.SetBool("1", true);
         }
+        if (id == 2 && (transform.localPosition.x >= 4 || transform.localPosition.x <= -4))
+        {
+            transform.parent = parent;
+            _anim.enabled = true;
+            _anim.SetBool("2", true);
+        }
     }
 
     public void FinishAnimation()
     {
+        exit.CartCollide();
         Destroy(gameObject);
     }
 }

@@ -3,8 +3,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System.Linq;
-using System.Runtime.CompilerServices;
-using TMPro.EditorUtilities;
 
 public class PuzzleManager : MonoBehaviour
 {

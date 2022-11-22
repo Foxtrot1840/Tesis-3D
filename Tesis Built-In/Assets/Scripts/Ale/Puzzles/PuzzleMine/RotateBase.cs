@@ -10,8 +10,8 @@ public class RotateBase : MonoBehaviour
     protected float lerp, posA, posB;
     [SerializeField] protected int steps;
     [SerializeField] private float speed;
-    [SerializeField] private Transform MineCart;
-    [SerializeField] private float range;
+    [SerializeField] protected Transform MineCart;
+    [SerializeField] protected float range;
 
     private void Start()
     {
@@ -44,6 +44,7 @@ public class RotateBase : MonoBehaviour
 
     private void Rotate()
     {
+        Debug.Log("A");
         lerp += Time.deltaTime * speed / 100;
         float rotation = Mathf.Lerp(posA, posB, lerp);
         if (lerp >= 1)
