@@ -4,10 +4,12 @@ using UnityEngine;
 
 public class ActivePuzzleGreenhouse : Interactuables
 {
+    [SerializeField] GameObject canvas;
+
     protected override void Action()
     {
-        CanvasManager.instance.ActivePuzzle(true);
+        canvas.SetActive(true);
+        GameManager.instance.PauseGame(true);
         GetComponent<Animator>().SetBool("Active",true);
-        Destroy(this);
     }
 }

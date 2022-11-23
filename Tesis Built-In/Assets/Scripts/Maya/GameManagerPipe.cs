@@ -7,6 +7,7 @@ public class GameManagerPipe : MonoBehaviour
     public GameObject pipesHolder;
     public GameObject[] pipes;
     public GameObject gear;
+    [SerializeField] GameObject canvas;
 
     [SerializeField]
     int totalPipes = 0;
@@ -30,7 +31,8 @@ public class GameManagerPipe : MonoBehaviour
     {
         Debug.Log("GEAR");
         yield return new WaitForSeconds(0.5f);
-        CanvasManager.instance.ActivePuzzle(false);
+        canvas.SetActive(false);
+        GameManager.instance.PauseGame(false);
         gear.SetActive(true);
     }
 
