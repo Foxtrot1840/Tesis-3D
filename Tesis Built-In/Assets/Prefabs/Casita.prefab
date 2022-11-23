@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 6604085423953057659}
   - component: {fileID: 2203698164972610688}
   - component: {fileID: 7946315250177362144}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Gear2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -93,7 +93,7 @@ GameObject:
   - component: {fileID: 1343471967537965538}
   - component: {fileID: 6991006318854665381}
   - component: {fileID: 1556602930182029607}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Casa
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -186,7 +186,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1318521566861795643}
-  m_Layer: 0
+  - component: {fileID: 5009978373279825180}
+  m_Layer: 7
   m_Name: Casita
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -211,6 +212,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!64 &5009978373279825180
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1803556194200943489}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
 --- !u!1 &3161779214863589826
 GameObject:
   m_ObjectHideFlags: 0
@@ -222,7 +237,7 @@ GameObject:
   - component: {fileID: 6597355503279443780}
   - component: {fileID: 8967492370826640287}
   - component: {fileID: 4312103692408043782}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Gear1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -303,7 +318,7 @@ GameObject:
   - component: {fileID: 1019041175559156138}
   - component: {fileID: 6590626185691021445}
   - component: {fileID: 1239070542233676082}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Gear3
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -11,7 +11,8 @@ GameObject:
   - component: {fileID: 3614031616577914875}
   - component: {fileID: 3888565889619483153}
   - component: {fileID: 4743813001917105337}
-  m_Layer: 0
+  - component: {fileID: 6740579544632521400}
+  m_Layer: 7
   m_Name: pGear1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -81,6 +82,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &6740579544632521400
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 79900597786043496}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -7901242545479900686, guid: 3cd4093fb0846d948b77d654c48bcedb, type: 3}
 --- !u!1 &765664719106515272
 GameObject:
   m_ObjectHideFlags: 0
@@ -92,7 +107,8 @@ GameObject:
   - component: {fileID: 3133527267716228746}
   - component: {fileID: 7048044827706617435}
   - component: {fileID: 1713158169527524323}
-  m_Layer: 0
+  - component: {fileID: 7131271647688786109}
+  m_Layer: 7
   m_Name: House
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -162,6 +178,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &7131271647688786109
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 765664719106515272}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -2425796925295812500, guid: 3cd4093fb0846d948b77d654c48bcedb, type: 3}
 --- !u!1 &773669193330432104
 GameObject:
   m_ObjectHideFlags: 0
@@ -173,7 +203,8 @@ GameObject:
   - component: {fileID: 8231569478366847053}
   - component: {fileID: 3025371292705602549}
   - component: {fileID: 5237172506721520614}
-  m_Layer: 0
+  - component: {fileID: 5433597051142575246}
+  m_Layer: 7
   m_Name: Gear4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -243,6 +274,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &5433597051142575246
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 773669193330432104}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -7961524038083210336, guid: 3cd4093fb0846d948b77d654c48bcedb, type: 3}
 --- !u!1 &1810550424318373689
 GameObject:
   m_ObjectHideFlags: 0
@@ -253,7 +298,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1327311368266560899}
   - component: {fileID: 31921299093074056}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: House1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -305,7 +350,8 @@ GameObject:
   - component: {fileID: 5082129096850888081}
   - component: {fileID: 1054377110502405309}
   - component: {fileID: 2536131834430689281}
-  m_Layer: 0
+  - component: {fileID: 1757868970254308613}
+  m_Layer: 7
   m_Name: Gear3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -375,6 +421,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &1757868970254308613
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2427776679752105205}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 8205321852274227167, guid: 3cd4093fb0846d948b77d654c48bcedb, type: 3}
 --- !u!1 &5987261806338946743
 GameObject:
   m_ObjectHideFlags: 0
@@ -386,7 +446,8 @@ GameObject:
   - component: {fileID: 4847373679341865981}
   - component: {fileID: 6357167648527102157}
   - component: {fileID: 1817723063396524100}
-  m_Layer: 0
+  - component: {fileID: 2473761903007114823}
+  m_Layer: 7
   m_Name: Gear2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -456,6 +517,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &2473761903007114823
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5987261806338946743}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -7891355983259599205, guid: 3cd4093fb0846d948b77d654c48bcedb, type: 3}
 --- !u!1 &6476390932854654387
 GameObject:
   m_ObjectHideFlags: 0
@@ -467,7 +542,8 @@ GameObject:
   - component: {fileID: 5956876449543397129}
   - component: {fileID: 7279162820193915052}
   - component: {fileID: 4818921202405041254}
-  m_Layer: 0
+  - component: {fileID: 8396505891844115127}
+  m_Layer: 7
   m_Name: AgujeroCasaEngranajes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -537,3 +613,17 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &8396505891844115127
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6476390932854654387}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 5302568919011541938, guid: b7e4b6a4bbc75c84ea699c3a0e091a17, type: 3}

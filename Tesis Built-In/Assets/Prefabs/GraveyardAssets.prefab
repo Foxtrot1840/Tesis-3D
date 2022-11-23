@@ -360,6 +360,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1811046593179579966}
   - component: {fileID: 4707316483730672950}
+  - component: {fileID: 5281270148561414096}
   m_Layer: 0
   m_Name: rejas
   m_TagString: Untagged
@@ -403,6 +404,20 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!64 &5281270148561414096
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1326857558477384836}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
 --- !u!1 &1696442511992730093
 GameObject:
   m_ObjectHideFlags: 0
@@ -512,6 +527,7 @@ GameObject:
   - component: {fileID: 1990977177732190832}
   - component: {fileID: 1990977177732190833}
   - component: {fileID: 1990977177732190834}
+  - component: {fileID: 7216597385647103955}
   m_Layer: 0
   m_Name: Tumba
   m_TagString: Untagged
@@ -582,6 +598,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &7216597385647103955
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1990977177732190846}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -6756112951395736173, guid: ca7bab67201f779498be39792a302708, type: 3}
 --- !u!1 &2510180093689961240
 GameObject:
   m_ObjectHideFlags: 0
