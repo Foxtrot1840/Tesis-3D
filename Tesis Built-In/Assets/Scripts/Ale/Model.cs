@@ -77,8 +77,8 @@ public class Model
     //Mueve el Gancho y cuando llega mueve al Player
     public void MoveHook()
     {
-        _hook.position = Vector3.Lerp(_hook.position, hookPoint.position, 5 * Time.fixedDeltaTime);
-        if (Vector3.Distance(_hook.position, hookPoint.position) < 0.5f)
+        _hook.position = Vector3.Lerp(_hook.position, lastHookPoint.transform.position, 5 * Time.fixedDeltaTime);
+        if (Vector3.Distance(_hook.position, lastHookPoint.transform.position) < 0.5f)
         {
             StartAction();
             _controller.onFixedUpdate -= MoveHook;
@@ -89,14 +89,10 @@ public class Model
     
     public void Grapping()
     {
-        _player.position = Vector3.Lerp(_player.position, hookPoint.position - _hand.localPosition, 5 * Time.fixedDeltaTime);
-            if (Vector3.Distance(_player.position, hookPoint.position - _hand.localPosition) < 0.5f)
+        _player.position = Vector3.Lerp(_player.position, lastHookPoint.transform.position - _hand.localPosition, 5 * Time.fixedDeltaTime);
+            if (Vector3.Distance(_player.position, lastHookPoint.transform.position - _hand.localPosition) < 0.7f)
             {
-                _hook.parent = _hand;
-                _hook.transform.localPosition = _hookOffset;
-                _hook.transform.localRotation = _hookRotation;
-                isHooking = false;
-                _line.enabled = false;
+                _controller.onFixedUpdate = delegate { };
             } 
         _line.SetPosition(0, _hand.position);
         _line.SetPosition(1, _hook.position);

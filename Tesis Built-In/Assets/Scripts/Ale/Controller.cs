@@ -63,11 +63,11 @@ public class Controller : Entity
         _model.SetSpeed(_speed);
     }
 
-    private void Update()
+    private void LateUpdate()
     {
         _model.Rotate();
 
-        _isZoom = Input.GetMouseButton(1);
+        _isZoom = Input.GetMouseButton(1) && gun;
         mira.gameObject.SetActive(_isZoom);
         if (Physics.Raycast(Camera.main.transform.position, Camera.main.transform.forward, out RaycastHit hit, 30,
                 _layerShoot))
