@@ -6,8 +6,8 @@ using UnityEngine;
 public class HookPoint : MonoBehaviour
 {
     public enum HookMovements{Normal, Swing}
-
     public HookMovements movement;
+    [SerializeField] private GameObject feedback;
 
     private void OnTriggerEnter(Collider other)
     {
@@ -23,5 +23,10 @@ public class HookPoint : MonoBehaviour
         {
             other.GetComponent<Controller>().hookSwingPoint.Remove(transform);
         }
+    }
+
+    public void ActiveFeedback(bool active)
+    {
+        feedback.SetActive(active);
     }
 }

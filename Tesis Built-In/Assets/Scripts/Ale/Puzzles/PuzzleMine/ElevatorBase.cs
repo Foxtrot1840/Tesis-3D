@@ -13,11 +13,11 @@ public class ElevatorBase : RotateBase
    public bool ChangeFloor()
    {
       if (rotation || elevation) return false;
-        if (Vector3.Distance(MineCart.position, transform.position) < range)
-        {
+      if (MineCart != null && Vector3.Distance(MineCart.position, transform.position) < range)
+      {
             MineCart.parent = transform;
-        }
-        StartCoroutine(Translate(isFloorOne ? floor1 : floor2, isFloorOne ? floor2 : floor1));
+      } 
+      StartCoroutine(Translate(isFloorOne ? floor1 : floor2, isFloorOne ? floor2 : floor1));
       elevation = true;
       return true;
    }

@@ -28,7 +28,7 @@ public class Controller : Entity
     [SerializeField] private CameraFollow tracker;
     public GameObject hookObj, gunObj;
     public bool hook, gun;
-    public GameObject mira;
+    public GearAim mira;
     
 
     private Rigidbody _rb;
@@ -68,7 +68,17 @@ public class Controller : Entity
         _model.Rotate();
 
         _isZoom = Input.GetMouseButton(1);
-        mira.SetActive(_isZoom);
+        mira.gameObject.SetActive(_isZoom);
+        if (Physics.Raycast(Camera.main.transform.position, Camera.main.transform.forward, out RaycastHit hit, 30,
+                _layerShoot))
+        {
+            IDamagable d = hit.collider.GetComponent<IDamagable>();
+            if (d != null)
+            {
+                mira.Rotate();
+            }
+        }
+        //TRACKER
         zoomLerp += _isZoom ? 2.5f * Time.deltaTime : -2.5f * Time.deltaTime;
         zoomLerp = Mathf.Clamp(zoomLerp, 0, 1);
         tracker.lerpZoom = zoomLerp;
@@ -87,14 +97,26 @@ public class Controller : Entity
             _view.Jump();
             _model.Jump();
         }
+
+        if (hook)
+        {
+            if (FieldOfView() != _model.hookPoint)
+            {
+                if (_model.hookPoint != null) _model.hookPoint.GetComponent<HookPoint>().ActiveFeedback(false);
+                _model.hookPoint = FieldOfView();
+                if (FieldOfView() != null) _model.hookPoint.GetComponent<HookPoint>().ActiveFeedback(true);
+            }
+        }
         
-        if(hook)_model.hookPoint = FieldOfView();
-        
-        CanvasManager.instance.ShowKeyE(interactables != null || _model.hookPoint != null);
+        CanvasManager.instance.ShowKeyE(interactables != null || _model.hookPoint!= null);
 
         if (Input.GetKeyDown(KeyCode.E))
         {
-            interactables?.Invoke();
+            if (interactables != null)
+            {
+                interactables.Invoke();
+                return;
+            }
 
             if (_model.hookPoint != null && !_model.isHooking)
             {
