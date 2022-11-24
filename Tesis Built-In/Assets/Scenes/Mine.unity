@@ -5562,7 +5562,7 @@ Camera:
     y: 0
     width: 1
     height: 1
-  near clip plane: 0.3
+  near clip plane: 0.7
   far clip plane: 1000
   field of view: 60
   orthographic: 0
@@ -18443,6 +18443,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4323185638226614, guid: d3fdda8eed586cb4b84582ea5c7cf12b, type: 3}
   m_PrefabInstance: {fileID: 1585151235}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &1593667829 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8426046352418082665, guid: ec4f934e47eeee240aae23b6db3f4026, type: 3}
+  m_PrefabInstance: {fileID: 159475281}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1595721148
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18912,11 +18917,6 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 4323185638226614, guid: d3fdda8eed586cb4b84582ea5c7cf12b, type: 3}
   m_PrefabInstance: {fileID: 1627316878}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &1629195056 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 6752615086872857479, guid: ec4f934e47eeee240aae23b6db3f4026, type: 3}
-  m_PrefabInstance: {fileID: 159475281}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1630856241
 GameObject:
@@ -22943,11 +22943,18 @@ MonoBehaviour:
   lerpZoom: 0
   mouseSensitivity: 500
   hitOffset: 0.2
-  target: {fileID: 1629195056}
+  target: {fileID: 1593667829}
   targetZoom: {fileID: 159475282}
   cameraCollision:
     serializedVersion: 2
     m_Bits: 129
+  layerToRender:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  layerToRenderWithoutPlayer:
+    serializedVersion: 2
+    m_Bits: 1023
+  stopWatchingPlayer: 1
 --- !u!4 &1996731316
 Transform:
   m_ObjectHideFlags: 0

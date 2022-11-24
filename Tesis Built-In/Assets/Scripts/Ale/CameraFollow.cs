@@ -12,9 +12,10 @@ public class CameraFollow : MonoBehaviour
    [SerializeField] private float hitOffset;
    [SerializeField] private Transform target;
    [SerializeField] private Transform targetZoom;
-   [SerializeField] private LayerMask cameraCollision;
+   [SerializeField] private LayerMask cameraCollision, layerToRender, layerToRenderWithoutPlayer;
+   [SerializeField] private float stopWatchingPlayer;
 
-    private float _mouseX, _mouseY;
+   private float _mouseX, _mouseY;
    private Vector3 _camPos, _direction;
 
    private RaycastHit _raycastHit;
@@ -56,6 +57,15 @@ public class CameraFollow : MonoBehaviour
       Camera.main.transform.position = _camPos;
       
       Camera.main.transform.LookAt(transform.position);
+
+      if (lerpZoom <= 0.8f && Vector3.Distance(Camera.main.transform.position, target.transform.position) < stopWatchingPlayer)
+      {
+         Camera.main.cullingMask = layerToRenderWithoutPlayer;
+      }
+      else
+      {
+         Camera.main.cullingMask = layerToRender;
+      }
    }
    
    void OnDrawGizmos()

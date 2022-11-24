@@ -31,8 +31,10 @@ public class PuzzleManager : MonoBehaviour
             var cont = 0;
             foreach (var circle in circles)
             {
-                Debug.Log((int)circle.transform.localRotation.eulerAngles.z + "  " + angle);
-                if (Mathf.Approximately(circle.transform.localRotation.eulerAngles.z, angle)) 
+                Debug.Log(circle.transform.localRotation.eulerAngles.z + "  " + angle);
+
+                if (circle.transform.localRotation.eulerAngles.z >= angle - 5 &&
+                    circle.transform.localRotation.eulerAngles.z <= angle + 5)
                 {
                     Debug.Log("uno bien");
                     cont++;
