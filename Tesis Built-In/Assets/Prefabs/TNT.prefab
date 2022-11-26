@@ -101,7 +101,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
-  particles: {fileID: 2504786438989544890, guid: fd10e86c493cf304a825ae7ee0e82dbc, type: 3}
+  particles: {fileID: 159918, guid: a0040bf7072bc2f4e82d887d50a9c5e2, type: 3}
 --- !u!65 &2084407283
 BoxCollider:
   m_ObjectHideFlags: 0
