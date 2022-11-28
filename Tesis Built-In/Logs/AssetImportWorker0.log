@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.25f1 (9b9180224418) revision 10195328'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'es' Physical Memory: 8116 MB
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'es' Physical Memory: 16326 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
 COMMAND LINE ARGUMENTS:
@@ -11,23 +11,23 @@ C:\Program Files\Unity\Hub\Editor\2020.3.25f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/Alejandro/Desktop/Tesis3d/Tesis-3D/Tesis Built-In
+C:/Users/Usuario/Desktop/Tesis-3D/Tesis Built-In
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49235
-Successfully changed project path to: C:/Users/Alejandro/Desktop/Tesis3d/Tesis-3D/Tesis Built-In
-C:/Users/Alejandro/Desktop/Tesis3d/Tesis-3D/Tesis Built-In
+53210
+Successfully changed project path to: C:/Users/Usuario/Desktop/Tesis-3D/Tesis Built-In
+C:/Users/Usuario/Desktop/Tesis-3D/Tesis Built-In
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 103.33 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 77.27 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.25f1 (9b9180224418)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/Alejandro/Desktop/Tesis3d/Tesis-3D/Tesis Built-In/Assets
+[Subsystems] Discovering subsystems at path C:/Users/Usuario/Desktop/Tesis-3D/Tesis Built-In/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1660 Ti (ID=0x2182)
+    Renderer: NVIDIA GeForce GTX 1660 SUPER (ID=0x21c4)
     Vendor:   
     VRAM:     5991 MB
     Driver:   31.0.15.1694
@@ -35,98 +35,147 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56776
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56896
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
-Registered in 0.011781 seconds.
-Native extension for LinuxStandalone target not found
+Registered in 0.001370 seconds.
 Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 107.29 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 81.37 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.825 seconds
+- Completed reload, in  0.542 seconds
 Domain Reload Profiling:
-	ReloadAssembly (825ms)
-		BeginReloadAssembly (75ms)
+	ReloadAssembly (543ms)
+		BeginReloadAssembly (44ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (650ms)
-			LoadAssemblies (74ms)
+		EndReloadAssembly (436ms)
+			LoadAssemblies (42ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (209ms)
+			SetupTypeCache (129ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (37ms)
-			SetupLoadedEditorAssemblies (270ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (193ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (17ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (107ms)
-				BeforeProcessingInitializeOnLoad (15ms)
-				ProcessInitializeOnLoadAttributes (88ms)
-				ProcessInitializeOnLoadMethodAttributes (41ms)
+				RefreshPlugins (81ms)
+				BeforeProcessingInitializeOnLoad (14ms)
+				ProcessInitializeOnLoadAttributes (70ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.016811 seconds.
+Registered in 0.003900 seconds.
 Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
+Symbol file data-0000024799D2D840 doesn't match image C:\Users\Usuario\Desktop\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\sc.fae.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002479A56A010 doesn't match image C:\Users\Usuario\Desktop\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\AmplifyShaderEditor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002479AC8A030 doesn't match image C:\Users\Usuario\Desktop\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002479AE4F530 doesn't match image C:\Users\Usuario\Desktop\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002479A3759B0 doesn't match image C:\Users\Usuario\Desktop\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024775CA1830 doesn't match image C:\Users\Usuario\Desktop\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024775CA1830 doesn't match image C:\Users\Usuario\Desktop\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024799E86020 doesn't match image C:\Users\Usuario\Desktop\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000247755AE6A0 doesn't match image C:\Users\Usuario\Desktop\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Burst.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024799EB4230 doesn't match image C:\Users\Usuario\Desktop\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024775D46060 doesn't match image C:\Users\Usuario\Desktop\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002479AE64D40 doesn't match image C:\Users\Usuario\Desktop\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024799F85020 doesn't match image C:\Users\Usuario\Desktop\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000247755AE6A0 doesn't match image C:\Users\Usuario\Desktop\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002479A129020 doesn't match image C:\Users\Usuario\Desktop\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024799EBC240 doesn't match image C:\Users\Usuario\Desktop\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Animation.Rigging.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002477563F960 doesn't match image C:\Users\Usuario\Desktop\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024775A94DD0 doesn't match image C:\Users\Usuario\Desktop\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.TerrainTools.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000247755AE6A0 doesn't match image C:\Users\Usuario\Desktop\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002479A14F040 doesn't match image C:\Users\Usuario\Desktop\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002479A053C30 doesn't match image C:\Users\Usuario\Desktop\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Burst.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002479A1AD630 doesn't match image C:\Users\Usuario\Desktop\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024799EBC240 doesn't match image C:\Users\Usuario\Desktop\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002479A87A010 doesn't match image C:\Users\Usuario\Desktop\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.TerrainTools.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002479A87A010 doesn't match image C:\Users\Usuario\Desktop\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024799EBC240 doesn't match image C:\Users\Usuario\Desktop\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002477537F030 doesn't match image C:\Users\Usuario\Desktop\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000247750D34C0 doesn't match image C:\Users\Usuario\Desktop\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\sc.fae.runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024799E69030 doesn't match image C:\Users\Usuario\Desktop\Tesis-3D\Tesis Built-In\Library\ScriptAssemblies\Unity.Animation.Rigging.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 100.96 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 80.66 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.706 seconds
+- Completed reload, in  1.918 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2708ms)
-		BeginReloadAssembly (238ms)
+	ReloadAssembly (1918ms)
+		BeginReloadAssembly (122ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (37ms)
-		EndReloadAssembly (2382ms)
-			LoadAssemblies (185ms)
+			CreateAndSetChildDomain (15ms)
+		EndReloadAssembly (1747ms)
+			LoadAssemblies (75ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (414ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (130ms)
-			SetupLoadedEditorAssemblies (1527ms)
+			SetupTypeCache (276ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (68ms)
+			SetupLoadedEditorAssemblies (1222ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
+				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (101ms)
-				BeforeProcessingInitializeOnLoad (94ms)
-				ProcessInitializeOnLoadAttributes (1306ms)
-				ProcessInitializeOnLoadMethodAttributes (14ms)
-				AfterProcessingInitializeOnLoad (6ms)
+				RefreshPlugins (81ms)
+				BeforeProcessingInitializeOnLoad (74ms)
+				ProcessInitializeOnLoadAttributes (1052ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.99 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.83 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3132 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 310.0 MB.
-System memory in use after: 309.6 MB.
+System memory in use before: 310.3 MB.
+System memory in use after: 309.9 MB.
 
 Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 3603.
-Total: 8.237500 ms (FindLiveObjects: 0.419900 ms CreateObjectMapping: 0.395200 ms MarkObjects: 6.565600 ms  DeleteObjects: 0.854800 ms)
+Total: 3.398600 ms (FindLiveObjects: 0.259900 ms CreateObjectMapping: 0.147100 ms MarkObjects: 2.608800 ms  DeleteObjects: 0.381800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -142,23 +191,799 @@ AssetImportParameters requested are different than current active one (requested
 Received Import Request.
   path: Assets/NewLayer.terrainlayer
   artifactKey: Guid(2d229add97a9d914daa13002099026de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NewLayer.terrainlayer using Guid(2d229add97a9d914daa13002099026de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a82eadaa8b35bda7daa15bc46f7d8e2') in 0.182131 seconds 
-  Import took 0.192966 seconds .
+Start importing Assets/NewLayer.terrainlayer using Guid(2d229add97a9d914daa13002099026de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39d5c2a58b1be39c05e7288a380df6a2') in 0.066262 seconds 
+  Import took 0.070878 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000452 seconds.
+  Time since last request: 0.000271 seconds.
   path: Assets/NewLayer 1.terrainlayer
   artifactKey: Guid(642887dbbc76e474487b5fcffe588242) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NewLayer 1.terrainlayer using Guid(642887dbbc76e474487b5fcffe588242) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9175a5570fe887c5e84bb65636c17f62') in 0.056577 seconds 
-  Import took 0.065606 seconds .
+Start importing Assets/NewLayer 1.terrainlayer using Guid(642887dbbc76e474487b5fcffe588242) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7448acce08b65f6c3164fbc302c90749') in 0.028510 seconds 
+  Import took 0.033659 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000327 seconds.
-  path: Assets/New Terrain.asset
-  artifactKey: Guid(6b41858cb93eb5d4ab542721de8ac2e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Terrain.asset using Guid(6b41858cb93eb5d4ab542721de8ac2e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '091631847b270fda11c08834c3e6c578') in 0.076555 seconds 
-  Import took 0.086968 seconds .
+  Time since last request: 40.339578 seconds.
+  path: Assets/Building/Lab/Telescopio/LAB_Telescopio_AlbedoTransparency.png
+  artifactKey: Guid(2cc6aaeb14a9618479d8dcc606b28b44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building/Lab/Telescopio/LAB_Telescopio_AlbedoTransparency.png using Guid(2cc6aaeb14a9618479d8dcc606b28b44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06f878308ff9eaaa4efc60b66b6b38db') in 0.043844 seconds 
+  Import took 0.048840 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/Building/Lab/Telescopio/LAB_Telescopio_MetallicSmoothness.png
+  artifactKey: Guid(d47cebd6c3279874ab8c52c70cc612bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building/Lab/Telescopio/LAB_Telescopio_MetallicSmoothness.png using Guid(d47cebd6c3279874ab8c52c70cc612bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88c01315327c1a9ecdcac82c3cb8741d') in 0.042685 seconds 
+  Import took 0.047053 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Building/Lab/Telescopio/Telescopio.mat
+  artifactKey: Guid(be36458c29ede0544831d945428b1d9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building/Lab/Telescopio/Telescopio.mat using Guid(be36458c29ede0544831d945428b1d9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfbe9f50ad0c7050af9f4b65ed1548da') in 0.053382 seconds 
+  Import took 0.057358 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.963381 seconds.
+  path: Assets/Building/Lab/Reja/LAB_Reja_AlbedoTransparency.png
+  artifactKey: Guid(b9d2d8586504a7043bb4a05d3ee90a97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building/Lab/Reja/LAB_Reja_AlbedoTransparency.png using Guid(b9d2d8586504a7043bb4a05d3ee90a97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8864b0ea49e3d03248f94239ee5b901') in 0.024191 seconds 
+  Import took 0.028779 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Building/Lab/Reja/Reja.mat
+  artifactKey: Guid(f23525b2a7e9dce4baed87aab236ce5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building/Lab/Reja/Reja.mat using Guid(f23525b2a7e9dce4baed87aab236ce5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3336d642155eb32c2cb864e9a794d08f') in 0.044648 seconds 
+  Import took 0.048831 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/Building/Lab/Reja/LAB_Reja_MetallicSmoothness.png
+  artifactKey: Guid(f97559d1a7d5e03499a82936afff5723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building/Lab/Reja/LAB_Reja_MetallicSmoothness.png using Guid(f97559d1a7d5e03499a82936afff5723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50cc0641c36b96ada73d4674303da26c') in 0.010330 seconds 
+  Import took 0.014787 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.879574 seconds.
+  path: Assets/Building/Lab/Puerta/LAB_Puerta_AlbedoTransparency.png
+  artifactKey: Guid(0b8e822e4cb8f4340bbc0825fa98d6b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building/Lab/Puerta/LAB_Puerta_AlbedoTransparency.png using Guid(0b8e822e4cb8f4340bbc0825fa98d6b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '778aa2f1d8c4ae27fc1564e7c294813b') in 0.037119 seconds 
+  Import took 0.041997 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Building/Lab/Puerta/LAB_Puerta_MetallicSmoothness.png
+  artifactKey: Guid(52dfb1b29287ae24a83d663e6675d029) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building/Lab/Puerta/LAB_Puerta_MetallicSmoothness.png using Guid(52dfb1b29287ae24a83d663e6675d029) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '935411a7023c6ebab653d7b5b046c2ed') in 0.068438 seconds 
+  Import took 0.073071 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Building/Lab/Puerta/Puerta.mat
+  artifactKey: Guid(44fb8cb6e3d3d8846ab1daa3bf668d73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building/Lab/Puerta/Puerta.mat using Guid(44fb8cb6e3d3d8846ab1daa3bf668d73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf2991c1646f1ef50ccd19b7fb8c014c') in 0.014684 seconds 
+  Import took 0.019698 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Building/Lab/Puerta/LAB_Puerta_Normal.png
+  artifactKey: Guid(2c47152039fb48b4fb84e27f2e5dc881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building/Lab/Puerta/LAB_Puerta_Normal.png using Guid(2c47152039fb48b4fb84e27f2e5dc881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e4061f1336f32b88acf96a7ffe6a0b1') in 0.010912 seconds 
+  Import took 0.015890 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.844252 seconds.
+  path: Assets/Building/Lab/Gears/Gear1.mat
+  artifactKey: Guid(0177e273051bf1b418737a76fa87c3be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building/Lab/Gears/Gear1.mat using Guid(0177e273051bf1b418737a76fa87c3be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f7801c4767b126316d320f9f0d20a4d') in 0.025704 seconds 
+  Import took 0.030544 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Building/Lab/Gears/LAB_lambert4_AlbedoTransparency.png
+  artifactKey: Guid(2237002a6e309a948bdcb0f7060637af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building/Lab/Gears/LAB_lambert4_AlbedoTransparency.png using Guid(2237002a6e309a948bdcb0f7060637af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e16e9b1aa21d1268c24623716c3a5bd7') in 0.028120 seconds 
+  Import took 0.032121 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Building/Lab/Gears/Gear2.mat
+  artifactKey: Guid(daa8c867db49e024f927d0d27361af33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building/Lab/Gears/Gear2.mat using Guid(daa8c867db49e024f927d0d27361af33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee5dcf123f6ef90aac76efc513b88b9c') in 0.017004 seconds 
+  Import took 0.020984 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Building/Lab/Gears/LAB_lambert5_AlbedoTransparency.png
+  artifactKey: Guid(bfc6744b7f5b311489c78ddadd994bdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building/Lab/Gears/LAB_lambert5_AlbedoTransparency.png using Guid(bfc6744b7f5b311489c78ddadd994bdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd010041411e8a1ee1b78da90ae4bdd3d') in 0.024890 seconds 
+  Import took 0.028877 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Building/Lab/Gears/LAB_lambert5_MetallicSmoothness.png
+  artifactKey: Guid(77c8c56dd148dc540af96d0302f6a070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building/Lab/Gears/LAB_lambert5_MetallicSmoothness.png using Guid(77c8c56dd148dc540af96d0302f6a070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b45f8d9a663cb731d21c20af2027b01') in 0.011599 seconds 
+  Import took 0.015918 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Building/Lab/Gears/LAB_lambert4_MetallicSmoothness.png
+  artifactKey: Guid(63b641fd6d337da4c8bc9b6af2daf954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building/Lab/Gears/LAB_lambert4_MetallicSmoothness.png using Guid(63b641fd6d337da4c8bc9b6af2daf954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '381f06479e03de1be23560b38e643369') in 0.028497 seconds 
+  Import took 0.033439 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.991921 seconds.
+  path: Assets/Building/Lab/Base
+  artifactKey: Guid(39b03616e7ee80b4cad6926b0640b32d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building/Lab/Base using Guid(39b03616e7ee80b4cad6926b0640b32d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd71c8d4eece03aa0f01f54bd6700705b') in 0.004967 seconds 
+  Import took 0.009672 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.231595 seconds.
+  path: Assets/Building/Lab/Base/Base.mat
+  artifactKey: Guid(1d6f1887d4828ae42851460c918b3879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building/Lab/Base/Base.mat using Guid(1d6f1887d4828ae42851460c918b3879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9c8963ab4d275c9be721832bfab8912') in 0.019730 seconds 
+  Import took 0.024264 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Building/Lab/Base/LAB_lambert1_MetallicSmoothness.png
+  artifactKey: Guid(d5deea69cac343943af4ef7f14f51628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building/Lab/Base/LAB_lambert1_MetallicSmoothness.png using Guid(d5deea69cac343943af4ef7f14f51628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e6770f670b09b3c3abc931ea86b48a6') in 0.010839 seconds 
+  Import took 0.014798 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/Building/Lab/Base/LAB_lambert1_AlbedoTransparency.png
+  artifactKey: Guid(596d5b1bf71f60a4596605e57c208994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building/Lab/Base/LAB_lambert1_AlbedoTransparency.png using Guid(596d5b1bf71f60a4596605e57c208994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a187847824dcf4e0da335a78baccf659') in 0.011934 seconds 
+  Import took 0.016576 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.998765 seconds.
+  path: Assets/Building/Lab/Base/Lab_lambert1_BaseMap.png
+  artifactKey: Guid(03c330e5c2503b248b87d43c64ef07f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building/Lab/Base/Lab_lambert1_BaseMap.png using Guid(03c330e5c2503b248b87d43c64ef07f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cd87c9c8a0d75c0bd6b2e60fd741868') in 0.021583 seconds 
+  Import took 0.025846 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/Building/Lab/Base/Lab_lambert1_Normal.png
+  artifactKey: Guid(3a289177eded28b43be625e8f8576f96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building/Lab/Base/Lab_lambert1_Normal.png using Guid(3a289177eded28b43be625e8f8576f96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ede77816fd0799dddd6fbde167e8038') in 0.013475 seconds 
+  Import took 0.017528 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/Building/Lab/Base/Lab_lambert1_MaskMap.png
+  artifactKey: Guid(692307a4aebc0644d9d824c21a0ddba2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building/Lab/Base/Lab_lambert1_MaskMap.png using Guid(692307a4aebc0644d9d824c21a0ddba2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36e8f2a3fa7b5eaf2d3a42fa63af9f9c') in 0.013870 seconds 
+  Import took 0.018180 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.626306 seconds.
+  path: Assets/Building/Lab/Base/Lab_lambert1_Normal.png
+  artifactKey: Guid(3a289177eded28b43be625e8f8576f96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building/Lab/Base/Lab_lambert1_Normal.png using Guid(3a289177eded28b43be625e8f8576f96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81d05febf7d2d5f6326de0267407a20a') in 0.033594 seconds 
+  Import took 0.038110 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.359231 seconds.
+  path: Assets/Building/Lab/Gears/Lab_lambert4_BaseMap.png
+  artifactKey: Guid(12c6d987f2bffd04cbdeb44b9de71014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building/Lab/Gears/Lab_lambert4_BaseMap.png using Guid(12c6d987f2bffd04cbdeb44b9de71014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0cd6192209b2818159a3a474c871c25') in 0.016466 seconds 
+  Import took 0.020941 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/Building/Lab/Gears/Lab_lambert4_MaskMap.png
+  artifactKey: Guid(dd0b6d703ae2d06428ae70f3d938141e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building/Lab/Gears/Lab_lambert4_MaskMap.png using Guid(dd0b6d703ae2d06428ae70f3d938141e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b72a25ce23fa310549de6b3013e38c8') in 0.010967 seconds 
+  Import took 0.015077 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Building/Lab/Gears/Lab_lambert5_BaseMap.png
+  artifactKey: Guid(2e6b8c00da80fbe429eb702ac25f34ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building/Lab/Gears/Lab_lambert5_BaseMap.png using Guid(2e6b8c00da80fbe429eb702ac25f34ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f48a860e8227ef89b01a1784b2606e5c') in 0.011884 seconds 
+  Import took 0.016511 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Building/Lab/Gears/Lab_lambert5_MaskMap.png
+  artifactKey: Guid(eb74ea7b096806443b6509e91109cd47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building/Lab/Gears/Lab_lambert5_MaskMap.png using Guid(eb74ea7b096806443b6509e91109cd47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0aea9735231a64b56dd7789c03a5e3c2') in 0.038160 seconds 
+  Import took 0.042686 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Building/Lab/Gears/Lab_lambert4_Normal.png
+  artifactKey: Guid(68a4d9e6dccfc644393cb00a8189e61e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building/Lab/Gears/Lab_lambert4_Normal.png using Guid(68a4d9e6dccfc644393cb00a8189e61e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46de37d9bdc6462a1a38ff4407d2ff90') in 0.015933 seconds 
+  Import took 0.019619 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Building/Lab/Gears/Lab_lambert5_Normal.png
+  artifactKey: Guid(0dd9393061646e548932d68cd0d4737f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building/Lab/Gears/Lab_lambert5_Normal.png using Guid(0dd9393061646e548932d68cd0d4737f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01a05867369bf265b9ddfa6aa3abc6eb') in 0.010145 seconds 
+  Import took 0.014224 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.868537 seconds.
+  path: Assets/Building/Lab/Gears/Lab_lambert4_Normal.png
+  artifactKey: Guid(68a4d9e6dccfc644393cb00a8189e61e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building/Lab/Gears/Lab_lambert4_Normal.png using Guid(68a4d9e6dccfc644393cb00a8189e61e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd0b59b44e4a2dc375df3508099b1e8c') in 0.030943 seconds 
+  Import took 0.035742 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.048152 seconds.
+  path: Assets/Building/Lab/Gears/Lab_lambert5_Normal.png
+  artifactKey: Guid(0dd9393061646e548932d68cd0d4737f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building/Lab/Gears/Lab_lambert5_Normal.png using Guid(0dd9393061646e548932d68cd0d4737f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f197b28023853abfe2b22c57eb58598a') in 0.029103 seconds 
+  Import took 0.033360 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.080258 seconds.
+  path: Assets/Building/Lab/Puerta/Lab_Puerta_BaseMap.png
+  artifactKey: Guid(fc4aaf22f616733468c6aa02c1a9f887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building/Lab/Puerta/Lab_Puerta_BaseMap.png using Guid(fc4aaf22f616733468c6aa02c1a9f887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd9a4ad9c1cde0e08122fed9ecec804f') in 0.015102 seconds 
+  Import took 0.019261 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Building/Lab/Puerta/Lab_Puerta_MaskMap.png
+  artifactKey: Guid(42717a5e8ca55964f96898dd1cdd6aef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building/Lab/Puerta/Lab_Puerta_MaskMap.png using Guid(42717a5e8ca55964f96898dd1cdd6aef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14926eab90ea2dc9e370db222913a26b') in 0.014338 seconds 
+  Import took 0.018909 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Building/Lab/Puerta/Lab_Puerta_Normal.png
+  artifactKey: Guid(2c47152039fb48b4fb84e27f2e5dc881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building/Lab/Puerta/Lab_Puerta_Normal.png using Guid(2c47152039fb48b4fb84e27f2e5dc881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aab9815399d1a06038df0d35879626d0') in 0.016517 seconds 
+  Import took 0.020684 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.896897 seconds.
+  path: Assets/Building/Lab/Puerta/Lab_Puerta_Normal.png
+  artifactKey: Guid(2c47152039fb48b4fb84e27f2e5dc881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building/Lab/Puerta/Lab_Puerta_Normal.png using Guid(2c47152039fb48b4fb84e27f2e5dc881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e811effe876a31e0d3477b779d09807a') in 0.018516 seconds 
+  Import took 0.022843 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.338252 seconds.
+  path: Assets/Building/Lab/Reja/Lab_Reja_BaseMap.png
+  artifactKey: Guid(847ea0d1738d5244d91addc3c651ad5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building/Lab/Reja/Lab_Reja_BaseMap.png using Guid(847ea0d1738d5244d91addc3c651ad5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08c2ba9f36d58523360292071671e794') in 0.010867 seconds 
+  Import took 0.015385 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Building/Lab/Reja/Lab_Reja_MaskMap.png
+  artifactKey: Guid(5acb76a1fc3745447a026b78486a38ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building/Lab/Reja/Lab_Reja_MaskMap.png using Guid(5acb76a1fc3745447a026b78486a38ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30b998fdef20919387cdef620f75182f') in 0.012261 seconds 
+  Import took 0.017024 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Building/Lab/Reja/Lab_Reja_Normal.png
+  artifactKey: Guid(a6dede6163413174fb427df85fa6b497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building/Lab/Reja/Lab_Reja_Normal.png using Guid(a6dede6163413174fb427df85fa6b497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9fb1281df888f2a932073092e1299fb') in 0.013801 seconds 
+  Import took 0.017681 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.718832 seconds.
+  path: Assets/Building/Lab/Reja/Lab_Reja_Normal.png
+  artifactKey: Guid(a6dede6163413174fb427df85fa6b497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building/Lab/Reja/Lab_Reja_Normal.png using Guid(a6dede6163413174fb427df85fa6b497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fee8a26dfb25fd9ac923a562a58facd0') in 0.018790 seconds 
+  Import took 0.023070 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.142586 seconds.
+  path: Assets/Building/Lab/Telescopio/Lab_Telescopio_BaseMap.png
+  artifactKey: Guid(c7c54e33874966a4997277421208ac75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building/Lab/Telescopio/Lab_Telescopio_BaseMap.png using Guid(c7c54e33874966a4997277421208ac75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29b05fe14cc6e2722a2b5abb26c21cbe') in 0.013663 seconds 
+  Import took 0.018260 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Building/Lab/Telescopio/Lab_Telescopio_MaskMap.png
+  artifactKey: Guid(6bf689a7d5016db4f9594237f0a0fcd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building/Lab/Telescopio/Lab_Telescopio_MaskMap.png using Guid(6bf689a7d5016db4f9594237f0a0fcd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5af217b2d7993e4ddc912da5ddc432c3') in 0.012551 seconds 
+  Import took 0.016888 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Building/Lab/Telescopio/Lab_Telescopio_Normal.png
+  artifactKey: Guid(13649f29146954b4cbb630b9e431a28a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building/Lab/Telescopio/Lab_Telescopio_Normal.png using Guid(13649f29146954b4cbb630b9e431a28a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31d18e0850c5fc3143e38736b2246b5a') in 0.017861 seconds 
+  Import took 0.021694 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.605976 seconds.
+  path: Assets/Building/Lab/Telescopio/Lab_Telescopio_Normal.png
+  artifactKey: Guid(13649f29146954b4cbb630b9e431a28a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building/Lab/Telescopio/Lab_Telescopio_Normal.png using Guid(13649f29146954b4cbb630b9e431a28a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dddd8b1bf267f7baa2941a39dcc67e7') in 0.015776 seconds 
+  Import took 0.020305 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.276393 seconds.
+  path: Assets/Building/Lab/Telescopio/Telescopio.mat
+  artifactKey: Guid(be36458c29ede0544831d945428b1d9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building/Lab/Telescopio/Telescopio.mat using Guid(be36458c29ede0544831d945428b1d9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16e16409211ee7a267ae1759caa28594') in 0.018087 seconds 
+  Import took 0.022867 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.480161 seconds.
+  path: Assets/Building/Greenhouse/Automatic
+  artifactKey: Guid(93d371c5f4d8a8344810afe119c05320) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building/Greenhouse/Automatic using Guid(93d371c5f4d8a8344810afe119c05320) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb9fc72510d86758645581ea8e614695') in 0.004934 seconds 
+  Import took 0.009781 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.051899 seconds.
+  path: Assets/Building/Greenhouse/Automatic/Automatic.mat
+  artifactKey: Guid(ee5d1b94af4309d499ee3c0ca55dd1f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building/Greenhouse/Automatic/Automatic.mat using Guid(ee5d1b94af4309d499ee3c0ca55dd1f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ac5f3957dfb0ad18d9168efc346cf31') in 0.020392 seconds 
+  Import took 0.024825 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Building/Greenhouse/Automatic/Greenhouse_con_pipe_Autopmatic_MetallicSmoothness.png
+  artifactKey: Guid(da24987f15e6ce344a95be12749644c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building/Greenhouse/Automatic/Greenhouse_con_pipe_Autopmatic_MetallicSmoothness.png using Guid(da24987f15e6ce344a95be12749644c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce4ae66f1b9a394df4bf9c50acfb8692') in 0.011140 seconds 
+  Import took 0.015235 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Building/Greenhouse/Automatic/Greenhouse_con_pipe_Autopmatic_AlbedoTransparency.png
+  artifactKey: Guid(551e595720d145d4584a944fe62375f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building/Greenhouse/Automatic/Greenhouse_con_pipe_Autopmatic_AlbedoTransparency.png using Guid(551e595720d145d4584a944fe62375f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2690bc21afa666229191ef8bb17331d8') in 0.010239 seconds 
+  Import took 0.015083 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.891619 seconds.
+  path: Assets/Building/Greenhouse/Borde
+  artifactKey: Guid(8f5ea08a3faacc24bbd4f8d0e9056c29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building/Greenhouse/Borde using Guid(8f5ea08a3faacc24bbd4f8d0e9056c29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68d11e3e698d1e8357fbeb4830082f8a') in 0.005165 seconds 
+  Import took 0.009780 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.219464 seconds.
+  path: Assets/Building/Greenhouse/Borde/Borde.mat
+  artifactKey: Guid(1fffb3647d52b5e488f7377190d54ef7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building/Greenhouse/Borde/Borde.mat using Guid(1fffb3647d52b5e488f7377190d54ef7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '003bb8331497a963e12eef8c44a6dc00') in 0.020326 seconds 
+  Import took 0.024878 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Building/Greenhouse/Borde/Greenhouse_con_pipe_Borde_MetallicSmoothness.png
+  artifactKey: Guid(fa7980685dc3b58419ced3777191e44e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building/Greenhouse/Borde/Greenhouse_con_pipe_Borde_MetallicSmoothness.png using Guid(fa7980685dc3b58419ced3777191e44e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a46386d7faface00b51ae21ae6a64b4b') in 0.011496 seconds 
+  Import took 0.015851 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Building/Greenhouse/Borde/Greenhouse_con_pipe_Borde_AlbedoTransparency.png
+  artifactKey: Guid(3fa0e80d4fb53524884e02b3f64077e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building/Greenhouse/Borde/Greenhouse_con_pipe_Borde_AlbedoTransparency.png using Guid(3fa0e80d4fb53524884e02b3f64077e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '353f82faa2093562e9332855a0bdb495') in 0.010958 seconds 
+  Import took 0.015578 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.212077 seconds.
+  path: Assets/Building/Greenhouse/Escaleras/Escaleras.mat
+  artifactKey: Guid(53bdbd76d6e47f04092d349a4c35021a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building/Greenhouse/Escaleras/Escaleras.mat using Guid(53bdbd76d6e47f04092d349a4c35021a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22f580cf37f42e5ee7e999d827a31c9a') in 0.045030 seconds 
+  Import took 0.049660 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Building/Greenhouse/Escaleras/Greenhouse_con_pipe_Escaleras_AlbedoTransparency.png
+  artifactKey: Guid(4f4ade0fc2145e64e9cce664abf51f6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building/Greenhouse/Escaleras/Greenhouse_con_pipe_Escaleras_AlbedoTransparency.png using Guid(4f4ade0fc2145e64e9cce664abf51f6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b28f7638272d94b9de7936da10958c9') in 0.085771 seconds 
+  Import took 0.089897 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/Building/Greenhouse/Escaleras/Greenhouse_con_pipe_Escaleras_MetallicSmoothness.png
+  artifactKey: Guid(e9a24d7b9c7ce2c4ba09ce4057b251dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building/Greenhouse/Escaleras/Greenhouse_con_pipe_Escaleras_MetallicSmoothness.png using Guid(e9a24d7b9c7ce2c4ba09ce4057b251dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8925b80cc13e56b2e63fc75ac2046987') in 0.011977 seconds 
+  Import took 0.016827 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.843179 seconds.
+  path: Assets/Building/Greenhouse/Otro/Greenhouse_con_pipe_otro_AlbedoTransparency.png
+  artifactKey: Guid(db02407744eb22e4d91ae7d4f208fcd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building/Greenhouse/Otro/Greenhouse_con_pipe_otro_AlbedoTransparency.png using Guid(db02407744eb22e4d91ae7d4f208fcd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01633e2e275fdf1d4a8727b42f5cbc33') in 0.048787 seconds 
+  Import took 0.053628 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Building/Greenhouse/Otro/Greenhouse_con_pipe_otro_Normal.png
+  artifactKey: Guid(82859a981ce729641bfe1e90e1cc6c1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building/Greenhouse/Otro/Greenhouse_con_pipe_otro_Normal.png using Guid(82859a981ce729641bfe1e90e1cc6c1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe3b01b0eab60f7220fca05d96fe4ab4') in 0.028773 seconds 
+  Import took 0.032665 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Building/Greenhouse/Otro/Otro.mat
+  artifactKey: Guid(a4f567be0d01c664fbb0cb7a05eaed3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building/Greenhouse/Otro/Otro.mat using Guid(a4f567be0d01c664fbb0cb7a05eaed3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31d35871c7f242fb8dc00b8928480441') in 0.040258 seconds 
+  Import took 0.044124 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Building/Greenhouse/Otro/Greenhouse_con_pipe_otro_MetallicSmoothness.png
+  artifactKey: Guid(4d88b0c1ef8359641aa267d74bd34704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building/Greenhouse/Otro/Greenhouse_con_pipe_otro_MetallicSmoothness.png using Guid(4d88b0c1ef8359641aa267d74bd34704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4484296b43d853df925ba443852db230') in 0.011427 seconds 
+  Import took 0.015367 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.524829 seconds.
+  path: Assets/Building/Greenhouse/Pipe/Greenhouse_con_pipe_PipeCurva_AlbedoTransparency.png
+  artifactKey: Guid(faecb33317ac8e64890ee89d8def0b4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building/Greenhouse/Pipe/Greenhouse_con_pipe_PipeCurva_AlbedoTransparency.png using Guid(faecb33317ac8e64890ee89d8def0b4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8ca567c890fab50756d06b7fc058981') in 0.010415 seconds 
+  Import took 0.014990 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Building/Greenhouse/Pipe/Greenhouse_con_pipe_PipeCurva_MetallicSmoothness.png
+  artifactKey: Guid(597b0bb6b7abfd54aa0feb1b3f304f92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building/Greenhouse/Pipe/Greenhouse_con_pipe_PipeCurva_MetallicSmoothness.png using Guid(597b0bb6b7abfd54aa0feb1b3f304f92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '419dbb0721e4b5f6ca4c4b16722d1b00') in 0.010802 seconds 
+  Import took 0.014816 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Building/Greenhouse/Pipe/Pipe.mat
+  artifactKey: Guid(33f52f38678028f479779d1b2d48e2bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building/Greenhouse/Pipe/Pipe.mat using Guid(33f52f38678028f479779d1b2d48e2bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a52d8ae6a6df31e940288da26f318131') in 0.017283 seconds 
+  Import took 0.022278 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.059102 seconds.
+  path: Assets/Building/Greenhouse/Piso/Greenhouse_con_pipe_Piso_AlbedoTransparency.png
+  artifactKey: Guid(213e09079e1112a468b3b1efd413934e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building/Greenhouse/Piso/Greenhouse_con_pipe_Piso_AlbedoTransparency.png using Guid(213e09079e1112a468b3b1efd413934e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47dba8334e6b774ec70713d2cdc4f1a3') in 0.020716 seconds 
+  Import took 0.025448 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Building/Greenhouse/Piso/Greenhouse_con_pipe_Piso_MetallicSmoothness.png
+  artifactKey: Guid(bad726cb9b96f6541910bb44848e0250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building/Greenhouse/Piso/Greenhouse_con_pipe_Piso_MetallicSmoothness.png using Guid(bad726cb9b96f6541910bb44848e0250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a28772e27452b26523df82c92e04d145') in 0.033929 seconds 
+  Import took 0.037902 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/Building/Greenhouse/Piso/Piso.mat
+  artifactKey: Guid(71350e5f3fcbacc478190c71a2e97214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building/Greenhouse/Piso/Piso.mat using Guid(71350e5f3fcbacc478190c71a2e97214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '530fc1bec77e2976df95975d5cc476cc') in 0.017437 seconds 
+  Import took 0.021752 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.898516 seconds.
+  path: Assets/Building/Greenhouse/Techo/Greenhouse_con_pipe_Techo_AlbedoTransparency.png
+  artifactKey: Guid(cd6ce9d8a082f6846a03c793713c8a1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building/Greenhouse/Techo/Greenhouse_con_pipe_Techo_AlbedoTransparency.png using Guid(cd6ce9d8a082f6846a03c793713c8a1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffffe4fbc31fbd50e058ddd5e9a43980') in 0.021328 seconds 
+  Import took 0.026009 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Building/Greenhouse/Techo/Techo.mat
+  artifactKey: Guid(cb23ec769d91ea44b952318352bbc9b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building/Greenhouse/Techo/Techo.mat using Guid(cb23ec769d91ea44b952318352bbc9b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97b066e034ae77267a947dda26aa449a') in 0.035587 seconds 
+  Import took 0.039677 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Building/Greenhouse/Techo/Greenhouse_con_pipe_Techo_MetallicSmoothness.png
+  artifactKey: Guid(d9ce6a896e5100244a6d1a8bd7d25c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building/Greenhouse/Techo/Greenhouse_con_pipe_Techo_MetallicSmoothness.png using Guid(d9ce6a896e5100244a6d1a8bd7d25c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '981e6a33b507d9a054b91d3599cc1126') in 0.011837 seconds 
+  Import took 0.016013 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.085048 seconds.
+  path: Assets/Building/Greenhouse/Automatic/Greenhouse_con_pipe_Autopmatic_BaseMap.png
+  artifactKey: Guid(4d90abc77624d5449840fa05a3a84fd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building/Greenhouse/Automatic/Greenhouse_con_pipe_Autopmatic_BaseMap.png using Guid(4d90abc77624d5449840fa05a3a84fd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df371f2c2d641e03bde5b63c98f00bf2') in 0.027190 seconds 
+  Import took 0.031457 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Building/Greenhouse/Automatic/Greenhouse_con_pipe_Autopmatic_MaskMap.png
+  artifactKey: Guid(f8192a95b8f6d1d4594b6a329849fe35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building/Greenhouse/Automatic/Greenhouse_con_pipe_Autopmatic_MaskMap.png using Guid(f8192a95b8f6d1d4594b6a329849fe35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73ed8bf8fab02bb7cff35e45b211ff42') in 0.014916 seconds 
+  Import took 0.018976 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Building/Greenhouse/Automatic/Greenhouse_con_pipe_Autopmatic_Normal.png
+  artifactKey: Guid(cac204e9417508e488fe13dbe780323a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building/Greenhouse/Automatic/Greenhouse_con_pipe_Autopmatic_Normal.png using Guid(cac204e9417508e488fe13dbe780323a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1b03b8cb79cb124c3a6a6ed901486f8') in 0.015728 seconds 
+  Import took 0.019961 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.042970 seconds.
+  path: Assets/Building/Greenhouse/Automatic/Greenhouse_con_pipe_Autopmatic_Normal.png
+  artifactKey: Guid(cac204e9417508e488fe13dbe780323a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building/Greenhouse/Automatic/Greenhouse_con_pipe_Autopmatic_Normal.png using Guid(cac204e9417508e488fe13dbe780323a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e957c6dbc02289cb49817411b13acbd') in 0.015335 seconds 
+  Import took 0.019657 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.269257 seconds.
+  path: Assets/Building/Greenhouse/Borde/Greenhouse_con_pipe_Borde_BaseMap.png
+  artifactKey: Guid(8ed13f55b19776747acc937d70226ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building/Greenhouse/Borde/Greenhouse_con_pipe_Borde_BaseMap.png using Guid(8ed13f55b19776747acc937d70226ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '293239224f2e6da1c9b562dcb708f2ee') in 0.014665 seconds 
+  Import took 0.018762 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Building/Greenhouse/Borde/Greenhouse_con_pipe_Borde_MaskMap.png
+  artifactKey: Guid(8067cc1f4c45c3d428801add9322ad85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building/Greenhouse/Borde/Greenhouse_con_pipe_Borde_MaskMap.png using Guid(8067cc1f4c45c3d428801add9322ad85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bce174a737f815550167967b7f470ca7') in 0.022680 seconds 
+  Import took 0.026704 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Building/Greenhouse/Borde/Greenhouse_con_pipe_Borde_Normal.png
+  artifactKey: Guid(7ab2a5aa8a6010d47855edec18af316d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building/Greenhouse/Borde/Greenhouse_con_pipe_Borde_Normal.png using Guid(7ab2a5aa8a6010d47855edec18af316d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc5f438ddbda7af28af3da951f39ef14') in 0.015624 seconds 
+  Import took 0.020481 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.624193 seconds.
+  path: Assets/Building/Greenhouse/Borde/Greenhouse_con_pipe_Borde_Normal.png
+  artifactKey: Guid(7ab2a5aa8a6010d47855edec18af316d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building/Greenhouse/Borde/Greenhouse_con_pipe_Borde_Normal.png using Guid(7ab2a5aa8a6010d47855edec18af316d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdd333568c6082f774a0a09a56dee667') in 0.016834 seconds 
+  Import took 0.021092 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.401051 seconds.
+  path: Assets/Building/Greenhouse/Escaleras
+  artifactKey: Guid(8ad5fc5a8ba30554694e4f76c81bf27f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building/Greenhouse/Escaleras using Guid(8ad5fc5a8ba30554694e4f76c81bf27f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24c788def652660e4b5869e70990d676') in 0.001919 seconds 
+  Import took 0.006074 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.245394 seconds.
+  path: Assets/Building/Greenhouse/Escaleras/Greenhouse_con_pipe_Escaleras_BaseMap.png
+  artifactKey: Guid(ef99325b922d9644087c309575f67d26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building/Greenhouse/Escaleras/Greenhouse_con_pipe_Escaleras_BaseMap.png using Guid(ef99325b922d9644087c309575f67d26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c5a1bd97b4cd731645697c32b3018d0') in 0.019863 seconds 
+  Import took 0.024000 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Building/Greenhouse/Escaleras/Greenhouse_con_pipe_Escaleras_MaskMap.png
+  artifactKey: Guid(d5e0ffe77ac33b44d8b8aa5b8e6b80dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building/Greenhouse/Escaleras/Greenhouse_con_pipe_Escaleras_MaskMap.png using Guid(d5e0ffe77ac33b44d8b8aa5b8e6b80dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6d9992d558251238aa62f8bbc1521d8') in 0.011824 seconds 
+  Import took 0.015935 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Building/Greenhouse/Escaleras/Greenhouse_con_pipe_Escaleras_Normal.png
+  artifactKey: Guid(6df15358d9322d7459f604e71270159a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building/Greenhouse/Escaleras/Greenhouse_con_pipe_Escaleras_Normal.png using Guid(6df15358d9322d7459f604e71270159a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '862e94d7fff076732724442424b9175e') in 0.014630 seconds 
+  Import took 0.019149 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.247691 seconds.
+  path: Assets/Building/Greenhouse/Escaleras/Greenhouse_con_pipe_Escaleras_Normal.png
+  artifactKey: Guid(6df15358d9322d7459f604e71270159a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building/Greenhouse/Escaleras/Greenhouse_con_pipe_Escaleras_Normal.png using Guid(6df15358d9322d7459f604e71270159a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb84b6ac6c8f0640702c3aac3b3f8059') in 0.034528 seconds 
+  Import took 0.038831 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.417903 seconds.
+  path: Assets/Building/Greenhouse/Pipe
+  artifactKey: Guid(68fe6fcb3c818314dbec76f56b15f715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building/Greenhouse/Pipe using Guid(68fe6fcb3c818314dbec76f56b15f715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70a96a345d7bc5a6658a36b84eefcb58') in 0.002110 seconds 
+  Import took 0.006238 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.108961 seconds.
+  path: Assets/Building/Greenhouse/Pipe/Greenhouse_con_pipe_PipeCurva_BaseMap.png
+  artifactKey: Guid(e8aa03718d468764083b267d6a70031b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building/Greenhouse/Pipe/Greenhouse_con_pipe_PipeCurva_BaseMap.png using Guid(e8aa03718d468764083b267d6a70031b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc4cc28306b7f17b2acfe7fbb2218af0') in 0.021332 seconds 
+  Import took 0.025485 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Building/Greenhouse/Pipe/Greenhouse_con_pipe_PipeCurva_Normal.png
+  artifactKey: Guid(1515253f39840f64a88cb63c91822c34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building/Greenhouse/Pipe/Greenhouse_con_pipe_PipeCurva_Normal.png using Guid(1515253f39840f64a88cb63c91822c34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '723144a48a18adf45a9793ba66e48d89') in 0.013649 seconds 
+  Import took 0.017680 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Building/Greenhouse/Pipe/Greenhouse_con_pipe_PipeCurva_MaskMap.png
+  artifactKey: Guid(1d48377fc63da16459ffbd939ee20c8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building/Greenhouse/Pipe/Greenhouse_con_pipe_PipeCurva_MaskMap.png using Guid(1d48377fc63da16459ffbd939ee20c8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf9bf0f50d42ab079816e0a5fa9d1437') in 0.014061 seconds 
+  Import took 0.018959 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.075106 seconds.
+  path: Assets/Building/Greenhouse/Pipe/Greenhouse_con_pipe_PipeCurva_Normal.png
+  artifactKey: Guid(1515253f39840f64a88cb63c91822c34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building/Greenhouse/Pipe/Greenhouse_con_pipe_PipeCurva_Normal.png using Guid(1515253f39840f64a88cb63c91822c34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09660d835e0a5f1908bddb6361b8016d') in 0.017664 seconds 
+  Import took 0.021833 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.101300 seconds.
+  path: Assets/Building/Greenhouse/Piso
+  artifactKey: Guid(8a89e9aa633757044bbe74f97d9bfa5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building/Greenhouse/Piso using Guid(8a89e9aa633757044bbe74f97d9bfa5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba34ad61039c6469a7938ff694559a8d') in 0.001733 seconds 
+  Import took 0.005883 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.406383 seconds.
+  path: Assets/Building/Greenhouse/Piso/Greenhouse_con_pipe_Piso_BaseMap.png
+  artifactKey: Guid(1c062ba18073c9e49982440c0dc912ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building/Greenhouse/Piso/Greenhouse_con_pipe_Piso_BaseMap.png using Guid(1c062ba18073c9e49982440c0dc912ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e8cd05c96999584737012810730d995') in 0.012747 seconds 
+  Import took 0.017428 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Building/Greenhouse/Piso/Greenhouse_con_pipe_Piso_Normal.png
+  artifactKey: Guid(c376eaf7771dcf745b8e221fa0773f4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building/Greenhouse/Piso/Greenhouse_con_pipe_Piso_Normal.png using Guid(c376eaf7771dcf745b8e221fa0773f4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c0c1378e762b3c718fc60c1912f84ad') in 0.022455 seconds 
+  Import took 0.026348 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Building/Greenhouse/Piso/Greenhouse_con_pipe_Piso_MaskMap.png
+  artifactKey: Guid(8d3166bd5da0bfc48b8355d8d12cc4c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building/Greenhouse/Piso/Greenhouse_con_pipe_Piso_MaskMap.png using Guid(8d3166bd5da0bfc48b8355d8d12cc4c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29feeeeb44abad63335214bd1ba5b2e5') in 0.016158 seconds 
+  Import took 0.020523 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.997263 seconds.
+  path: Assets/Building/Greenhouse/Piso/Greenhouse_con_pipe_Piso_Normal.png
+  artifactKey: Guid(c376eaf7771dcf745b8e221fa0773f4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building/Greenhouse/Piso/Greenhouse_con_pipe_Piso_Normal.png using Guid(c376eaf7771dcf745b8e221fa0773f4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f15f8be3a55fa68789e5efb07c5e219e') in 0.016694 seconds 
+  Import took 0.021325 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.040900 seconds.
+  path: Assets/Building/Greenhouse/Techo
+  artifactKey: Guid(f5b6ee42cd264b7488b7c9152524b8e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building/Greenhouse/Techo using Guid(f5b6ee42cd264b7488b7c9152524b8e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43513c1319f0d2041888ba0e255cb104') in 0.002307 seconds 
+  Import took 0.006770 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.055126 seconds.
+  path: Assets/Building/Greenhouse/Techo/Greenhouse_con_pipe_Techo_BaseMap.png
+  artifactKey: Guid(6feb438377d1266408e8740fbd462a8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building/Greenhouse/Techo/Greenhouse_con_pipe_Techo_BaseMap.png using Guid(6feb438377d1266408e8740fbd462a8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4de5e7fdcb9abc4f4cf74e65a6943ea4') in 0.013050 seconds 
+  Import took 0.018017 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Building/Greenhouse/Techo/Greenhouse_con_pipe_Techo_MaskMap.png
+  artifactKey: Guid(693155a990c60c44e854e348b87980f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building/Greenhouse/Techo/Greenhouse_con_pipe_Techo_MaskMap.png using Guid(693155a990c60c44e854e348b87980f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7f6a782d77f8aa72efbf040e887b73c') in 0.016862 seconds 
+  Import took 0.020809 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/Building/Greenhouse/Techo/Greenhouse_con_pipe_Techo_Normal.png
+  artifactKey: Guid(646202cb8e3c9bc4b9c243fb9392cee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building/Greenhouse/Techo/Greenhouse_con_pipe_Techo_Normal.png using Guid(646202cb8e3c9bc4b9c243fb9392cee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96c60c79b23d61bbc6cf024d28609c20') in 0.012878 seconds 
+  Import took 0.016954 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.568990 seconds.
+  path: Assets/Building/Greenhouse/Techo/Greenhouse_con_pipe_Techo_Normal.png
+  artifactKey: Guid(646202cb8e3c9bc4b9c243fb9392cee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building/Greenhouse/Techo/Greenhouse_con_pipe_Techo_Normal.png using Guid(646202cb8e3c9bc4b9c243fb9392cee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12987377c941d4c8a7ea10ffc5428906') in 0.033357 seconds 
+  Import took 0.038372 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.266889 seconds.
+  path: Assets/Building/Greenhouse/Borde/Borde.mat
+  artifactKey: Guid(1fffb3647d52b5e488f7377190d54ef7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building/Greenhouse/Borde/Borde.mat using Guid(1fffb3647d52b5e488f7377190d54ef7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4544a1353b9a795f9328abfa91ac58f2') in 0.017026 seconds 
+  Import took 0.021949 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
