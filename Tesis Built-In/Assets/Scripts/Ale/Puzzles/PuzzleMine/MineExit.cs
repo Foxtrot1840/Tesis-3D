@@ -5,13 +5,18 @@ using UnityEngine;
 public class MineExit : MonoBehaviour
 {
     private int cartsExit;
+    [SerializeField] private Animator _anim;
 
     public void CartCollide()
     {
         cartsExit++;
-        Debug.Log(cartsExit);
+        if (cartsExit == 1)
+        {
+            _anim.SetBool("Break", true);
+        }
         if(cartsExit >= 2)
         {
+            _anim.SetBool("Destroy", true);
             transform.position += Vector3.right * 5;
             GameManager.instance.player.GetComponent<Controller>().lastSavePoint = new Vector3(73.56f, -0.45f, -33.1f);
             PlayerPrefs.SetFloat("x", 130.64f);

@@ -22,13 +22,6 @@ public class ElevatorBase : RotateBase
       return true;
    }
 
-   protected override void Update()
-   {
-      if (Input.GetKeyDown(KeyCode.Y)) ChangeFloor();
-      ChangeState(Input.GetKey(KeyCode.G));
-      base.Update();
-   }
-
    public override void ChangeState(bool active)
    {
       if (elevation || isFloorOne) return;

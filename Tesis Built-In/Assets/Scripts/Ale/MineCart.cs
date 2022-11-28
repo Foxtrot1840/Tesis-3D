@@ -9,7 +9,7 @@ public class MineCart : MonoBehaviour
     private Animator _anim;
     private Rigidbody _rb;
     public int id;
-    private Transform parent;
+    public Transform parent;
     [SerializeField] private MineExit exit;
 
     private void Start()

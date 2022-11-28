@@ -1,12 +1,18 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.PlayerLoop;
 
 public class CameraShake : MonoBehaviour
 {
    public void StartShake(float duration, float magnitude)
    {
       StartCoroutine(Shake(duration, magnitude));
+   }
+
+   public void ShakeItOff()
+   {
+      StartCoroutine(Shake(1.8f, .3f));
    }
    
    IEnumerator Shake(float dur, float mag)

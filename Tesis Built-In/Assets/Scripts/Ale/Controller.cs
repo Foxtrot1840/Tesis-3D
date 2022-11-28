@@ -19,6 +19,7 @@ public class Controller : Entity
     [SerializeField] private GameObject _shootParticles;
     [SerializeField] private Transform _shootPoint;
     [SerializeField] private LayerMask _layerShoot;
+    [SerializeField] private float _shootDistance;
     [SerializeField] private Transform _hook;
     [SerializeField] private Transform _hand;
     [SerializeField] private LineRenderer _line;
@@ -68,8 +69,9 @@ public class Controller : Entity
         _model.Rotate();
 
         _isZoom = Input.GetMouseButton(1) && gun;
+        _view.Zoom(_isZoom);
         mira.gameObject.SetActive(_isZoom);
-        if (Physics.Raycast(Camera.main.transform.position, Camera.main.transform.forward, out RaycastHit hit, 30,
+        if (Physics.Raycast(Camera.main.transform.position, Camera.main.transform.forward, out RaycastHit hit, _shootDistance,
                 _layerShoot))
         {
             IDamagable d = hit.collider.GetComponent<IDamagable>();
@@ -146,7 +148,7 @@ public class Controller : Entity
     {
         Destroy(Instantiate(_shootParticles, _shootPoint.position, _shootPoint.rotation), 2);
 
-        if (Physics.Raycast(Camera.main.transform.position, Camera.main.transform.forward, out RaycastHit hit, 30, _layerShoot))
+        if (Physics.Raycast(Camera.main.transform.position, Camera.main.transform.forward, out RaycastHit hit, _shootDistance, _layerShoot))
         {
             SoundManager.instance.Play(SoundID.Disparo);
             IDamagable d = hit.collider.GetComponent<IDamagable>();
