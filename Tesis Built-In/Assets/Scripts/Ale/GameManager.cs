@@ -26,7 +26,7 @@ public class GameManager : MonoBehaviour
         _plyController.hook = PlayerPrefs.GetInt(Tools.hook.ToString()) == 1;
         _plyController.hookObj.SetActive(PlayerPrefs.GetInt(Tools.hook.ToString()) == 1);
         _plyController.gun = PlayerPrefs.GetInt(Tools.gun.ToString()) == 1;
-        _plyController.gunObj.SetActive(PlayerPrefs.GetInt(Tools.hook.ToString()) == 1);
+        _plyController.gunObj.SetActive(PlayerPrefs.GetInt(Tools.gun.ToString()) == 1);
 
         _plyController.lastSavePoint =
             new Vector3(PlayerPrefs.GetFloat("x"), PlayerPrefs.GetFloat("y"), PlayerPrefs.GetFloat("z"));

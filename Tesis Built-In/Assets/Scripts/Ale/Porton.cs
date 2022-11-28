@@ -9,6 +9,7 @@ public class Porton : MonoBehaviour, IDamagable
    private LineRenderer _line;
    private Animator _anim;
    [SerializeField] private Transform[] points = new Transform[2];
+   [SerializeField] private GameObject collider;
 
    private void Awake()
    {
@@ -27,10 +28,12 @@ public class Porton : MonoBehaviour, IDamagable
    public void GetDamage(int damage)
    {       
        _anim.SetBool("Open", true);
+       collider.SetActive(false);
    }
 
    public void GetDamage(int damage, Vector3 point, Vector3 normal)
    {
        _anim.SetBool("Open", true);
+       collider.SetActive(false);
    }
 }

@@ -22,10 +22,11 @@ public class TNT : MonoBehaviour, IDamagable
     private void Explotion()
     {
         SoundManager.instance.Play(SoundID.TNT);
+        Camera.main.GetComponent<CameraShake>().StartShake(.3f,.2f);
         Destroy(Instantiate(particles,transform.position + transform. up * 1f, quaternion.identity),3);
         foreach (var obj in destroyObjects)
-        {
-            Destroy(obj);
+        { 
+            if(obj != null)Destroy(obj);
         }
         Destroy(gameObject);
     }

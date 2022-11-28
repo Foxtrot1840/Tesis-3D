@@ -67,7 +67,7 @@ public class CameraFollow : MonoBehaviour
          Camera.main.cullingMask = layerToRender;
       }
    }
-   
+
    void OnDrawGizmos()
    {
       var position = transform.position;
