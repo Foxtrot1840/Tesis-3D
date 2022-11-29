@@ -12,6 +12,7 @@ public class PressButton : MonoBehaviour
         if (other.gameObject == GameManager.instance.player)
         {
             rotateBase.ChangeState(true);
+            SoundManager.instance.Play(SoundID.RotatePlatform, true);
         }
     }
 
@@ -20,6 +21,7 @@ public class PressButton : MonoBehaviour
         if (other.gameObject == GameManager.instance.player)
         {
             rotateBase.ChangeState(false);
+            SoundManager.instance.Stop(SoundID.RotatePlatform);
         }
     }
 }

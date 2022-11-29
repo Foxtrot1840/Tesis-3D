@@ -84,7 +84,6 @@ public class Spider : Entity
 
     public override void GetDamage(int damage, Vector3 point, Vector3 normal)
     {
-        SoundManager.instance.Play(SoundID.Spider);
         base.GetDamage(damage, point, normal);
     }
 

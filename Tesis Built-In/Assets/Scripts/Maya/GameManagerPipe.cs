@@ -6,7 +6,7 @@ public class GameManagerPipe : MonoBehaviour
 {
     public GameObject pipesHolder;
     public GameObject[] pipes;
-    public GameObject gear;
+    public GameObject gear, awuita;
     [SerializeField] GameObject canvas;
 
     [SerializeField]
@@ -34,6 +34,7 @@ public class GameManagerPipe : MonoBehaviour
         canvas.SetActive(false);
         GameManager.instance.PauseGame(false);
         gear.SetActive(true);
+        awuita.SetActive(true);
     }
 
     public void CorrectMove()

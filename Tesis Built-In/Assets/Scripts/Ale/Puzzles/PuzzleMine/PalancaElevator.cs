@@ -20,6 +20,7 @@ public class PalancaElevator : Interactuables
       {
          active = !active;
          _anim.SetBool("Active", active);
+         SoundManager.instance.Play(SoundID.ElevatorPlatform);
       }
    }
 }

@@ -10,7 +10,7 @@ public class GearCollectable : Interactuables
     {
        plyController.gearInventary.Add(type);
        PlayerPrefs.SetInt(type.ToString(), 1);
-       
+       SoundManager.instance.Play(SoundID.GearCollected,false,0.5f);
        Destroy(gameObject);
     }
 }

@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Gear2
-  m_Shader: {fileID: 4800000, guid: b25446c7de1c7474ca3c2713751c5ddd, type: 3}
+  m_Shader: {fileID: 4800000, guid: e47ed37961c9b8f43a29dd80521c0dba, type: 3}
   m_ShaderKeywords: _EMISSION
   m_LightmapFlags: 0
   m_EnableInstancingVariants: 0
@@ -85,6 +85,7 @@ Material:
     - _UVSec: 0
     - _ZWrite: 1
     - __dirty: 0
+    - _ins: 1.8
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _Color0: {r: 0, g: 0, b: 0, a: 0}

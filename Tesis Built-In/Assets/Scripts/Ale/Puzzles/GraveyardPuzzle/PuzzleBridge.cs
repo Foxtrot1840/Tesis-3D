@@ -43,7 +43,13 @@ public class PuzzleBridge : Interactuables
       
       if (GearGraveyard.activeSelf && GearTrain.activeSelf && GearGreenHouse.activeSelf)
       {
-         Bridge.SetActive(false);
+         GetComponent<Animator>().SetBool("Active", true);
+         SoundManager.instance.Play(SoundID.GearLabDoor);
       }
+   }
+
+   private void OpenDoor()
+   {
+         Bridge.GetComponent<Animator>().enabled = true;
    }
 }

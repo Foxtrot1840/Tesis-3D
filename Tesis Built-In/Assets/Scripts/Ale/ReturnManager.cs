@@ -7,7 +7,8 @@ public class ReturnManager : MonoBehaviour
     [SerializeField] private GameObject briefcase, gun, gearGraveyard;
     [SerializeField] private PuzzleManager graveyardDoor;
     [SerializeField] private Porton porton;
-    [SerializeField] private GameObject destruccion, TNT;
+    [SerializeField] private GameObject destruccion, TNT, mineEnter;
+    [SerializeField] private ActivePuzzleGreenhouse _greenhouse;
 
     void Start()
     {
@@ -18,11 +19,13 @@ public class ReturnManager : MonoBehaviour
         if(PlayerPrefs.GetInt(Gears.Graveyard.ToString())==1)porton.GetDamage(1);
         if (PlayerPrefs.GetInt(Gears.Train.ToString()) == 1)
         {
+            Destroy(mineEnter);
             Destroy(destruccion);
             Destroy(TNT);
         }
-        if(PlayerPrefs.GetInt(Gears.Graveyard.ToString())==1)graveyardDoor.OpenDoor();
-    
+
+        if (PlayerPrefs.GetInt(Gears.Graveyard.ToString()) == 1) graveyardDoor.OpenDoor();
+        if (PlayerPrefs.GetInt(Gears.Greenhouse.ToString()) == 1) _greenhouse.Desactive();
     }
 
 

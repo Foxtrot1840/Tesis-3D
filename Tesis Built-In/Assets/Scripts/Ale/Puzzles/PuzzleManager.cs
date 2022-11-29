@@ -55,7 +55,7 @@ public class PuzzleManager : MonoBehaviour
                 {
                     button.SetActive(false);
                 }
-
+                
                 Invoke(nameof(CompletePuzzle), 1);
             }
         }
@@ -63,6 +63,7 @@ public class PuzzleManager : MonoBehaviour
 
     public void CompletePuzzle()
     {
+        SoundManager.instance.Play(SoundID.DoorGraveyard);
         animatorDoor.SetBool("Open", true);
     }
 

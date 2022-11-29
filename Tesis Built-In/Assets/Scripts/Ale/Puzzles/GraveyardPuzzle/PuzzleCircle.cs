@@ -11,7 +11,7 @@ public class PuzzleCircle : MonoBehaviour
     [SerializeField] private float speed;
 
     public Action _onUpdate = delegate { };
-    public bool _activate;
+    public bool _activate, direction;
     public PuzzleManager manager;
 
     private float _rotation;
@@ -38,8 +38,16 @@ public class PuzzleCircle : MonoBehaviour
         _rotation = Mathf.Lerp(posA, posB, t);
         if (t >= 1)
         {
-            posA += snap;
-            posB += snap;
+            if (direction)
+            {
+                posA += snap;
+                posB += snap;
+            }
+            else
+            {
+                posA -= snap;
+                posB -= snap;
+            }
 
             t = 0;
         }
@@ -66,7 +74,7 @@ public class PuzzleCircle : MonoBehaviour
         }
 
         posA = _rotation;
-        posB = posA + snap;
+        posB = direction ? posA + snap : posA - snap;
     }
 
     public void RotateToFinal()

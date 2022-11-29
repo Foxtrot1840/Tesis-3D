@@ -44,8 +44,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sounds:
-  - {fileID: 8300000, guid: c30413295bcd2cf469373edab583b857, type: 3}
-  - {fileID: 8300000, guid: 4e2f6c1022aaca2489cc3f4fe62f858e, type: 3}
   - {fileID: 8300000, guid: 4e2f6c1022aaca2489cc3f4fe62f858e, type: 3}
   - {fileID: 8300000, guid: 2b8e135cfcd12e045828f7dd11f67a01, type: 3}
-  channels: []
+  - {fileID: 8300000, guid: 0583edee7cc0a7d4f9b33a91dea19aa2, type: 3}
+  - {fileID: 8300000, guid: d645872b1d9c0fb42897b46f5ec9aae2, type: 3}
+  - {fileID: 8300000, guid: 35c9a0358a2bc024290d12071d98a28e, type: 3}
+  - {fileID: 8300000, guid: acb6134fda0da3e498ae0c3aaa6638ff, type: 3}
+  - {fileID: 8300000, guid: 756bca9c956e835479187c11b694b8b0, type: 3}
+  - {fileID: 8300000, guid: da34033081efffd4fba92baa4ef41533, type: 3}
+  - {fileID: 8300000, guid: e78000476b05cb443997b24ef876eaa0, type: 3}
+  channels:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}

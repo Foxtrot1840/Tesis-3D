@@ -85,6 +85,7 @@ public class Controller : Entity
         zoomLerp = Mathf.Clamp(zoomLerp, 0, 1);
         tracker.lerpZoom = zoomLerp;
         tracker.distance = Mathf.Lerp(3, 2, zoomLerp);
+        Camera.main.fieldOfView = Mathf.Lerp(60, 30, zoomLerp);
 
         //El click izquierdo se realiza la animacion de ataque
         ////(el animator pregunta si se apunta se hace un disparo, sino se usa la espada) 

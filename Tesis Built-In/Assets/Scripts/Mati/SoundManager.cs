@@ -81,8 +81,13 @@ public class SoundManager : MonoBehaviour
 
     public enum SoundID 
     {
-        Spider,
-        Glass,
         Disparo,
-        TNT
+        TNT,
+        DoorGraveyard,
+        GearCollected,
+        RotatePlatform,
+        ElevatorPlatform,
+        GearLabDoor,
+        MineCartCollision,
+        MineCart
     }
