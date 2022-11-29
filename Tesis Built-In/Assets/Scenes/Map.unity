@@ -996,7 +996,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: be61ef48f27d7ff459801cb81edcc325, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.5
+  m_Volume: 0.3
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -60699,6 +60699,7 @@ GameObject:
   - component: {fileID: 7025988245371217400}
   - component: {fileID: 2414569146748058938}
   - component: {fileID: 3260247588909504853}
+  - component: {fileID: 3838591169479574341}
   m_Layer: 0
   m_Name: polySurface1
   m_TagString: Untagged
@@ -60706,6 +60707,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!65 &3838591169479574341
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3838591169479574340}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 7.327633, y: 2.7009556, z: 0.29413176}
+  m_Center: {x: -0.005572915, y: 1.449809, z: -2.8248386}
 --- !u!33 &3849327112839730325
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -62603,6 +62617,7 @@ GameObject:
   - component: {fileID: 5960879857264882654}
   - component: {fileID: 8800367309599247626}
   - component: {fileID: 2632732302888181494}
+  - component: {fileID: 5247357229361111432}
   m_Layer: 0
   m_Name: polySurface4
   m_TagString: Untagged
@@ -62610,6 +62625,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!64 &5247357229361111432
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5247357229361111431}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2381890483179193753, guid: 7724d3594f67f3e4ba299f9f98a0ea3a, type: 3}
 --- !u!4 &5280273934218122076
 Transform:
   m_ObjectHideFlags: 0
@@ -65284,6 +65313,7 @@ GameObject:
   - component: {fileID: 952707584242190806}
   - component: {fileID: 5608513042739507879}
   - component: {fileID: 2349277433631963928}
+  - component: {fileID: 7904194838967510753}
   m_Layer: 0
   m_Name: polySurface2
   m_TagString: Untagged
@@ -65291,6 +65321,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!65 &7904194838967510753
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7904194838967510752}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.29413176, y: 2.4071074, z: 5.810892}
+  m_Center: {x: -3.4986007, y: 1.2921634, z: 0.22974014}
 --- !u!23 &7934638894307294935
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -65816,6 +65859,7 @@ GameObject:
   - component: {fileID: 2582141489692792862}
   - component: {fileID: 300513385895435570}
   - component: {fileID: 2380199156324284217}
+  - component: {fileID: 8777293178922556490}
   m_Layer: 0
   m_Name: polySurface3
   m_TagString: Untagged
@@ -65823,6 +65867,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!65 &8777293178922556490
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8777293178922556489}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.29413176, y: 2.4071076, z: 5.810892}
+  m_Center: {x: 3.4755151, y: 1.2921635, z: 0.059132576}
 --- !u!4 &8796187630668670111
 Transform:
   m_ObjectHideFlags: 0

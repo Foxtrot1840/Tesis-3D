@@ -23,13 +23,14 @@ public class MineCart : MonoBehaviour
     {
         if (id == 1 && (transform.localPosition.x >= 4 || transform.localPosition.x <= -4))
         {
-            SoundManager.instance.Play(SoundID.MineCart);
+            //SoundManager.instance.Play(SoundID.MineCart);
             transform.parent = parent;
             _anim.enabled = true;
             _anim.SetBool("1", true);
         }
         if (id == 2 && (transform.localPosition.x >= 4 || transform.localPosition.x <= -4))
         {
+            //SoundManager.instance.Play(SoundID.MineCart);
             transform.parent = parent;
             _anim.enabled = true;
             _anim.SetBool("2", true);
@@ -38,13 +39,17 @@ public class MineCart : MonoBehaviour
 
     public void PlaySound()
     {
-        SoundManager.instance.Stop(SoundID.MineCart);
+        //SoundManager.instance.Stop(SoundID.MineCart);
         SoundManager.instance.Play(SoundID.MineCartCollision);
     }
     
     public void FinishAnimation()
     {
         exit.CartCollide();
-        Destroy(gameObject,.2f);
+    }
+
+    public void DestroyMineCart() 
+    {
+        Destroy(gameObject);
     }
 }

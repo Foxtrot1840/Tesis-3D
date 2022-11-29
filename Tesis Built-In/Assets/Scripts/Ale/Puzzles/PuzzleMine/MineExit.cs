@@ -16,11 +16,8 @@ public class MineExit : MonoBehaviour
         }
         if(cartsExit >= 2)
         {
+            _anim.SetBool("Break", false);
             _anim.SetBool("Destroy", true);
-            GameManager.instance.player.GetComponent<Controller>().lastSavePoint = new Vector3(73.56f, -0.45f, -33.1f);
-            PlayerPrefs.SetFloat("x", 130.64f);
-            PlayerPrefs.SetFloat("y", -0.61f);
-            PlayerPrefs.SetFloat("z", 37.13f);
         }
     }
 

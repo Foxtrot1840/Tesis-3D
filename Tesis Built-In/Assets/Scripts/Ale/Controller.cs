@@ -151,7 +151,7 @@ public class Controller : Entity
 
         if (Physics.Raycast(Camera.main.transform.position, Camera.main.transform.forward, out RaycastHit hit, _shootDistance, _layerShoot))
         {
-            SoundManager.instance.Play(SoundID.Disparo);
+            SoundManager.instance.Play(SoundID.Disparo,false,0.5f);
             IDamagable d = hit.collider.GetComponent<IDamagable>();
             if (d != null)
             {
