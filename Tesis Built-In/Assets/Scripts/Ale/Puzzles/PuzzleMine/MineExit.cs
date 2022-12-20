@@ -6,6 +6,7 @@ public class MineExit : MonoBehaviour
 {
     private int cartsExit;
     [SerializeField] private Animator _anim;
+    [SerializeField] private GameObject collider;
 
     public void CartCollide()
     {
@@ -18,6 +19,7 @@ public class MineExit : MonoBehaviour
         {
             _anim.SetBool("Break", false);
             _anim.SetBool("Destroy", true);
+            Destroy(collider);
         }
     }
 
